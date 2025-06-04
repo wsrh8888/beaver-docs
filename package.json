@@ -1,0 +1,39 @@
+{
+  "name": "beaver-im-docs",
+  "version": "1.0.0",
+  "description": "海狸IM官方文档 - 轻量级、高性能、重安全专注于私有化部署的开源即时通讯系统",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": [
+    "IM",
+    "即时通讯",
+    "websocket",
+    "vue",
+    "go",
+    "electron",
+    "uni-app",
+    "私有化部署",
+    "开源",
+    "海狸IM"
+  ],
+  "author": "海狸IM团队",
+  "license": "Apache-2.0",
+  "homepage": "https://beaver-im.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-repo/beaver-im.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-repo/beaver-im/issues"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
