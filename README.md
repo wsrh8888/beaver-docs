@@ -19,7 +19,6 @@
 - 📟 **全平台支持** - iOS、Android、Windows、macOS、Linux、Web
 
 ## 🏗️ 技术架构
-
 - **后端**: Go + go-zero微服务框架
 - **移动端**: uni-app + Vue 3 + TypeScript  
 - **桌面端**: Electron + Vue 3 + TypeScript
