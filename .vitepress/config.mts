@@ -6,8 +6,51 @@ export default defineConfig({
   description: "基于 go-zero + uni-app + Electron 构建的现代化IM解决方案",
   base: '/beaver-docs/',
   ignoreDeadLinks: true,
+  
+  // SEO优化配置
+  lang: 'zh-CN',
+  lastUpdated: true,
+  cleanUrls: true,
+  
+  // 生成网站地图
+  sitemap: {
+    hostname: 'https://wsrh8888.github.io/beaver-docs/'
+  },
+  
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
+    
+    // SEO Meta标签
+    ['meta', { name: 'keywords', content: 'IM聊天软件,即时通讯,私有化部署,开源IM,企业聊天,消息推送,实时通信,go-zero,uni-app,Electron,Vue3,TypeScript,WebSocket,端到端加密,多端同步,海狸IM' }],
+    ['meta', { name: 'description', content: '海狸IM - 轻量级、高性能、重安全的开源即时通讯系统。支持私有化部署，基于go-zero微服务架构，提供iOS、Android、Windows、macOS、Linux、Web全平台支持，消息必达，永久存储，端到端加密。' }],
+    ['meta', { name: 'author', content: '海狸IM团队' }],
+    ['meta', { name: 'robots', content: 'index,follow' }],
+    ['meta', { name: 'googlebot', content: 'index,follow' }],
+    ['meta', { name: 'bingbot', content: 'index,follow' }],
+    ['meta', { name: 'baidu-spider', content: 'index,follow' }],
+    
+    // Open Graph / Facebook
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: '海狸IM - 开源企业级即时通讯系统' }],
+    ['meta', { property: 'og:description', content: '轻量级、高性能、重安全的开源IM系统，支持私有化部署，全平台覆盖，消息必达，永久存储' }],
+    ['meta', { property: 'og:url', content: 'https://wsrh8888.github.io/beaver-docs/' }],
+    ['meta', { property: 'og:site_name', content: '海狸IM官方文档' }],
+    ['meta', { property: 'og:locale', content: 'zh_CN' }],
+    
+    // Twitter Card
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: '海狸IM - 开源企业级即时通讯系统' }],
+    ['meta', { name: 'twitter:description', content: '轻量级、高性能、重安全的开源IM系统，支持私有化部署，全平台覆盖' }],
+    
+    // 移动端优化
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
+    ['meta', { name: 'theme-color', content: '#FF7D45' }],
+    
+    // 站点验证（需要时添加）
+    // ['meta', { name: 'google-site-verification', content: 'your-verification-code' }],
+    // ['meta', { name: 'baidu-site-verification', content: 'your-verification-code' }],
+    // ['meta', { name: 'msvalidate.01', content: 'your-verification-code' }],
+    
     ['style', {}, `
       :root {
         --vp-c-brand-1: #FF7D45;

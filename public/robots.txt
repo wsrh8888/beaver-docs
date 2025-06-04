@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# 网站地图
+Sitemap: https://wsrh8888.github.io/beaver-docs/sitemap.xml
+
+# 允许所有搜索引擎爬取
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YisouSpider
+Allow: /
+
+User-agent: Sogou web spider
+Allow: /
+
+# 爬取延迟
+Crawl-delay: 1 

@@ -2,20 +2,25 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 outline: false
+title: 海狸IM - 开源企业级即时通讯系统
+titleTemplate: 轻量级、高性能、重安全的IM解决方案
 
 hero:
   name: "海狸IM"
-  text: "开源即时通讯系统"
-  tagline: 基于 go-zero + uni-app + Electron 构建的现代化IM解决方案
+  text: "开源企业级即时通讯系统"
+  tagline: 轻量级、高性能、重安全专注于私有化部署的IM解决方案
   image:
     src: /logo.png
     alt: 海狸IM Logo
   actions:
     - theme: brand
-      text: 开始使用
+      text: 快速开始
       link: /guide/
     - theme: alt
-      text: 查看代码
+      text: 在线演示
+      link: /demo
+    - theme: alt  
+      text: GitHub
       link: https://github.com/wsrh8888/beaver-server
 
 features:
