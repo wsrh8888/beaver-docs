@@ -208,6 +208,8 @@ jobs:
 
 海狸IM系统本身采用 [Apache-2.0](https://opensource.org/licenses/Apache-2.0) 许可协议。
 
+<!-- 部署测试 - 触发GitHub Actions -->
+
 ---
 
 <div align="center">
