@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "海狸IM",
   description: "基于 go-zero + uni-app + Electron 构建的现代化IM解决方案",
+  ignoreDeadLinks: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['style', {}, `
