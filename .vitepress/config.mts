@@ -21,7 +21,7 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     
     // SEO Meta标签
-    ['meta', { name: 'keywords', content: 'IM聊天软件,即时通讯,私有化部署,开源IM,企业聊天,消息推送,实时通信,go-zero,uni-app,Electron,Vue3,TypeScript,WebSocket,端到端加密,多端同步,海狸IM' }],
+    ['meta', { name: 'keywords', content: 'IM聊天软件,即时通讯,私有化部署,开源IM,企业聊天,安全聊天软件,自建聊天服务器,go-lang IM,国产开源IM,企业内部沟通,团队协作工具,消息推送,实时通信,go-zero,uni-app,Electron,Vue3,TypeScript,WebSocket,端到端加密,多端同步,海狸IM' }],
     ['meta', { name: 'description', content: '海狸IM - 轻量级、高性能、重安全的开源即时通讯系统。支持私有化部署，基于go-zero微服务架构，提供iOS、Android、Windows、macOS、Linux、Web全平台支持，消息必达，永久存储，端到端加密。' }],
     ['meta', { name: 'author', content: '海狸IM团队' }],
     ['meta', { name: 'robots', content: 'index,follow' }],
@@ -49,7 +49,31 @@ export default defineConfig({
     // 站点验证（需要时添加）
     // ['meta', { name: 'google-site-verification', content: 'your-verification-code' }],
     // ['meta', { name: 'baidu-site-verification', content: 'your-verification-code' }],
-    // ['meta', { name: 'msvalidate.01', content: 'your-verification-code' }],
+    ['meta', { name: 'msvalidate.01', content: 'your-verification-code' }],
+    
+    // JSON-LD Structured Data for SoftwareApplication
+    ['script', { type: 'application/ld+json' }, `
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "海狸IM",
+        "applicationCategory": "CommunicationApplication",
+        "operatingSystem": "Windows, macOS, Linux, iOS, Android, Web",
+        "description": "海狸IM是一款支持私有化部署的开源IM聊天软件。基于go-zero + uni-app + Electron构建，为企业和开发者提供安全、可靠、全平台的即时通讯解决方案。",
+        "keywords": "IM, 开源IM, 即时通讯, 私有化部署, 聊天软件, go-zero IM, self-hosted chat",
+        "url": "https://wsrh8888.github.io/beaver-docs/",
+        "author": {
+          "@type": "Organization",
+          "name": "海狸IM团队"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "license": "https://www.apache.org/licenses/LICENSE-2.0"
+      }
+    `],
     
     ['style', {}, `
       :root {
@@ -92,6 +116,7 @@ export default defineConfig({
       { text: '后端', link: '/backend/' },
       { text: '移动端', link: '/mobile/' },
       { text: '桌面端', link: '/desktop/' },
+      { text: '赞助', link: '/sponsor/' }
     ],
 
     sidebar: {
@@ -256,6 +281,15 @@ export default defineConfig({
         }
       ],
       
+      '/sponsor/': [
+        {
+          text: '赞助项目',
+          items: [
+            { text: '赞助海狸IM', link: '/sponsor/' }
+          ]
+        }
+      ],
+
       '/api/': [
         {
           text: 'API接口',

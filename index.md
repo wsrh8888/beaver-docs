@@ -24,6 +24,18 @@ hero:
       link: https://github.com/wsrh8888/beaver-server
 
 features:
+  -
+    icon: 🚀
+    title: 现代化技术栈
+    details: 基于 Go-Zero、Uni-App、Electron 等现代化技术构建，确保系统的高性能和可扩展性。
+  -
+    icon: 🔒
+    title: 私有化部署
+    details: 支持完全私有化部署，所有数据掌握在自己手中，保障企业信息和用户隐私安全。
+  -
+    icon: 🌐
+    title: 全平台覆盖
+    details: 一套代码库支持iOS、Android、Windows、macOS、Linux及Web，实现真正的多端消息同步。
   - icon: 
       src: /icons/open-source.svg
       alt: 开源
@@ -60,6 +72,11 @@ features:
     title: 多端同步
     details: 移动端和桌面端数据实时同步，多设备无缝切换使用体验
 ---
+
+<div style="text-align: center; margin: 3rem 0; font-size: 1.1rem; color: #333;">
+  <h2 style="font-weight: 600; margin-bottom: 1rem;">为什么选择海狸IM作为您的开源IM解决方案？</h2>
+  <p>无论您是希望构建企业内部沟通工具，还是为您的应用嵌入聊天功能，海狸IM作为一个彻底的<strong>开源IM</strong>项目，都为您提供了稳定、安全、易于扩展的即时通讯核心。</p>
+</div>
 
 ## 🎯 产品特色
 

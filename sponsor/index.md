@@ -5,19 +5,13 @@ description: 您的支持是海狸IM项目持续发展的动力。感谢每一�
 
 # ❤️ 赞助海狸IM
 
-海狸IM是一个开源项目，由个人和团队成员利用业余时间进行开发和维护。您的赞助将直接用于项目的长期发展，包括：
-
-- 服务器和带宽费用
-- 新功能研发投入
-- 文档和社区维护
-- 域名和证书续费
-
+海狸IM是一个开源项目，由个人和团队成员利用业余时间进行开发和维护。您的赞助将直接用于项目的长期发展。
 我们坚信，在社区的支持下，海狸IM可以做得更好、走得更远。
 
 ## 微信支付赞助
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/wechat.jpg" alt="微信支付赞助二维码" style="width: 280px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <img src="/public/money/wechat.jpg" alt="微信支付赞助二维码" style="width: 280px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
   <p style="margin-top: 1rem; font-size: 1rem; color: #666;">打开微信"扫一扫"，即可对我们进行赞助</p>
 </div>
 
