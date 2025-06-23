@@ -11,7 +11,7 @@ description: 您的支持是海狸IM项目持续发展的动力。感谢每一�
 ## 微信支付赞助
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/public/money/wechat.jpg" alt="微信支付赞助二维码" style="width: 280px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <img src="/money/wechat.jpg" alt="微信支付赞助二维码" style="width: 280px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
   <p style="margin-top: 1rem; font-size: 1rem; color: #666;">打开微信"扫一扫"，即可对我们进行赞助</p>
 </div>
 
