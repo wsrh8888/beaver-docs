@@ -19,6 +19,7 @@
 - 📟 **全平台支持** - iOS、Android、Windows、macOS、Linux、Web
 
 ## 🏗️ 技术架构
+
 - **后端**: Go + go-zero微服务框架
 - **移动端**: uni-app + Vue 3 + TypeScript  
 - **桌面端**: Electron + Vue 3 + TypeScript
@@ -207,8 +208,6 @@ jobs:
 本文档采用 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) 许可协议。
 
 海狸IM系统本身采用 [Apache-2.0](https://opensource.org/licenses/Apache-2.0) 许可协议。
-
-<!-- 部署测试 - 触发GitHub Actions -->
 
 ---
 

@@ -8,7 +8,7 @@ titleTemplate: 轻量级、高性能、重安全的IM解决方案
 hero:
   name: "海狸IM"
   text: "开源企业级即时通讯系统"
-  tagline: 轻量级、高性能、重安全专注于私有化部署的IM解决方案
+  tagline: 基于 go-zero + uni-app + Electron 构建的现代化IM解决方案
   image:
     src: /logo.png
     alt: 海狸IM Logo

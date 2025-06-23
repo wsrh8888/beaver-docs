@@ -88,6 +88,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '指南', link: '/guide/' },
+      { text: '部署', link: '/deployment/' },
       { text: '后端', link: '/backend/' },
       { text: '移动端', link: '/mobile/' },
       { text: '桌面端', link: '/desktop/' },
@@ -135,8 +136,32 @@ export default defineConfig({
                   ]
                 }
               ]
-            },
-            // { text: '部署指南', link: '/guide/deployment' }
+            }
+          ]
+        }
+      ],
+
+      '/deployment/': [
+        {
+          text: '部署指南',
+          items: [
+            { text: '部署概述', link: '/deployment/' }
+          ]
+        },
+        {
+          text: '服务器环境',
+          items: [
+            { text: '基础服务部署', link: '/deployment/server/deployment' }
+          ]
+        },
+        {
+          text: '后端服务',
+          items: [
+            { text: '服务概述', link: '/deployment/backend/overview' },
+            { text: '认证服务', link: '/deployment/backend/auth_api' },
+            { text: '聊天服务', link: '/deployment/backend/chat_api' },
+            { text: '用户服务', link: '/deployment/backend/user_api' },
+            { text: '文件服务', link: '/deployment/backend/file_api' }
           ]
         }
       ],
@@ -243,17 +268,25 @@ export default defineConfig({
         {
           text: '用户相关',
           items: [
-            { text: '用户注册', link: '/api/user-register' },
-            { text: '用户登录', link: '/api/user-login' },
-            { text: '用户信息', link: '/api/user-info' }
+            { text: '用户注册', link: '/api/user/register' },
+            { text: '用户登录', link: '/api/user/login' },
+            { text: '用户信息', link: '/api/user/profile' },
+            { text: '好友管理', link: '/api/user/friends' }
           ]
         },
         {
-          text: '消息相关',
+          text: '聊天相关',
           items: [
-            { text: '发送消息', link: '/api/send-message' },
-            { text: '获取消息', link: '/api/get-messages' },
-            { text: '消息已读', link: '/api/message-read' }
+            { text: '消息发送', link: '/api/chat/send' },
+            { text: '消息历史', link: '/api/chat/history' },
+            { text: '群组管理', link: '/api/chat/groups' }
+          ]
+        },
+        {
+          text: '文件相关',
+          items: [
+            { text: '文件上传', link: '/api/file/upload' },
+            { text: '文件下载', link: '/api/file/download' }
           ]
         }
       ]
@@ -264,8 +297,8 @@ export default defineConfig({
     ],
     
     footer: {
-      message: '基于 Apache-2.0 许可发布',
-      copyright: 'Copyright © 2024 海狸IM'
+      message: 'Released under the Apache-2.0 License.',
+      copyright: 'Copyright © 2024-present 海狸IM'
     },
     
     search: {

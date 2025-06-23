@@ -98,11 +98,13 @@
       <div class="tree-root">
         <span class="tree-icon">📦</span>
         <span class="tree-label">beaver-desktop/</span>
+        
         <div class="tree-branch">
           <div class="branch-item main">
             <span class="tree-icon">⚡</span>
             <span class="tree-label">src/main/</span>
             <span class="tree-desc">主进程源码</span>
+            
             <div class="tree-subbranch">
               <div class="subbranch-item">
                 <span class="file-icon">📄</span>
@@ -126,10 +128,12 @@
               </div>
             </div>
           </div>
+          
           <div class="branch-item render">
             <span class="tree-icon">🎨</span>
             <span class="tree-label">src/render/</span>
             <span class="tree-desc">渲染进程源码</span>
+            
             <div class="tree-subbranch">
               <div class="subbranch-item">
                 <span class="folder-icon">🧩</span>
@@ -153,11 +157,13 @@
               </div>
             </div>
           </div>
+          
           <div class="branch-item shared">
             <span class="tree-icon">🤝</span>
             <span class="tree-label">src/shared/</span>
             <span class="tree-desc">共享模块</span>
           </div>
+          
           <div class="branch-item build">
             <span class="tree-icon">🔨</span>
             <span class="tree-label">build/</span>
@@ -177,16 +183,19 @@
           <h4>安全隔离</h4>
           <p>主进程与渲染进程完全隔离，通过IPC安全通信</p>
         </div>
+        
         <div class="highlight-item performance">
           <div class="highlight-icon">⚡</div>
           <h4>高性能</h4>
           <p>基于Chromium引擎，支持硬件加速和多进程</p>
         </div>
+        
         <div class="highlight-item crossplatform">
           <div class="highlight-icon">🌍</div>
           <h4>跨平台</h4>
           <p>一套代码支持Windows、macOS、Linux</p>
         </div>
+        
         <div class="highlight-item modern">
           <div class="highlight-icon">🚀</div>
           <h4>现代化</h4>
@@ -214,6 +223,7 @@
           <p>构建工具</p>
         </div>
       </div>
+      
       <div class="tech-item">
         <div class="tech-logo">🎪</div>
         <div class="tech-info">
@@ -222,6 +232,7 @@
           <p>Vue 3版本的组件库</p>
         </div>
       </div>
+      
       <div class="tech-item">
         <div class="tech-logo">🎯</div>
         <div class="tech-info">
@@ -232,6 +243,7 @@
       </div>
     </div>
   </div>
+
   <div class="stack-category backend">
     <div class="category-header">
       <h3>⚡ 主进程技术</h3>
@@ -246,6 +258,7 @@
           <p>跨平台桌面应用框架</p>
         </div>
       </div>
+      
       <div class="tech-item">
         <div class="tech-logo">🔗</div>
         <div class="tech-info">
@@ -254,6 +267,7 @@
           <p>安全的进程间通信</p>
         </div>
       </div>
+      
       <div class="tech-item">
         <div class="tech-logo">🔒</div>
         <div class="tech-info">
@@ -262,6 +276,7 @@
           <p>上下文隔离安全机制</p>
         </div>
       </div>
+      
       <div class="tech-item">
         <div class="tech-logo">📦</div>
         <div class="tech-info">
@@ -272,6 +287,7 @@
       </div>
     </div>
   </div>
+
   <div class="stack-category tools">
     <div class="category-header">
       <h3>🛠️ 开发工具</h3>
@@ -286,6 +302,7 @@
           <p>代码质量检查</p>
         </div>
       </div>
+      
       <div class="tech-item">
         <div class="tech-logo">🎨</div>
         <div class="tech-info">

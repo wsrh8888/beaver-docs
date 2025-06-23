@@ -107,11 +107,13 @@
       <div class="tree-item root">
         <span class="tree-icon">📁</span>
         <span class="tree-name">beaver-mobile/</span>
+        
         <div class="tree-children">
           <div class="tree-item">
             <span class="tree-icon">🎨</span>
             <span class="tree-name">src/</span>
             <span class="tree-desc">源代码目录</span>
+            
             <div class="tree-children">
               <div class="tree-item">
                 <span class="tree-icon">🔌</span>
@@ -140,16 +142,19 @@
               </div>
             </div>
           </div>
+          
           <div class="tree-item">
             <span class="tree-icon">🎭</span>
             <span class="tree-name">static/</span>
             <span class="tree-desc">静态资源</span>
           </div>
+          
           <div class="tree-item">
             <span class="tree-icon">⚙️</span>
             <span class="tree-name">pages.json</span>
             <span class="tree-desc">页面配置</span>
           </div>
+          
           <div class="tree-item">
             <span class="tree-icon">📱</span>
             <span class="tree-name">manifest.json</span>
@@ -171,6 +176,7 @@
         <li>Token 自动刷新</li>
       </ul>
     </div>
+
     <div class="feature-card components">
       <div class="feature-icon">🧩</div>
       <h4>组件化开发</h4>
@@ -181,6 +187,7 @@
         <li>通用工具组件</li>
       </ul>
     </div>
+
     <div class="feature-card state">
       <div class="feature-icon">🗃️</div>
       <h4>状态管理</h4>
