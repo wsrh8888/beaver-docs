@@ -20,6 +20,17 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     
+    // 百度统计
+    ['script', {}, `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+       hm.src = "https://hm.baidu.com/hm.js?68e83556d322ee9a1a87530ba2fd1745";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    `],
+    
     // SEO Meta标签
     ['meta', { name: 'keywords', content: 'IM聊天软件,即时通讯,私有化部署,开源IM,企业聊天,安全聊天软件,自建聊天服务器,go-lang IM,国产开源IM,企业内部沟通,团队协作工具,消息推送,实时通信,go-zero,uni-app,Electron,Vue3,TypeScript,WebSocket,端到端加密,多端同步,海狸IM' }],
     ['meta', { name: 'description', content: '海狸IM - 轻量级、高性能、重安全的开源即时通讯系统。支持私有化部署，基于go-zero微服务架构，提供iOS、Android、Windows、macOS、Linux、Web全平台支持，消息必达，永久存储，端到端加密。' }],
