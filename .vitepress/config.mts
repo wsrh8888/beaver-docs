@@ -239,7 +239,8 @@ export default defineConfig({
         {
           text: '社区交流',
           items: [
-            { text: '社区', link: '/community/' }
+            { text: '社区', link: '/community/' },
+            { text: '赞助支持', link: '/community/sponsor' }
           ]
         }
       ],

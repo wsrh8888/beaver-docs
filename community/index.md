@@ -28,12 +28,7 @@ description: 加入海狸IM社区，与其他开发者交流技术，分享经�
 
 海狸IM是一个开源项目，由个人和团队成员利用业余时间进行开发和维护。您的赞助将直接用于项目的长期发展。
 
-### 微信支付赞助
-
-<div style="text-align: center; margin: 2rem 0;">
-  <img src="/money/wechat.jpg" alt="微信支付赞助二维码" style="width: 280px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-  <p style="margin-top: 1rem; font-size: 1rem; color: #666;">打开微信"扫一扫"，即可对我们进行赞助</p>
-</div>
+**[👉 查看赞助详情](/community/sponsor)**
 
 ## 🚀 其他贡献方式
 
