@@ -114,6 +114,10 @@ beaver-mobile/
 └── vite.config.ts          # 构建配置
 ```
 
+## 界面展示
+
+> 📸 **[查看完整界面截图 →](/mobile/screenshots)**
+
 ## 核心模块
 
 ### 1. 消息管理

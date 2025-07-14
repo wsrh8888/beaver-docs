@@ -127,6 +127,7 @@ export default defineConfig({
       { text: '后端', link: '/backend/' },
       { text: '移动端', link: '/mobile/' },
       { text: '桌面端', link: '/desktop/' },
+      { text: '价格', link: '/commercial/' },
       { text: '赞助', link: '/sponsor/' }
     ],
 
@@ -207,29 +208,7 @@ export default defineConfig({
           text: '服务端开发',
           items: [
             { text: '项目概述', link: '/backend/' },
-            { text: '技术栈', link: '/backend/tech-stack' },
-            { text: '项目结构', link: '/backend/structure' }
-          ]
-        },
-        {
-          text: '微服务模块',
-          items: [
-            { text: '用户服务', link: '/backend/user-service' },
-            { text: '认证服务', link: '/backend/auth-service' },
-            { text: '好友服务', link: '/backend/friend-service' },
-            { text: '聊天服务', link: '/backend/chat-service' },
-            { text: 'WebSocket服务', link: '/backend/ws-service' },
-            { text: '群组服务', link: '/backend/group-service' },
-            { text: '文件服务', link: '/backend/file-service' }
-          ]
-        },
-        {
-          text: '开发指南',
-          items: [
-            { text: '本地开发', link: '/backend/development' },
-            { text: 'API设计', link: '/backend/api-design' },
-            { text: '数据库设计', link: '/backend/database' },
-            { text: '消息存储', link: '/backend/message-storage' }
+            { text: '本地开发', link: '/backend/development' }
           ]
         }
       ],
@@ -239,26 +218,8 @@ export default defineConfig({
           text: '移动端开发',
           items: [
             { text: '项目概述', link: '/mobile/' },
-            { text: 'uni-app技术栈', link: '/mobile/tech-stack' },
-            { text: '项目结构', link: '/mobile/structure' }
-          ]
-        },
-        {
-          text: '功能模块',
-          items: [
-            { text: '用户认证', link: '/mobile/auth' },
-            { text: '聊天界面', link: '/mobile/chat' },
-            { text: '好友管理', link: '/mobile/friends' },
-            { text: '群组管理', link: '/mobile/groups' },
-            { text: '文件传输', link: '/mobile/file-transfer' }
-          ]
-        },
-        {
-          text: '开发指南',
-          items: [
-            { text: '本地开发', link: '/mobile/development' },
-            { text: '打包发布', link: '/mobile/build' },
-            { text: '平台适配', link: '/mobile/platform' }
+            { text: '界面展示', link: '/mobile/screenshots' },
+            { text: '本地开发', link: '/mobile/development' }
           ]
         }
       ],
@@ -268,26 +229,7 @@ export default defineConfig({
           text: '桌面端开发',
           items: [
             { text: '项目概述', link: '/desktop/' },
-            { text: 'Electron技术栈', link: '/desktop/tech-stack' },
-            { text: '项目结构', link: '/desktop/structure' }
-          ]
-        },
-        {
-          text: '功能模块',
-          items: [
-            { text: '主进程', link: '/desktop/main-process' },
-            { text: '渲染进程', link: '/desktop/renderer-process' },
-            { text: 'WebSocket连接', link: '/desktop/websocket' },
-            { text: '消息管理', link: '/desktop/message' },
-            { text: '文件处理', link: '/desktop/file-handling' }
-          ]
-        },
-        {
-          text: '开发指南',
-          items: [
-            { text: '本地开发', link: '/desktop/development' },
-            { text: '打包发布', link: '/desktop/build' },
-            { text: '跨平台适配', link: '/desktop/cross-platform' }
+            { text: '本地开发', link: '/desktop/development' }
           ]
         }
       ],
@@ -301,40 +243,16 @@ export default defineConfig({
         }
       ],
 
-      '/api/': [
+      '/commercial/': [
         {
-          text: 'API接口',
+          text: '价格方案',
           items: [
-            { text: 'API概述', link: '/api/' },
-            { text: '认证方式', link: '/api/authentication' },
-            { text: '错误码', link: '/api/error-codes' }
-          ]
-        },
-        {
-          text: '用户相关',
-          items: [
-            { text: '用户注册', link: '/api/user/register' },
-            { text: '用户登录', link: '/api/user/login' },
-            { text: '用户信息', link: '/api/user/profile' },
-            { text: '好友管理', link: '/api/user/friends' }
-          ]
-        },
-        {
-          text: '聊天相关',
-          items: [
-            { text: '消息发送', link: '/api/chat/send' },
-            { text: '消息历史', link: '/api/chat/history' },
-            { text: '群组管理', link: '/api/chat/groups' }
-          ]
-        },
-        {
-          text: '文件相关',
-          items: [
-            { text: '文件上传', link: '/api/file/upload' },
-            { text: '文件下载', link: '/api/file/download' }
+            { text: '价格', link: '/commercial/' }
           ]
         }
-      ]
+      ],
+
+
     },
 
     socialLinks: [
