@@ -118,6 +118,14 @@ beaver-mobile/
 
 > 📸 **[查看完整界面截图 →](/mobile/screenshots)**
 
+## 体验下载
+
+想要亲身体验海狸IM的功能？我们提供了Android体验包供您下载试用：
+
+> 📱 **[立即下载体验包 →](/mobile/experience.md)**
+
+体验包包含完整的聊天功能，让您在实际使用中感受海狸IM的强大功能和优秀体验。
+
 ## 核心模块
 
 ### 1. 消息管理
@@ -430,6 +438,7 @@ npm run dev:app-android
 
 ## 下一步
 
+- [📱 体验下载](./experience.md) - 下载Android体验包亲身体验
 - [技术栈详解](./tech-stack.md) - 深入了解uni-app技术栈
 - [项目结构](./structure.md) - 详细的项目结构说明
 - [平台适配](./platform.md) - 各平台特性适配

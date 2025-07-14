@@ -128,7 +128,7 @@ export default defineConfig({
       { text: '移动端', link: '/mobile/' },
       { text: '桌面端', link: '/desktop/' },
       { text: '价格', link: '/commercial/' },
-      { text: '赞助', link: '/sponsor/' }
+      { text: '社区', link: '/community/' }
     ],
 
     sidebar: {
@@ -219,6 +219,7 @@ export default defineConfig({
           items: [
             { text: '项目概述', link: '/mobile/' },
             { text: '界面展示', link: '/mobile/screenshots' },
+            { text: '体验下载', link: '/mobile/experience' },
             { text: '本地开发', link: '/mobile/development' }
           ]
         }
@@ -234,11 +235,11 @@ export default defineConfig({
         }
       ],
       
-      '/sponsor/': [
+      '/community/': [
         {
-          text: '赞助项目',
+          text: '社区交流',
           items: [
-            { text: '赞助海狸IM', link: '/sponsor/' }
+            { text: '社区', link: '/community/' }
           ]
         }
       ],
