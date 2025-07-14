@@ -59,7 +59,7 @@
     <p>我的</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/mobile/登录.jpg" alt="登录" />
+    <img src="/screenshots/mobile/login.jpg" alt="登录" />
     <p>登录</p>
   </div>
 </div>
