@@ -14,38 +14,34 @@
     <img src="/screenshots/mobile/feedback.jpg" alt="意见反馈" />
     <p>意见反馈</p>
   </div>
-</div>
-
-### 资料与好友
-<div class="screenshots-grid">
   <div class="screenshot-item">
-    <img src="/screenshots/mobile/profile-edit.jpg" alt="编辑个人资料" />
-    <p>编辑个人资料</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="/screenshots/mobile/friend-info.jpg" alt="好友资料" />
-    <p>好友资料</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="/screenshots/mobile/friend.jpg" alt="好友列表" />
-    <p>好友列表</p>
+    <img src="/screenshots/mobile/about.jpg" alt="关于" />
+    <p>关于</p>
   </div>
 </div>
 
-### 消息与更新
+### 登录注册
 <div class="screenshots-grid">
   <div class="screenshot-item">
-    <img src="/screenshots/mobile/message.jpg" alt="消息" />
-    <p>消息</p>
+    <img src="/screenshots/mobile/login.jpg" alt="登录" />
+    <p>登录</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/mobile/update.jpg" alt="更新" />
-    <p>更新</p>
+    <img src="/screenshots/mobile/find-password.jpg" alt="找回密码" />
+    <p>找回密码</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/register.jpg" alt="创建账号" />
+    <p>创建账号</p>
   </div>
 </div>
 
 ### 聊天与群聊
 <div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/message.jpg" alt="消息主界面" />
+    <p>消息主界面</p>
+  </div>
   <div class="screenshot-item">
     <img src="/screenshots/mobile/group-chat.jpg" alt="群聊聊天内容" />
     <p>群聊聊天内容</p>
@@ -58,41 +54,41 @@
     <img src="/screenshots/mobile/start-group.jpg" alt="发起群聊" />
     <p>发起群聊</p>
   </div>
+</div>
+
+### 资料与好友
+<div class="screenshots-grid">
   <div class="screenshot-item">
     <img src="/screenshots/mobile/new-friends.jpg" alt="新的朋友列表" />
     <p>新的朋友列表</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/friend.jpg" alt="好友列表" />
+    <p>好友列表</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/friend-info.jpg" alt="好友资料" />
+    <p>好友资料</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/profile-edit.jpg" alt="编辑个人资料" />
+    <p>编辑个人资料</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/mine.jpg" alt="我的主界面" />
+    <p>我的主界面</p>
   </div>
 </div>
 
 ### 其他
 <div class="screenshots-grid">
   <div class="screenshot-item">
-    <img src="/screenshots/mobile/about.jpg" alt="关于" />
-    <p>关于</p>
+    <img src="/screenshots/mobile/qcode.jpg" alt="二维码功能" />
+    <p>二维码功能</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/mobile/qcode.jpg" alt="二维码" />
-    <p>二维码</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="/screenshots/mobile/mine.jpg" alt="我的" />
-    <p>我的</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="/screenshots/mobile/login.jpg" alt="登录" />
-    <p>登录</p>
-  </div>
-</div>
-
-### 账号注册与找回
-<div class="screenshots-grid">
-  <div class="screenshot-item">
-    <img src="/screenshots/mobile/find-password.jpg" alt="找回密码" />
-    <p>找回密码</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="/screenshots/mobile/register.jpg" alt="创建账号" />
-    <p>创建账号</p>
+    <img src="/screenshots/mobile/update.jpg" alt="更新页面" />
+    <p>更新页面</p>
   </div>
 </div>
 
