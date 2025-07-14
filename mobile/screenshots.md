@@ -44,6 +44,26 @@
   </div>
 </div>
 
+### 聊天与群聊
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/group-chat.jpg" alt="群聊聊天内容" />
+    <p>群聊聊天内容</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/private-chat.jpg" alt="私聊聊天内容" />
+    <p>私聊聊天内容</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/start-group.jpg" alt="发起群聊" />
+    <p>发起群聊</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/new-friends.jpg" alt="新的朋友列表" />
+    <p>新的朋友列表</p>
+  </div>
+</div>
+
 ### 其他
 <div class="screenshots-grid">
   <div class="screenshot-item">
@@ -55,12 +75,24 @@
     <p>二维码</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/mobile/mime.jpg" alt="我的" />
+    <img src="/screenshots/mobile/mine.jpg" alt="我的" />
     <p>我的</p>
   </div>
   <div class="screenshot-item">
     <img src="/screenshots/mobile/login.jpg" alt="登录" />
     <p>登录</p>
+  </div>
+</div>
+
+### 账号注册与找回
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/find-password.jpg" alt="找回密码" />
+    <p>找回密码</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/register.jpg" alt="创建账号" />
+    <p>创建账号</p>
   </div>
 </div>
 

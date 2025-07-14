@@ -1,43 +1,37 @@
 # 移动端截图说明
 
-请将移动端应用截图放在此目录下，建议的截图包括：
+此目录包含移动端应用的截图展示：
 
-## 建议的截图文件
+## 现有截图文件
 
 ### 通用/声明
-1. `project-statement.jpg` - 项目声明
+1. `about.jpg` - 关于页面
 2. `feedback.jpg` - 意见反馈
+3. `statement.jpg` - 项目声明
 
 ### 登录注册
-3. `login.png` - 登录界面
-4. `register.png` - 注册界面
+4. `login.jpg` - 登录界面
+5. `find-password.jpg` - 找回密码
+6. `register.jpg` - 创建账号
 
 ### 聊天功能
-5. `chat-list.png` - 聊天列表页面
-6. `chat-detail.png` - 聊天详情页面
-7. `chat-group.png` - 群聊界面
-8. `chat-media.png` - 多媒体消息
-9. `message.jpg` - 消息主界面
+7. `message.jpg` - 消息主界面
+8. `group-chat.jpg` - 群聊聊天内容
+9. `private-chat.jpg` - 私聊聊天内容
 
 ### 社交功能
-10. `contacts.png` - 联系人页面
-11. `friends.jpg` - 好友列表
+10. `new-friends.jpg` - 新的朋友列表
+11. `friend.jpg` - 好友列表
 12. `friend-info.jpg` - 好友资料
-13. `groups.png` - 群组管理
-14. `moments.png` - 朋友圈
 
 ### 个人中心
-15. `profile-edit.jpg` - 编辑个人资料
-16. `profile.png` - 个人中心页面
-17. `settings.png` - 设置页面
-18. `theme.png` - 主题设置
-19. `notification.png` - 通知设置
+13. `profile-edit.jpg` - 编辑个人资料
+14. `mine.jpg` - 我的主界面
 
 ### 其他功能
-20. `search.png` - 搜索功能
-21. `file-transfer.png` - 文件传输
-22. `voice-call.png` - 语音通话
-23. `video-call.png` - 视频通话
+15. `qcode.jpg` - 二维码功能
+16. `update.jpg` - 更新页面
+17. `start-group.jpg` - 发起群聊
 
 ## 截图要求
 
@@ -48,23 +42,5 @@
 
 ## 如何添加截图
 
-1. 将截图文件重命名为上述文件名
-2. 放入此目录 (`public/screenshots/mobile/`)
-3. 截图会自动在移动端页面中显示
-
-## 示例
-
-```
-public/screenshots/mobile/
-├── project-statement.jpg
-├── feedback.jpg
-├── login.png
-├── chat-list.png
-├── chat-detail.png
-├── contacts.png
-├── profile-edit.jpg
-├── friend-info.jpg
-├── message.jpg
-├── friends.jpg
-└── settings.png
-``` 
+1. 将截图文件放入此目录 (`public/screenshots/mobile/`)
+2. 截图会自动在移动端页面中显示 
