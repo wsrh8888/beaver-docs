@@ -22,13 +22,7 @@ description: 加入海狸IM社区，与其他开发者交流技术，分享经�
 
 > 📱 **加入方式**: 
 > - 点击上方群链接直接加入
-> - 使用QQ扫描下方二维码
 > - 搜索群号 1013328597
-
-<div style="text-align: center; margin: 2rem 0;">
-  <img src="/wxQcode.JPG" alt="QQ群二维码" style="width: 280px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-  <p style="margin-top: 1rem; font-size: 1rem; color: #666;">QQ群二维码</p>
-</div>
 
 ## ❤️ 赞助支持
 
