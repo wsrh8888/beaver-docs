@@ -122,6 +122,7 @@ export default defineConfig({
     
     nav: [
       { text: '首页', link: '/' },
+      { text: '教程', link: '/tutorials/' },
       { text: '指南', link: '/guide/' },
       { text: '部署', link: '/deployment/' },
       { text: '后端', link: '/backend/' },
@@ -132,6 +133,17 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/tutorials/': [
+        {
+          text: '视频教程',
+          items: [
+            { text: '教程概览', link: '/tutorials/' },
+            { text: '1. 海狸IM系统介绍', link: '/tutorials/system-intro' },
+            { text: '2. VSCode安装教程', link: '/tutorials/vscode-install' },
+            { text: '3. Node.js安装教程', link: '/tutorials/nodejs-install' }
+          ]
+        }
+      ],
       '/guide/': [
         {
           text: '入门指南',
@@ -208,6 +220,7 @@ export default defineConfig({
           text: '服务端开发',
           items: [
             { text: '项目概述', link: '/backend/' },
+            { text: 'API接口', link: '/backend/api' },
             { text: '本地开发', link: '/backend/development' }
           ]
         }
