@@ -2,16 +2,10 @@
 
 ## 📥 下载安装
 
-### Windows 安装
 1. 访问：https://www.docker.com/products/docker-desktop/
 2. 下载 Docker Desktop for Windows
 3. 双击安装包，选择使用 WSL2
 4. 安装完成后重启电脑
-
-### macOS 安装
-1. 访问：https://www.docker.com/products/docker-desktop/
-2. 下载 Docker Desktop for Mac
-3. 双击 `.dmg` 文件安装
 
 ## ✅ 验证安装
 
@@ -21,18 +15,50 @@ docker --version
 ```
 应该显示：`Docker version 24.x.x`
 
-## 🗄️ 启动数据库服务
-
+验证docker-compose：
 ```bash
-# 启动 MySQL
-docker run -d --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql:8.0
-
-# 启动 Redis
-docker run -d --name redis -p 6379:6379 redis:6.0
-
-# 查看运行状态
-docker ps
+docker-compose --version
 ```
+应该显示：`Docker Compose version v2.x.x`
+
+## ⚙️ 配置国内镜像源
+
+为了加速Docker镜像下载，建议配置国内镜像源：
+
+1. 打开 Docker Desktop
+2. 点击右上角设置图标（⚙️）
+3. 选择 "Docker Engine"
+4. 在配置文件中添加或修改以下内容：
+
+```json
+{
+  "builder": {
+    "gc": {
+      "defaultKeepStorage": "20GB",
+      "enabled": true
+    }
+  },
+  "experimental": false,
+  "registry-mirrors": [
+    "https://hub.geekery.cn",
+    "https://dockerpull.com",
+    "https://docker.xuanyuan.me",
+    "https://docker.m.daocloud.io",
+    "https://docker.unsee.tech",
+    "https://docker.1panel.live",
+    "http://mirrors.ustc.edu.cn",
+    "https://docker.chenby.cn",
+    "http://mirror.azure.cn",
+    "https://dockerpull.org",
+    "https://dockerhub.icu",
+    "https://hub.rat.dev",
+    "http://hub-mirror.c.163.com",
+    "https://registry.docker-cn.com"
+  ]
+}
+```
+
+5. 点击 "Apply & Restart" 重启Docker
 
 <style>
 .beaver-button {
