@@ -36,25 +36,4 @@ npm --version
 npm config set registry https://registry.npmmirror.com
 ```
 
-## 🎯 下一步
-
-<a href="../hbuilderx" class="beaver-button">安装 HBuilder X →</a>
-
-<style>
-.beaver-button {
-  background: var(--vp-c-brand-1);
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  display: inline-block;
-  margin-top: 1rem;
-  transition: all 0.3s ease;
-}
-
-.beaver-button:hover {
-  background: var(--vp-c-brand-2);
-  transform: translateY(-2px);
-}
-</style> 
+ 

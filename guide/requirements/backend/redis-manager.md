@@ -29,25 +29,4 @@
 3. **编辑数据**：双击key编辑value
 4. **执行命令**：使用控制台执行Redis命令
 
-## 🎯 下一步
-
-<a href="../../frontend/nodejs" class="beaver-button">安装 Node.js →</a>
-
-<style>
-.beaver-button {
-  background: var(--vp-c-brand-1);
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  display: inline-block;
-  margin-top: 1rem;
-  transition: all 0.3s ease;
-}
-
-.beaver-button:hover {
-  background: var(--vp-c-brand-2);
-  transform: translateY(-2px);
-}
-</style> 
+ 

@@ -27,25 +27,4 @@
 - 微信开发者工具
 - App真机运行
 
-## 🎯 下一步
-
-<a href="../../common/vscode" class="beaver-button">安装 VS Code →</a>
-
-<style>
-.beaver-button {
-  background: var(--vp-c-brand-1);
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  display: inline-block;
-  margin-top: 1rem;
-  transition: all 0.3s ease;
-}
-
-.beaver-button:hover {
-  background: var(--vp-c-brand-2);
-  transform: translateY(-2px);
-}
-</style> 
+ 

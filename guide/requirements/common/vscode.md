@@ -26,25 +26,4 @@
 - **GitLens** - Git增强
 - **Prettier** - 代码格式化
 
-## 🎯 下一步
-
-<a href="../apifox" class="beaver-button">安装 Apifox →</a>
-
-<style>
-.beaver-button {
-  background: var(--vp-c-brand-1);
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  display: inline-block;
-  margin-top: 1rem;
-  transition: all 0.3s ease;
-}
-
-.beaver-button:hover {
-  background: var(--vp-c-brand-2);
-  transform: translateY(-2px);
-}
-</style> 
+ 

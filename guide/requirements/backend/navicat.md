@@ -30,25 +30,4 @@
 3. **查看表结构**：双击表名查看
 4. **执行SQL**：使用查询编辑器
 
-## 🎯 下一步
-
-<a href="../redis-manager" class="beaver-button">安装 Redis管理工具 →</a>
-
-<style>
-.beaver-button {
-  background: var(--vp-c-brand-1);
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  display: inline-block;
-  margin-top: 1rem;
-  transition: all 0.3s ease;
-}
-
-.beaver-button:hover {
-  background: var(--vp-c-brand-2);
-  transform: translateY(-2px);
-}
-</style> 
+ 
