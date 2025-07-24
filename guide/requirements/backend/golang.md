@@ -4,22 +4,9 @@
 
 ### Windows 安装
 1. 访问：https://golang.org/dl/
-2. 下载 `go1.21.x.windows-amd64.msi`
+2. 下载 `go1.23.8.windows-amd64.msi`
 3. 双击安装包，一路下一步
 4. 安装完成后重启命令提示符
-
-### macOS 安装
-```bash
-# 使用 Homebrew
-brew install go
-```
-
-### Linux 安装
-```bash
-# Ubuntu/Debian
-sudo apt update
-sudo apt install golang-go
-```
 
 ## ✅ 验证安装
 
@@ -27,7 +14,7 @@ sudo apt install golang-go
 ```bash
 go version
 ```
-应该显示：`go version go1.21.x`
+应该显示：`go version go1.23.8`
 
 ## ⚙️ 配置代理
 
