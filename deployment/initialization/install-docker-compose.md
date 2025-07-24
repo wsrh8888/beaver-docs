@@ -2,13 +2,24 @@
 
 ## 安装步骤
 
+### 1. 下载 Docker Compose
+
+这个命令会下载最新版本的 Docker Compose 并保存到 `/usr/local/bin/docker-compose`。
+
 ```bash
-# 下载 Docker Compose
 sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
 
-# 添加执行权限
+### 2. 赋予执行权限
+
+```bash
 sudo chmod +x /usr/local/bin/docker-compose
+```
 
-# 验证安装
+### 3. 验证安装
+
+安装完成后，可以运行以下命令来验证 Docker Compose 是否成功安装：
+
+```bash
 docker-compose --version
 ``` 
