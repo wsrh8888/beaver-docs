@@ -38,7 +38,7 @@
       <h5>硬件要求</h5>
       <ul>
         <li><strong>CPU：</strong>2核心 2.4GHz+</li>
-        <li><strong>内存：</strong>4GB RAM</li>
+        <li><strong>内存：</strong>2GB RAM</li>
         <li><strong>存储：</strong>50GB SSD</li>
         <li><strong>网络：</strong>10Mbps+</li>
       </ul>
@@ -91,7 +91,7 @@
 sudo apt update && sudo apt upgrade -y
 
 # 安装必要工具
-sudo apt install -y curl wget git vim
+sudo apt install -y curl wget vim
 
 # 安装 Docker
 curl -fsSL https://get.docker.com | sh
@@ -107,7 +107,7 @@ exit
 
 </div>
 
-### 第二步：获取部署文件
+### 第二步：创建部署目录
 
 <div class="beaver-card">
 
@@ -115,10 +115,7 @@ exit
 # 创建部署目录
 mkdir -p /opt/beaver-im && cd /opt/beaver-im
 
-# 获取部署配置
-git clone https://github.com/wsrh8888/beaver-deploy.git .
-
-# 或手动创建配置文件
+# 创建必要目录
 mkdir -p {nginx,ssl,logs,data}
 ```
 
