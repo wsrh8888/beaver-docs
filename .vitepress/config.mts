@@ -291,7 +291,7 @@ export default defineConfig({
     },
     
     editLink: {
-      pattern: 'https://github.com/wsrh8888/beaver-server/edit/main/docs/:path',
+      pattern: 'https://github.com/wsrh8888/beaver-docs/edit/main/:path',
       text: '在 GitHub 上编辑此页面'
     },
     
