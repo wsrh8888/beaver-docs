@@ -1,16 +1,17 @@
-# Navicat 安装教程
+# Navicat Premium Lite 安装教程
 
 ## 📥 下载安装
 
-### 试用版安装
-1. 访问：https://navicat.com.cn/
-2. 下载 Navicat Premium 试用版
+### Navicat Premium Lite 安装
+1. 访问：[https://www.navicat.com.cn/download/navicat-premium-lite](https://www.navicat.com.cn/download/navicat-premium-lite)
+2. 选择对应系统版本下载：
+   - **Windows**: 下载 64 bit 版本
+   - **macOS**: 下载 64 bit 版本  
+   - **Linux**: 下载 AppImage 版本（x86_64 或 aarch64）
 3. 运行安装包完成安装
-4. 试用期为30天
+4. 支持 MySQL、PostgreSQL、SQLite 等数据库
+5. **免费使用**：每家机构最多5个用户免费使用
 
-### 其他选择
-- **免费替代品**: DBeaver, HeidiSQL
-- **在线工具**: phpMyAdmin, Adminer
 
 ## ✅ 验证安装
 
