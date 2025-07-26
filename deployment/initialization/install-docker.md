@@ -68,7 +68,7 @@ vi /etc/docker/daemon.json
     "https://dockertest.jsdelivr.fyi",
     "https://docker.m.daocloud.io",
     "https://docker.nju.edu.cn",
-    "https://mirror.iscas.ac.cn",
+    "https://mirror.iscas.ac.cn"
   ]
 }
 ```
@@ -77,5 +77,8 @@ vi /etc/docker/daemon.json
 
 ```bash
 systemctl daemon-reload
+```
+
+```bash
 systemctl restart docker
-``` 
+```
