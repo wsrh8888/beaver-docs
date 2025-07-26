@@ -42,4 +42,40 @@ docker -v
 
 ```bash
 sudo systemctl status docker
+```
+
+### 8. 配置国内镜像源（可选）
+
+为了加速Docker镜像下载，建议配置国内镜像源：
+
+```bash
+# 创建或编辑Docker配置文件
+vi /etc/docker/daemon.json
+```
+
+在文件中添加以下内容：
+
+```json
+{
+  "registry-mirrors": [
+    "https://docker.m.daocloud.io",
+    "https://dockerproxy.com",
+    "https://vp5v3vra.mirror.aliyuncs.com",
+    "https://docker.registry.cyou",
+    "https://docker-cf.registry.cyou",
+    "https://dockercf.jsdelivr.fyi",
+    "https://docker.jsdelivr.fyi",
+    "https://dockertest.jsdelivr.fyi",
+    "https://docker.m.daocloud.io",
+    "https://docker.nju.edu.cn",
+    "https://mirror.iscas.ac.cn",
+  ]
+}
+```
+
+保存文件后，重新加载配置并重启Docker服务：
+
+```bash
+systemctl daemon-reload
+systemctl restart docker
 ``` 
