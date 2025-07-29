@@ -128,7 +128,7 @@ export default defineConfig({
       { text: '后端', link: '/backend/' },
       { text: '移动端', link: '/mobile/' },
       { text: '桌面端', link: '/desktop/' },
-      { text: '价格', link: '/commercial/' },
+      // { text: '价格', link: '/commercial/' },
       { text: '社区', link: '/community/' }
     ],
 
@@ -201,13 +201,8 @@ export default defineConfig({
           text: '服务器初始化',
           items: [
             { text: 'Docker', link: '/deployment/initialization/install-docker' },
-            { text: 'Docker Compose', link: '/deployment/initialization/install-docker-compose' }
-          ]
-        },
-        {
-          text: '服务器环境',
-          items: [
-            { text: '基础服务部署', link: '/deployment/server/deployment' }
+            { text: 'Docker Compose', link: '/deployment/initialization/install-docker-compose' },
+            { text: 'mysql、redis、nginx、etcd', link: '/deployment/initialization/deployment' }
           ]
         },
         {
@@ -265,14 +260,14 @@ export default defineConfig({
         }
       ],
 
-      '/commercial/': [
-        {
-          text: '价格方案',
-          items: [
-            { text: '价格', link: '/commercial/' }
-          ]
-        }
-      ],
+      // '/commercial/': [
+      //   {
+      //     text: '价格方案',
+      //     items: [
+      //       { text: '价格', link: '/commercial/' }
+      //     ]
+      //   }
+      // ],
 
 
     },

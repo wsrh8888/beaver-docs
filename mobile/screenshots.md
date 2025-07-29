@@ -4,59 +4,71 @@
 
 ## 📱 应用截图
 
-### 通用/声明
-<div class="screenshots-grid">
-  <div class="screenshot-item">
-    <img src="/screenshots/mobile/statement.jpg" alt="项目声明" />
-    <p>项目声明</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="/screenshots/mobile/feedback.jpg" alt="意见反馈" />
-    <p>意见反馈</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="/screenshots/mobile/about.jpg" alt="关于" />
-    <p>关于</p>
-  </div>
-</div>
-
-### 登录注册
+### 用户认证
 <div class="screenshots-grid">
   <div class="screenshot-item">
     <img src="/screenshots/mobile/login.jpg" alt="登录" />
     <p>登录</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/mobile/find-password.jpg" alt="找回密码" />
-    <p>找回密码</p>
-  </div>
-  <div class="screenshot-item">
     <img src="/screenshots/mobile/register.jpg" alt="创建账号" />
     <p>创建账号</p>
   </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/find-password.jpg" alt="找回密码" />
+    <p>找回密码</p>
+  </div>
 </div>
 
-### 聊天与群聊
+### 聊天功能
 <div class="screenshots-grid">
   <div class="screenshot-item">
     <img src="/screenshots/mobile/message.jpg" alt="消息主界面" />
     <p>消息主界面</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/mobile/group-chat.jpg" alt="群聊聊天内容" />
-    <p>群聊聊天内容</p>
-  </div>
-  <div class="screenshot-item">
     <img src="/screenshots/mobile/private-chat.jpg" alt="私聊聊天内容" />
     <p>私聊聊天内容</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/mobile/start-group.jpg" alt="发起群聊" />
-    <p>发起群聊</p>
+    <img src="/screenshots/mobile/group-chat.jpg" alt="群聊聊天内容" />
+    <p>群聊聊天内容</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/send-text.jpg" alt="发送文字" />
+    <p>发送文字</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/send-emoji.jpg" alt="发送表情" />
+    <p>发送表情</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/chat-details.jpg" alt="聊天详情" />
+    <p>聊天详情</p>
   </div>
 </div>
 
-### 资料与好友
+### 群聊管理
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/group-list.jpg" alt="群聊列表" />
+    <p>群聊列表</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/create-group.jpg" alt="创建群聊" />
+    <p>创建群聊</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/group-details.jpg" alt="群聊详情" />
+    <p>群聊详情</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/add-members.jpg" alt="添加群成员" />
+    <p>添加群成员</p>
+  </div>
+</div>
+
+### 好友管理
 <div class="screenshots-grid">
   <div class="screenshot-item">
     <img src="/screenshots/mobile/new-friends.jpg" alt="新的朋友列表" />
@@ -71,6 +83,26 @@
     <p>好友资料</p>
   </div>
   <div class="screenshot-item">
+    <img src="/screenshots/mobile/edit-remark.jpg" alt="编辑好友备注" />
+    <p>编辑好友备注</p>
+  </div>
+</div>
+
+### 朋友圈
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/moments.jpg" alt="朋友圈页面" />
+    <p>朋友圈页面</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/send-moments.jpg" alt="发布朋友圈页面" />
+    <p>发布朋友圈页面</p>
+  </div>
+</div>
+
+### 个人中心
+<div class="screenshots-grid">
+  <div class="screenshot-item">
     <img src="/screenshots/mobile/profile-edit.jpg" alt="编辑个人资料" />
     <p>编辑个人资料</p>
   </div>
@@ -80,8 +112,12 @@
   </div>
 </div>
 
-### 其他
+### 系统功能
 <div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/settings.jpg" alt="通用设置" />
+    <p>通用设置</p>
+  </div>
   <div class="screenshot-item">
     <img src="/screenshots/mobile/qcode.jpg" alt="二维码功能" />
     <p>二维码功能</p>
@@ -89,6 +125,18 @@
   <div class="screenshot-item">
     <img src="/screenshots/mobile/update.jpg" alt="更新页面" />
     <p>更新页面</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/about.jpg" alt="关于页面" />
+    <p>关于页面</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/feedback.jpg" alt="意见反馈" />
+    <p>意见反馈</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/mobile/statement.jpg" alt="项目声明" />
+    <p>项目声明</p>
   </div>
 </div>
 
