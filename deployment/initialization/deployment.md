@@ -43,9 +43,9 @@ services:
             '--max_connections=3000' 
         ]
         volumes:
-            - /mnt/docker/mysql/data:/var/lib/mysql
-            - /mnt/docker/mysql/my.cnf:/etc/mysql/my.cnf
-            - /mnt/docker/mysql/log:/var/log/mysql
+            - ./mysql/data:/var/lib/mysql
+            - ./mysql/my.cnf:/etc/mysql/my.cnf
+            - ./mysql/log:/var/log/mysql
 
     nginx:
         image: nginx
@@ -56,11 +56,11 @@ services:
             - '80:80'
             - '443:443'
         volumes:
-            - /mnt/docker/nginx/conf/nginx.conf:/etc/nginx/nginx.conf
-            - /mnt/docker/nginx/conf.d:/etc/nginx/conf.d
-            - /mnt/docker/nginx/ssl:/etc/nginx/ssl
+            - ./nginx/conf/nginx.conf:/etc/nginx/nginx.conf
+            - ./nginx/conf.d:/etc/nginx/conf.d
+            - ./nginx/ssl:/etc/nginx/ssl
             - /etc/localtime:/etc/localtime:ro
-            - /mnt/docker/nginx/html:/etc/nginx/html
+            - ./nginx/html:/etc/nginx/html
 
     etcd:
         image: bitnami/etcd:3.5.12
@@ -73,7 +73,7 @@ services:
             - ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:2379      # 向所有接口上监听客户端请求
             - ETCD_ADVERTISE_CLIENT_URLS=http://your_internal_ip:2379,http://your_external_ip:2379  # 替换为你的内外网地址
         volumes:
-            - /mnt/docker/etcd:/etcd-data
+            - ./etcd:/etcd-data
         networks:
             - beaver_network
 
