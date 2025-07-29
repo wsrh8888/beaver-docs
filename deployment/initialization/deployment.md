@@ -102,14 +102,14 @@ networks:
 ### 🔐 安全建议
 
 **推荐使用随机密码**：
-- 密码生成工具：https://www.random.org/passwords/
+- 密码生成工具：https://suijimimashengcheng.bmcx.com/
 - 建议密码长度：16-32位，包含大小写字母、数字
 - 请妥善保存生成的密码，避免泄露
 
 **端口号建议**：
 - 避免使用默认端口（3306、6379、2379等），容易被攻击
 - 推荐使用5位数字端口（10000-99999）
-- 端口号生成工具：https://www.random.org/passwords/
+- 端口号生成工具：https://suijimimashengcheng.bmcx.com/
 - 确保选择的端口未被其他服务占用
 
 ### 2. 启动基础服务
