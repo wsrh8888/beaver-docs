@@ -204,16 +204,6 @@ export default defineConfig({
             { text: 'Docker Compose', link: '/deployment/initialization/install-docker-compose' },
             { text: 'mysql、redis、nginx、etcd', link: '/deployment/initialization/deployment' }
           ]
-        },
-        {
-          text: '后端服务',
-          items: [
-            { text: '服务概述', link: '/deployment/backend/overview' },
-            { text: '认证服务', link: '/deployment/backend/auth_api' },
-            { text: '聊天服务', link: '/deployment/backend/chat_api' },
-            { text: '用户服务', link: '/deployment/backend/user_api' },
-            { text: '文件服务', link: '/deployment/backend/file_api' }
-          ]
         }
       ],
       
@@ -223,7 +213,13 @@ export default defineConfig({
           items: [
             { text: '项目概述', link: '/backend/' },
             { text: 'API接口', link: '/backend/api' },
-            { text: '本地开发', link: '/backend/development' }
+            { text: '初始化etcd、redis、mysql', link: '/backend/development' }
+          ]
+        },
+        {
+          text: '环境搭建',
+          items: [
+            { text: '开发流程', link: '/backend/setup/download-code' }
           ]
         }
       ],
