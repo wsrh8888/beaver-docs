@@ -1,5 +1,15 @@
 # 开发流程
 
+## 🚀 启动顺序
+
+**重要：** 服务启动必须严格按照以下顺序进行：
+
+1. **启动Docker Desktop** - 确保Docker服务正常运行
+2. **启动基础设施服务** - 使用docker-compose启动MySQL、Redis、ETCD
+3. **启动VSCode** - 打开项目并配置开发环境
+4. **启动RPC服务** - 先启动所有RPC服务
+5. **启动API服务** - 再启动所有API服务
+
 ## 1. 下载代码
 
 ```bash
@@ -13,14 +23,16 @@ cd beaver-server
 go mod tidy
 ```
 
-## 3. 启动服务
+## 3. 启动基础设施
 
-### 启动顺序
+确保Docker Desktop已启动，然后运行：
 
-服务启动必须按照以下顺序进行：
+```bash
+cd ~/Desktop/docker
+docker-compose up -d
+```
 
-1. **RPC服务** - 先启动所有RPC服务
-2. **API服务** - 再启动所有API服务
+## 4. 启动服务
 
 ### 启动RPC服务
 
