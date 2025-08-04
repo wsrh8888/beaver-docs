@@ -10,12 +10,12 @@
 
 ### 下载信息
 
-**下载链接**: [海狸IM v1.0.0 Android体验包](https://github.com/wsrh8888/beaver-docs/releases/download/v1.0.0/1.0.0.apk)
+**下载链接**: [海狸IM v1.2.2 Android体验包](https://wsrh8888.github.io/beaver-docs/)
 
 **版本信息**:
-- 版本号: v1.0.0 (演示版)
+- 版本号: v1.2.2 (演示版)
 - 文件大小: 约15MB
-- 更新日期: 2025年7月13号
+- 更新日期: 2025年7月29号
 - **包类型**: uni-app打包，未签名
 - **用途**: 仅用于功能演示，不用于正式运营
 
