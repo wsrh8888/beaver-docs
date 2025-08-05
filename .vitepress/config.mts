@@ -221,6 +221,14 @@ export default defineConfig({
           items: [
             { text: '开发流程', link: '/backend/setup/download-code' }
           ]
+        },
+        {
+          text: '打包部署',
+          items: [
+            { text: 'Docker登录', link: '/backend/deploy/docker-login' },
+            { text: '构建脚本', link: '/backend/deploy/build-scripts' },
+            { text: '服务模块', link: '/backend/deploy/modules' }
+          ]
         }
       ],
       
