@@ -239,7 +239,6 @@ export default defineConfig({
             { text: '项目概述', link: '/mobile/' },
             { text: '界面展示', link: '/mobile/screenshots' },
             { text: '体验下载', link: '/mobile/experience' },
-            { text: '本地开发', link: '/mobile/development' }
           ]
         }
       ],
@@ -249,7 +248,6 @@ export default defineConfig({
           text: '桌面端开发',
           items: [
             { text: '项目概述', link: '/desktop/' },
-            { text: '本地开发', link: '/desktop/development' }
           ]
         }
       ],

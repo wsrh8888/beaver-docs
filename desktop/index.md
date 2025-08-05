@@ -394,9 +394,3 @@ log.error('发生错误', error)
 - macOS: `~/Library/Logs/海狸/`
 - Linux: `~/.config/海狸/logs/`
 
-## 下一步
-
-- [技术栈详解](./tech-stack.md) - 深入了解技术选型
-- [项目结构](./structure.md) - 详细的项目结构说明
-- [WebSocket连接](./websocket.md) - WebSocket通信机制
-- [开发指南](./development.md) - 本地开发环境搭建 
