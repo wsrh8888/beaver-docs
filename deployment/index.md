@@ -56,7 +56,3 @@
 - **内存**: 最低 2GB，推荐 2GB+
 - **存储**: 最低 50GB，推荐 200GB+
 - **网络**: 公网IP + 域名
-
-## 📚 部署文档
-
-- [基础服务部署](./server/deployment.md) - MySQL、Redis、Nginx、ETCD 部署 

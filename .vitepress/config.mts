@@ -202,7 +202,15 @@ export default defineConfig({
           items: [
             { text: 'Docker', link: '/deployment/initialization/install-docker' },
             { text: 'Docker Compose', link: '/deployment/initialization/install-docker-compose' },
-            { text: 'mysql、redis、nginx、etcd', link: '/deployment/initialization/deployment' }
+            { text: 'mysql、redis、nginx、etcd', link: '/deployment/initialization/deployment' },
+            { text: '数据库初始化', link: '/deployment/initialization/database-init' },
+            { text: 'Nginx初始化', link: '/deployment/initialization/nginx-init' }
+          ]
+        },
+        {
+          text: '启动服务',
+          items: [
+            { text: '启动服务', link: '/deployment/initialization/service-deploy' }
           ]
         }
       ],
