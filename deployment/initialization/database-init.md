@@ -4,7 +4,6 @@
 
 首先在服务器的 `docker-compose.yml` 文件中查看数据库连接配置：
 
-![初始化数据库](/deployment/mysqlInit.png)
 
 **需要记录的信息：**
 - MySQL密码
