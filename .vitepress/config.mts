@@ -137,10 +137,8 @@ export default defineConfig({
         {
           text: '视频教程',
           items: [
-            { text: '教程概览', link: '/tutorials/' },
-            { text: '1. 海狸IM系统介绍', link: '/tutorials/system-intro' },
-            { text: '2. VSCode安装教程', link: '/tutorials/vscode-install' },
-            { text: '3. Node.js安装教程', link: '/tutorials/nodejs-install' }
+            { text: '合集·海狸IM服务器部署教程', link: '/tutorials/server-deployment-collection' },
+            { text: '合集·海狸IM本地搭建教程', link: '/tutorials/local-setup-collection' }
           ]
         }
       ],
@@ -211,6 +209,12 @@ export default defineConfig({
           text: '启动服务',
           items: [
             { text: '启动服务', link: '/deployment/initialization/service-deploy' }
+          ]
+        },
+        {
+          text: '镜像地址',
+          items: [
+            { text: '镜像', link: '/deployment/images' }
           ]
         }
       ],
