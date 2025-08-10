@@ -128,6 +128,7 @@ export default defineConfig({
       { text: '后端', link: '/backend/' },
       { text: '移动端', link: '/mobile/' },
       { text: '桌面端', link: '/desktop/' },
+      { text: '更新记录', link: '/changelog/' },
       // { text: '价格', link: '/commercial/' },
       { text: '社区', link: '/community/' }
     ],
@@ -139,6 +140,32 @@ export default defineConfig({
           items: [
             { text: '合集·海狸IM服务器部署教程', link: '/tutorials/server-deployment-collection' },
             { text: '合集·海狸IM本地搭建教程', link: '/tutorials/local-setup-collection' }
+          ]
+        }
+      ],
+      '/changelog/': [
+        {
+          text: '更新记录',
+          items: [
+            { text: '更新概览', link: '/changelog/' }
+          ]
+        },
+        {
+          text: '服务端更新',
+          items: [
+            { text: 'v1.0.0 - 2025-08-09', link: '/changelog/backend/v1.0.0' }
+          ]
+        },
+        {
+          text: '移动端更新',
+          items: [
+            { text: 'v1.2.2 - 2025-08-09', link: '/changelog/mobile/v1.2.2' }
+          ]
+        },
+        {
+          text: '桌面端更新',
+          items: [
+            { text: 'v1.0.0 - 未发布', link: '/changelog/desktop/v1.0.0' }
           ]
         }
       ],
