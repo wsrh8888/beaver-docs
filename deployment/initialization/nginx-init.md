@@ -41,7 +41,7 @@ http {
 
 ## 📋 HTTP版本配置
 
-在 `/mnt/docker/nginx/conf.d/` 目录下创建 `server.config` 文件：
+在 `/mnt/docker/nginx/conf.d/` 目录下创建 `server.conf` 文件：
 
 ```nginx
 # HTTP版本配置 - 线上环境
