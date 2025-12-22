@@ -1,6 +1,6 @@
 # Golang 安装教程
 
-## 📥 下载安装
+## <img src="/image/guide/download.svg" alt="下载安装" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">下载安装
 
 ### Windows 安装
 1. 访问：https://golang.org/dl/
@@ -13,7 +13,7 @@
 - `GOPATH`: 默认在 `C:\Users\{username}\go`
 - `PATH`: 自动添加Go的bin目录
 
-## ✅ 验证安装
+## <img src="/image/guide/check.svg" alt="验证安装" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">验证安装
 
 打开终端，输入：
 ```bash
@@ -27,13 +27,13 @@ go env GOPATH
 go env GOROOT
 ```
 
-## ⚙️ 配置代理
+## <img src="/image/guide/settings.svg" alt="配置代理" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">配置代理
 
 ```bash
 go env -w GOPROXY=https://goproxy.cn,direct
 ```
 
-## 🔧 VSCode 开发环境配置
+## <img src="/image/guide/wrench.svg" alt="VSCode 开发环境配置" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">VSCode 开发环境配置
 
 ### 安装Go插件
 1. 在VSCode中按 `Ctrl+Shift+X`

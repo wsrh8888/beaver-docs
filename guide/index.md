@@ -2,14 +2,14 @@
 
 快速上手海狸IM，跟随以下步骤完成部署：
 
-## 🚀 部署指南
+## <img src="/image/guide/rocket.svg" alt="部署指南" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">部署指南
 
 根据您的需求，选择对应的部署方案：
 
 <div class="deployment-nav">
   <div class="deploy-card featured">
     <div class="deploy-header">
-      <div class="deploy-icon">🖥️</div>
+      <div class="deploy-icon"><img src="/image/guide/server.svg" alt="服务器环境部署" style="width: 24px; height: 24px; display: inline-block;"></div>
       <div class="deploy-info">
         <h3>服务器环境部署</h3>
         <span class="deploy-badge">核心必备</span>
@@ -26,7 +26,7 @@
 
   <div class="deploy-card">
     <div class="deploy-header">
-      <div class="deploy-icon">🔧</div>
+      <div class="deploy-icon"><img src="/image/guide/wrench.svg" alt="后端服务部署" style="width: 24px; height: 24px; display: inline-block;"></div>
       <div class="deploy-info">
         <h3>后端服务部署</h3>
         <span class="deploy-badge secondary">微服务</span>
@@ -44,7 +44,7 @@
 
   <div class="deploy-card">
     <div class="deploy-header">
-      <div class="deploy-icon">💻</div>
+      <div class="deploy-icon"><img src="/image/guide/computer.svg" alt="系统环境" style="width: 24px; height: 24px; display: inline-block;"></div>
       <div class="deploy-info">
         <h3>桌面端部署</h3>
         <span class="deploy-badge secondary">可选</span>
@@ -61,7 +61,7 @@
 
   <div class="deploy-card">
     <div class="deploy-header">
-      <div class="deploy-icon">📱</div>
+      <div class="deploy-icon"><img src="/image/guide/mobile.svg" alt="移动端" style="width: 24px; height: 24px; display: inline-block;"></div>
       <div class="deploy-info">
         <h3>移动端部署</h3>
         <span class="deploy-badge secondary">可选</span>
@@ -77,11 +77,11 @@
   </div>
 </div>
 
-## 📋 快速开始
+## <img src="/image/guide/clipboard.svg" alt="快速开始" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">快速开始
 
 <div class="guide-nav">
   <div class="nav-card">
-    <div class="nav-icon">🛠️</div>
+    <div class="nav-icon"><img src="/image/guide/tools.svg" alt="工具" style="width: 24px; height: 24px; display: inline-block;"></div>
     <h3>环境准备</h3>
     <p>安装开发工具和运行环境</p>
     <a href="./requirements/" class="nav-btn">查看详情 →</a>

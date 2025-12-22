@@ -1,6 +1,6 @@
 # 服务部署
 
-## 📋 打包前配置
+## <img src="/image/deployment/clipboard.svg" alt="打包前配置" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">打包前配置
 
 ### 1. 查看deploy目录结构
 
@@ -24,7 +24,7 @@
 - 将 `Addr: 127.0.0.1:6379` 替换为你的Redis地址
 - 将 `Password: '123456'` 替换为你的Redis密码
 
-## 🚀 部署步骤
+## <img src="/image/deployment/rocket.svg" alt="部署步骤" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">部署步骤
 
 ### 3. 解压到服务器
 

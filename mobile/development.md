@@ -1,14 +1,14 @@
-# 📱 海狸IM 移动端开发指南
+# <img src="/image/mobile/mobile.svg" alt="海狸IM 移动端开发指南" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">海狸IM 移动端开发指南
 
 <div class="hero-banner mobile-hero">
   <div class="hero-content">
     <h2>uni-app 跨平台开发</h2>
     <p>一套代码，多端运行 - 支持 Android、iOS、H5、小程序的即时通讯应用</p>
     <div class="platform-badges">
-      <span class="platform-badge android">🤖 Android</span>
-      <span class="platform-badge ios">🍎 iOS</span>
-      <span class="platform-badge h5">🌐 H5</span>
-      <span class="platform-badge wechat">💬 微信小程序</span>
+      <span class="platform-badge android"><img src="/image/mobile/android.svg" alt="Android" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px; display: inline-block;">Android</span>
+      <span class="platform-badge ios"><img src="/image/mobile/apple.svg" alt="iOS" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px; display: inline-block;">iOS</span>
+      <span class="platform-badge h5"><img src="/image/mobile/web.svg" alt="H5" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px; display: inline-block;">H5</span>
+      <span class="platform-badge wechat"><img src="/image/mobile/chat.svg" alt="微信小程序" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px; display: inline-block;">微信小程序</span>
     </div>
   </div>
 </div>
@@ -17,24 +17,24 @@
 
 <div class="mobile-architecture">
   <div class="arch-layer frontend">
-    <h3>🎨 前端层</h3>
+    <h3><img src="/image/mobile/palette.svg" alt="前端层" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px; display: inline-block;">前端层</h3>
     <div class="layer-items">
       <div class="layer-item">
-        <span class="item-icon">⚡</span>
+        <span class="item-icon"><img src="/image/mobile/lightning.svg" alt="Vue 3 + TypeScript" style="width: 20px; height: 20px; display: inline-block;"></span>
         <div class="item-info">
           <h4>Vue 3 + TypeScript</h4>
           <p>现代化前端框架，类型安全</p>
         </div>
       </div>
       <div class="layer-item">
-        <span class="item-icon">🎯</span>
+        <span class="item-icon"><img src="/image/mobile/target.svg" alt="Pinia 状态管理" style="width: 20px; height: 20px; display: inline-block;"></span>
         <div class="item-info">
           <h4>Pinia 状态管理</h4>
           <p>响应式状态管理方案</p>
         </div>
       </div>
       <div class="layer-item">
-        <span class="item-icon">🎪</span>
+        <span class="item-icon"><img src="/image/mobile/circus.svg" alt="自定义组件库" style="width: 20px; height: 20px; display: inline-block;"></span>
         <div class="item-info">
           <h4>自定义组件库</h4>
           <p>统一的UI组件设计系统</p>
@@ -44,24 +44,24 @@
   </div>
 
   <div class="arch-layer framework">
-    <h3>🚀 框架层</h3>
+    <h3><img src="/image/mobile/rocket.svg" alt="框架层" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px; display: inline-block;">框架层</h3>
     <div class="layer-items">
       <div class="layer-item">
-        <span class="item-icon">📱</span>
+        <span class="item-icon"><img src="/image/mobile/mobile.svg" alt="uni-app" style="width: 20px; height: 20px; display: inline-block;"></span>
         <div class="item-info">
           <h4>uni-app 3.0+</h4>
           <p>跨平台应用开发框架</p>
         </div>
       </div>
       <div class="layer-item">
-        <span class="item-icon">⚡</span>
+        <span class="item-icon"><img src="/image/mobile/lightning.svg" alt="Vue 3 + TypeScript" style="width: 20px; height: 20px; display: inline-block;"></span>
         <div class="item-info">
           <h4>Vite 构建工具</h4>
           <p>极速的开发体验</p>
         </div>
       </div>
       <div class="layer-item">
-        <span class="item-icon">🔌</span>
+        <span class="item-icon"><img src="/image/mobile/plug.svg" alt="WebSocket 通信" style="width: 20px; height: 20px; display: inline-block;"></span>
         <div class="item-info">
           <h4>WebSocket 通信</h4>
           <p>实时消息推送</p>
@@ -71,24 +71,24 @@
   </div>
 
   <div class="arch-layer platform">
-    <h3>📦 平台层</h3>
+    <h3><img src="/image/mobile/package.svg" alt="平台层" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px; display: inline-block;">平台层</h3>
     <div class="layer-items">
       <div class="layer-item">
-        <span class="item-icon">🤖</span>
+        <span class="item-icon"><img src="/image/mobile/android.svg" alt="Android" style="width: 20px; height: 20px; display: inline-block;"></span>
         <div class="item-info">
           <h4>Android</h4>
           <p>原生 Android 应用</p>
         </div>
       </div>
       <div class="layer-item">
-        <span class="item-icon">🍎</span>
+        <span class="item-icon"><img src="/image/mobile/apple.svg" alt="iOS" style="width: 20px; height: 20px; display: inline-block;"></span>
         <div class="item-info">
           <h4>iOS</h4>
           <p>原生 iOS 应用</p>
         </div>
       </div>
       <div class="layer-item">
-        <span class="item-icon">💬</span>
+        <span class="item-icon"><img src="/image/mobile/chat.svg" alt="小程序" style="width: 20px; height: 20px; display: inline-block;"></span>
         <div class="item-info">
           <h4>小程序</h4>
           <p>微信小程序支持</p>
@@ -98,60 +98,60 @@
   </div>
 </div>
 
-## 📁 项目结构深度解析
+## <img src="/image/mobile/folder.svg" alt="项目结构深度解析" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">项目结构深度解析
 
 <div class="project-structure">
   <div class="structure-overview">
     <h3>📂 核心目录结构</h3>
     <div class="structure-tree">
       <div class="tree-item root">
-        <span class="tree-icon">📁</span>
+        <span class="tree-icon"><img src="/image/mobile/folder.svg" alt="src" style="width: 16px; height: 16px; display: inline-block;"></span>
         <span class="tree-name">beaver-mobile/</span>
         <div class="tree-children">
           <div class="tree-item">
-            <span class="tree-icon">🎨</span>
+            <span class="tree-icon"><img src="/image/mobile/palette.svg" alt="src" style="width: 16px; height: 16px; display: inline-block;"></span>
             <span class="tree-name">src/</span>
             <span class="tree-desc">源代码目录</span>
             <div class="tree-children">
               <div class="tree-item">
-                <span class="tree-icon">🔌</span>
+                <span class="tree-icon"><img src="/image/mobile/plug.svg" alt="api" style="width: 16px; height: 16px; display: inline-block;"></span>
                 <span class="tree-name">api/</span>
                 <span class="tree-desc">接口封装</span>
               </div>
               <div class="tree-item">
-                <span class="tree-icon">🧩</span>
+                <span class="tree-icon"><img src="/image/mobile/components.svg" alt="components" style="width: 16px; height: 16px; display: inline-block;"></span>
                 <span class="tree-name">components/</span>
                 <span class="tree-desc">可复用组件</span>
               </div>
               <div class="tree-item">
-                <span class="tree-icon">📄</span>
+                <span class="tree-icon"><img src="/image/mobile/page.svg" alt="pages" style="width: 16px; height: 16px; display: inline-block;"></span>
                 <span class="tree-name">pages/</span>
                 <span class="tree-desc">页面组件</span>
               </div>
               <div class="tree-item">
-                <span class="tree-icon">🗃️</span>
+                <span class="tree-icon"><img src="/image/mobile/storage.svg" alt="store" style="width: 16px; height: 16px; display: inline-block;"></span>
                 <span class="tree-name">store/</span>
                 <span class="tree-desc">状态管理</span>
               </div>
               <div class="tree-item">
-                <span class="tree-icon">🛠️</span>
+                <span class="tree-icon"><img src="/image/mobile/tools.svg" alt="utils" style="width: 16px; height: 16px; display: inline-block;"></span>
                 <span class="tree-name">utils/</span>
                 <span class="tree-desc">工具函数</span>
               </div>
             </div>
           </div>
           <div class="tree-item">
-            <span class="tree-icon">🎭</span>
+            <span class="tree-icon"><img src="/image/mobile/mask.svg" alt="static" style="width: 16px; height: 16px; display: inline-block;"></span>
             <span class="tree-name">static/</span>
             <span class="tree-desc">静态资源</span>
           </div>
           <div class="tree-item">
-            <span class="tree-icon">⚙️</span>
+            <span class="tree-icon"><img src="/image/mobile/gear.svg" alt="pages.json" style="width: 16px; height: 16px; display: inline-block;"></span>
             <span class="tree-name">pages.json</span>
             <span class="tree-desc">页面配置</span>
           </div>
           <div class="tree-item">
-            <span class="tree-icon">📱</span>
+            <span class="tree-icon"><img src="/image/mobile/mobile.svg" alt="manifest.json" style="width: 16px; height: 16px; display: inline-block;"></span>
             <span class="tree-name">manifest.json</span>
             <span class="tree-desc">应用配置</span>
           </div>
@@ -162,7 +162,7 @@
 
   <div class="structure-features">
     <div class="feature-card api">
-      <div class="feature-icon">🔌</div>
+      <div class="feature-icon"><img src="/image/mobile/plug.svg" alt="API 层设计" style="width: 24px; height: 24px; display: inline-block;"></div>
       <h4>API 层设计</h4>
       <ul>
         <li>统一的请求封装</li>
@@ -172,7 +172,7 @@
       </ul>
     </div>
     <div class="feature-card components">
-      <div class="feature-icon">🧩</div>
+      <div class="feature-icon"><img src="/image/mobile/components.svg" alt="组件化开发" style="width: 24px; height: 24px; display: inline-block;"></div>
       <h4>组件化开发</h4>
       <ul>
         <li>可复用的UI组件</li>
@@ -182,7 +182,7 @@
       </ul>
     </div>
     <div class="feature-card state">
-      <div class="feature-icon">🗃️</div>
+      <div class="feature-icon"><img src="/image/mobile/storage.svg" alt="状态管理" style="width: 24px; height: 24px; display: inline-block;"></div>
       <h4>状态管理</h4>
       <ul>
         <li>用户信息管理</li>
@@ -194,7 +194,7 @@
   </div>
 </div>
 
-## 🚀 环境搭建
+## <img src="/image/mobile/rocket.svg" alt="环境搭建" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">环境搭建
 
 ### 1. 克隆项目
 
@@ -373,7 +373,7 @@ yarn install
 }
 ```
 
-## 📋 开发流程
+## <img src="/image/mobile/clipboard.svg" alt="开发流程" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">开发流程
 
 ### 1. 启动开发环境
 
@@ -788,7 +788,7 @@ export const useChatStore = defineStore('chat', {
         confirm-type="send"
       />
       <view class="input-actions">
-        <button @click="chooseImage" class="action-btn">📷</button>
+        <button @click="chooseImage" class="action-btn"><img src="/image/mobile/camera.svg" alt="选择图片" style="width: 16px; height: 16px; display: inline-block;"></button>
         <button @click="sendMessage" class="send-btn" :disabled="!inputText.trim()">
           发送
         </button>
@@ -981,7 +981,7 @@ export default {
 </style>
 ```
 
-## 📱 平台适配
+## <img src="/image/mobile/mobile.svg" alt="平台适配" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">平台适配
 
 ### 1. Android适配
 
@@ -1010,7 +1010,7 @@ export default {
 // #endif
 ```
 
-## 🔧 构建和发布
+## <img src="/image/mobile/wrench.svg" alt="构建和发布" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">构建和发布
 
 ### 1. 构建命令
 
@@ -1042,7 +1042,7 @@ npm run build_test
    - 提交审核
    - 发布上线
 
-## 🐛 调试技巧
+## <img src="/image/mobile/bug.svg" alt="调试技巧" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">调试技巧
 
 ### 1. 控制台调试
 
@@ -1064,7 +1064,7 @@ console.log('调试信息:', data)
 - iOS: 使用Safari远程调试
 - 小程序: 微信开发者工具真机预览
 
-## 📚 相关资源
+## <img src="/image/mobile/book.svg" alt="相关资源" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">相关资源
 
 - [uni-app官方文档](https://uniapp.dcloud.net.cn/)
 - [Vue.js官方文档](https://vuejs.org/)

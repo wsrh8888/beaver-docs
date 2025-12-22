@@ -2,7 +2,7 @@
 
 Go语言后端开发所需的核心软件和工具。
 
-## 🛠️ 必备软件列表
+## <img src="/image/guide/tools.svg" alt="必备软件列表" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">必备软件列表
 
 <div class="software-grid">
   <div class="software-item">
@@ -15,7 +15,7 @@ Go语言后端开发所需的核心软件和工具。
       <span class="status required">必需</span>
     </div>
     <p>后端服务开发语言，高性能编译型语言</p>
-    <a href="./backend/golang" class="install-link">📖 安装教程</a>
+    <a href="./backend/golang" class="install-link"><img src="/image/guide/book.svg" alt="安装教程" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px; display: inline-block;">安装教程</a>
   </div>
 
   <div class="software-item">
@@ -28,7 +28,7 @@ Go语言后端开发所需的核心软件和工具。
       <span class="status required">必需</span>
     </div>
     <p>容器化平台，用于运行MySQL、Redis等数据库服务</p>
-    <a href="./backend/docker" class="install-link">📖 安装教程</a>
+    <a href="./backend/docker" class="install-link"><img src="/image/guide/book.svg" alt="安装教程" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px; display: inline-block;">安装教程</a>
   </div>
 
   <div class="software-item">
@@ -41,7 +41,7 @@ Go语言后端开发所需的核心软件和工具。
       <span class="status optional">推荐</span>
     </div>
     <p>MySQL数据库可视化管理工具</p>
-    <a href="./backend/navicat" class="install-link">📖 安装教程</a>
+    <a href="./backend/navicat" class="install-link"><img src="/image/guide/book.svg" alt="安装教程" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px; display: inline-block;">安装教程</a>
   </div>
 
   <div class="software-item">
@@ -54,7 +54,7 @@ Go语言后端开发所需的核心软件和工具。
       <span class="status optional">推荐</span>
     </div>
     <p>Redis数据库可视化管理工具</p>
-    <a href="./backend/redis-manager" class="install-link">📖 安装教程</a>
+    <a href="./backend/redis-manager" class="install-link"><img src="/image/guide/book.svg" alt="安装教程" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px; display: inline-block;">安装教程</a>
   </div>
 
   <div class="software-item">
@@ -67,14 +67,14 @@ Go语言后端开发所需的核心软件和工具。
       <span class="status optional">推荐</span>
     </div>
     <p>Etcd分布式键值存储可视化管理工具</p>
-    <a href="./backend/etcd-workbench" class="install-link">📖 安装教程</a>
+    <a href="./backend/etcd-workbench" class="install-link"><img src="/image/guide/book.svg" alt="安装教程" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px; display: inline-block;">安装教程</a>
   </div>
 </div>
 
-## 📋 安装说明
+## <img src="/image/guide/clipboard.svg" alt="安装说明" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">安装说明
 
 <div class="beaver-card">
-  <h4>🚀 推荐安装顺序</h4>
+  <h4><img src="/image/guide/rocket.svg" alt="推荐安装顺序" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px; display: inline-block;">推荐安装顺序</h4>
   <ol>
     <li><strong>第一步：</strong>安装 Golang - 后端开发基础环境</li>
     <li><strong>第二步：</strong>安装 Docker Desktop - 数据库容器环境</li>

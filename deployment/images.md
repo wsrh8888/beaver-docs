@@ -1,10 +1,10 @@
 # Docker镜像地址
 
-## 📦 镜像仓库信息
+## <img src="/image/deployment/package.svg" alt="镜像仓库信息" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">镜像仓库信息
 
 海狸IM的所有Docker镜像都托管在 [Docker Hub](https://hub.docker.com/u/wsrh8888) 上，由 `wsrh8888` 用户维护。
 
-## 🐳 镜像列表
+## <img src="/image/deployment/whale.svg" alt="镜像列表" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">镜像列表
 
 ### API服务镜像 (HTTP接口)
 
@@ -33,7 +33,7 @@
 | 5 | file_rpc | `wsrh8888/file_rpc` | 1.0.0 | 文件管理RPC服务，内部文件处理服务 |
 | 6 | dictionary_rpc | `wsrh8888/dictionary_rpc` | 1.0.0 | 字典数据RPC服务，内部数据配置服务 |
 
-## 🔗 镜像仓库链接
+## <img src="/image/deployment/link.svg" alt="镜像仓库链接" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">镜像仓库链接
 
 > 📦 **[访问Docker Hub镜像仓库](https://hub.docker.com/u/wsrh8888)**
 

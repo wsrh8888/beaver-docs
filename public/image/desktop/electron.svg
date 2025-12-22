@@ -1,0 +1,6 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="32" cy="32" r="28" fill="#47848F" stroke="#2C5F66" stroke-width="2"/>
+  <circle cx="32" cy="32" r="18" fill="#61DAFB" stroke="#21A3C4" stroke-width="1"/>
+  <circle cx="32" cy="32" r="10" fill="#FFFFFF"/>
+  <text x="32" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333" font-weight="bold">E</text>
+</svg>

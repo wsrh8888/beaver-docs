@@ -40,9 +40,9 @@ build_module() {
     echo "🚀 开始构建: $module_name"
     ./build/build.sh "$module_name"
     if [ $? -eq 0 ]; then
-        echo "✅ 打包镜像成功: $module_name"
+        echo "<img src="/image/backend/check.svg" alt="成功" style="width: 16px; height: 16px; display: inline-block;"> 打包镜像成功: $module_name"
     else
-        echo "❌ 打包镜像失败: $module_name"
+        echo "<img src="/image/backend/error.svg" alt="失败" style="width: 16px; height: 16px; display: inline-block;"> 打包镜像失败: $module_name"
     fi
     echo "----------------------------------------"
 }
@@ -66,7 +66,7 @@ done
 # 等待所有后台任务完成
 wait
 
-echo "🎉 所有模块构建完成！"
+echo "<img src="/image/backend/celebration.svg" alt="完成" style="width: 16px; height: 16px; display: inline-block;"> 所有模块构建完成！"
 
 ```
 

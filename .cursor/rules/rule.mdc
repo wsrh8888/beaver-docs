@@ -1,0 +1,25 @@
+---
+alwaysApply: true
+---
+# 项目概述
+
+## 文档规范
+
+### 1. 表情符号使用规范
+- **不要使用文字的表情**：禁止在文档中使用默认的表情符号（如 😂、🚀、📱 等）
+- **使用 SVG 替代**：所有表情符号必须替换为对应的 SVG 图标文件
+
+### 2. SVG 图标存放规范
+- **home 目录**：`/public/image/home/` - 存放首页相关的 SVG 图标
+- **desktop 目录**：`/public/image/desktop/` - 存放桌面端相关的 SVG 图标
+- **mobile 目录**：`/public/image/mobile/` - 存放移动端相关的 SVG 图标
+- **tutorials 目录**：`/public/image/tutorials/` - 存放教程相关的 SVG 图标
+
+### 3. 标题图标尺寸规范
+- **"##" 标题**：图标尺寸为 32px x 32px
+- **"###" 标题**：图标尺寸为 24px x 24px
+
+### 4. 图标样式规范
+- 所有图标必须设置 `display: inline-block;` 确保正确显示
+- 图标与文字间距使用 `margin-right: 8px;` 或 `gap: 8px;`
+- 使用 `vertical-align: middle;` 确保垂直居中对齐

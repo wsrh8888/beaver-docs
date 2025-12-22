@@ -28,7 +28,7 @@
   </div>
 </div>
 
-## 🖥️ 服务器要求
+## <img src="/image/guide/server.svg" alt="服务器要求" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">服务器要求
 
 ### 最低配置
 

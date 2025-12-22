@@ -1,0 +1,36 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 主进程 -->
+  <rect x="50" y="30" width="120" height="80" rx="8" fill="#FF7D45" fill-opacity="0.1" stroke="#FF7D45" stroke-width="2"/>
+  <text x="110" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FF7D45" font-weight="bold">主进程</text>
+  <text x="110" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">Main Process</text>
+  <text x="110" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#999">窗口管理、数据库、WebSocket</text>
+
+  <!-- 预加载 -->
+  <rect x="200" y="100" width="120" height="60" rx="8" fill="#52C41A" fill-opacity="0.1" stroke="#52C41A" stroke-width="2"/>
+  <text x="260" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#52C41A" font-weight="bold">预加载脚本</text>
+  <text x="260" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">Preload</text>
+  <text x="260" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#999">安全API桥梁</text>
+
+  <!-- 渲染进程 -->
+  <rect x="50" y="150" width="120" height="80" rx="8" fill="#1890FF" fill-opacity="0.1" stroke="#1890FF" stroke-width="2"/>
+  <text x="110" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1890FF" font-weight="bold">渲染进程</text>
+  <text x="110" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">Renderer</text>
+  <text x="110" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#999">Vue界面、状态管理</text>
+
+  <!-- 数据库 -->
+  <rect x="230" y="200" width="100" height="50" rx="8" fill="#722ED1" fill-opacity="0.1" stroke="#722ED1" stroke-width="2"/>
+  <text x="280" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#722ED1" font-weight="bold">SQLite</text>
+  <text x="280" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">本地数据库</text>
+
+  <!-- 连接线 -->
+  <path d="M170 70 L200 120" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M170 190 L200 140" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M260 160 L260 200" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- 箭头定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+</svg>

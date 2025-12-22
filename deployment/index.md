@@ -2,13 +2,13 @@
 
 海狸IM系统的完整部署指南，支持Docker和Docker Compose部署方式。
 
-## 🎯 部署架构
+## <img src="/image/deployment/target.svg" alt="部署架构" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">部署架构
 
 海狸IM采用微服务架构，支持容器化部署，主要包含以下组件：
 
 <div class="beaver-grid cols-2">
   <div class="beaver-card primary">
-    <h4>🖥️ 服务器环境</h4>
+    <h4><img src="/image/deployment/server.svg" alt="服务器环境" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px; display: inline-block;">服务器环境</h4>
     <p>基础环境搭建</p>
     <ul>
       <li>Docker & Docker Compose</li>
@@ -20,7 +20,7 @@
   </div>
 
   <div class="beaver-card secondary">
-    <h4>🔧 后端服务</h4>
+    <h4><img src="/image/deployment/wrench.svg" alt="后端服务" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px; display: inline-block;">后端服务</h4>
     <p>微服务部署</p>
     <ul>
       <li>Auth API 认证服务</li>
@@ -31,7 +31,7 @@
   </div>
 </div>
 
-## 📁 部署目录结构
+## <img src="/image/deployment/folder.svg" alt="部署目录结构" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">部署目录结构
 
 ```
 /mnt/
@@ -48,7 +48,7 @@
     └── file_api/            # 文件服务
 ```
 
-## 🔧 部署要求
+## <img src="/image/deployment/wrench.svg" alt="部署要求" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">部署要求
 
 ### 系统要求
 - **操作系统**: CentOS 7.6+

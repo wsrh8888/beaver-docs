@@ -1,0 +1,8 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="32" cy="16" rx="20" ry="8" fill="#52C41A" stroke="#389E0D" stroke-width="2"/>
+  <ellipse cx="32" cy="24" rx="20" ry="6" fill="#73D13D" stroke="#389E0D" stroke-width="2"/>
+  <ellipse cx="32" cy="32" rx="20" ry="6" fill="#95DE64" stroke="#389E0D" stroke-width="2"/>
+  <ellipse cx="32" cy="40" rx="20" ry="6" fill="#B7EB8F" stroke="#389E0D" stroke-width="2"/>
+  <ellipse cx="32" cy="48" rx="20" ry="6" fill="#D9F7BE" stroke="#389E0D" stroke-width="2"/>
+  <text x="32" y="56" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">SQLite</text>
+</svg>

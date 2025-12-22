@@ -2,7 +2,7 @@
 
 Etcd Workbench 是一个开源的 Etcd 可视化管理工具，提供友好的 Web 界面来管理 Etcd 集群。
 
-## 📋 软件信息
+## <img src="/image/guide/clipboard.svg" alt="软件信息" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">软件信息
 
 - **软件名称**: Etcd Workbench
 - **开发者**: 开源社区
@@ -10,7 +10,7 @@ Etcd Workbench 是一个开源的 Etcd 可视化管理工具，提供友好的 W
 - **授权**: 开源免费
 - **支持平台**: Windows / macOS / Linux
 
-## 📥 下载安装
+## <img src="/image/guide/download.svg" alt="下载安装" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">下载安装
 
 ### Windows 安装
 
@@ -45,7 +45,7 @@ wget https://github.com/gtamas/etcdmanager/releases/download/v1.0.0/etcdmanager-
 sudo rpm -ivh etcdmanager-1.0.0-1.x86_64.rpm
 ```
 
-## ⚙️ 配置连接
+## <img src="/image/guide/settings.svg" alt="配置连接" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">配置连接
 
 1. **启动 Etcd Workbench**
    - Windows: 开始菜单 → Etcd Workbench
@@ -63,7 +63,7 @@ sudo rpm -ivh etcdmanager-1.0.0-1.x86_64.rpm
    - 点击 "Test Connection" 按钮
    - 确认连接成功
 
-## 🔧 基本使用
+## <img src="/image/guide/wrench.svg" alt="基本使用" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">基本使用
 
 ### 浏览键值对
 - 在左侧树形结构中浏览 keys
@@ -80,7 +80,7 @@ sudo rpm -ivh etcdmanager-1.0.0-1.x86_64.rpm
 - 监控连接数和性能指标
 - 查看日志和事件
 
-## ✅ 验证安装
+## <img src="/image/guide/check.svg" alt="验证安装" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">验证安装
 
 打开 Etcd Workbench，尝试连接到本地 Etcd 实例：
 

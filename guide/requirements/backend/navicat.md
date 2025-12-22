@@ -1,6 +1,6 @@
 # Navicat Premium Lite 安装教程
 
-## 📥 下载安装
+## <img src="/image/guide/download.svg" alt="下载安装" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">下载安装
 
 ### Navicat Premium Lite 安装
 1. 访问：[https://www.navicat.com.cn/download/navicat-premium-lite](https://www.navicat.com.cn/download/navicat-premium-lite)
@@ -13,7 +13,7 @@
 5. **免费使用**：每家机构最多5个用户免费使用
 
 
-## ✅ 验证安装
+## <img src="/image/guide/check.svg" alt="验证安装" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">验证安装
 
 1. 启动 Navicat
 2. 点击"连接" → "MySQL"
@@ -24,7 +24,7 @@
    - 密码：123456（Docker默认）
 4. 点击"测试连接"
 
-## ⚙️ 基本使用
+## <img src="/image/guide/settings.svg" alt="基本使用" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">基本使用
 
 1. **连接数据库**：配置MySQL连接
 2. **创建数据库**：右键新建数据库

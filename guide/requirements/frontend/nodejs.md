@@ -1,6 +1,6 @@
 # Node.js 安装教程
 
-## 📥 下载安装
+## <img src="/image/guide/download.svg" alt="下载安装" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">下载安装
 
 ### Windows 安装
 1. 访问：https://nodejs.org/
@@ -21,7 +21,7 @@ sudo apt update
 sudo apt install nodejs npm
 ```
 
-## ✅ 验证安装
+## <img src="/image/guide/check.svg" alt="验证安装" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">验证安装
 
 打开终端，输入：
 ```bash
@@ -30,7 +30,7 @@ npm --version
 ```
 应该分别显示：`v20.x.x` 和 `9.x.x`
 
-## ⚙️ 配置镜像
+## <img src="/image/guide/settings.svg" alt="配置镜像" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">配置镜像
 
 ```bash
 npm config set registry https://registry.npmmirror.com

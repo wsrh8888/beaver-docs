@@ -2,7 +2,7 @@
 
 > 当前仅展示已上传的部分界面截图，更多功能界面将持续补充完善。
 
-## 📱 应用截图
+## <img src="/image/mobile/mobile.svg" alt="应用截图" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">应用截图
 
 ### 用户认证
 <div class="screenshots-grid">

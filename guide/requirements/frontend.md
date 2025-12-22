@@ -2,7 +2,7 @@
 
 前端和移动端开发必备工具。
 
-## 📋 软件清单
+## <img src="/image/guide/clipboard.svg" alt="软件清单" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">软件清单
 
 <div class="software-grid">
   <div class="software-item">
@@ -15,7 +15,7 @@
       <span class="version">版本要求：18.0+</span>
       <span class="status required">必装</span>
     </div>
-    <a href="./frontend/nodejs" class="install-btn">📖 安装教程</a>
+    <a href="./frontend/nodejs" class="install-btn"><img src="/image/guide/book.svg" alt="安装教程" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px; display: inline-block;">安装教程</a>
   </div>
 
   <div class="software-item">
@@ -28,7 +28,7 @@
       <span class="version">版本要求：3.8+</span>
       <span class="status required">必装</span>
     </div>
-    <a href="./frontend/hbuilderx" class="install-btn">📖 安装教程</a>
+    <a href="./frontend/hbuilderx" class="install-btn"><img src="/image/guide/book.svg" alt="安装教程" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px; display: inline-block;">安装教程</a>
   </div>
 </div>
 

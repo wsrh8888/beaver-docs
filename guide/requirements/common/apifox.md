@@ -1,6 +1,6 @@
 # Apifox 安装教程
 
-## 📥 下载安装
+## <img src="/image/guide/download.svg" alt="下载安装" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">下载安装
 
 ### 所有系统通用
 1. 访问：https://apifox.com/
@@ -8,13 +8,13 @@
 3. 选择对应系统版本下载
 4. 运行安装包完成安装
 
-## ✅ 验证安装
+## <img src="/image/guide/check.svg" alt="验证安装" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">验证安装
 
 1. 启动 Apifox
 2. 注册或登录账号
 3. 创建新项目测试
 
-## ⚙️ 基本使用
+## <img src="/image/guide/settings.svg" alt="基本使用" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">基本使用
 
 1. **创建API接口**
    - 点击"新建接口"

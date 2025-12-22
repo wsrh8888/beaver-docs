@@ -2,7 +2,7 @@
 
 海狸IM后端基于Go语言和go-zero微服务框架构建，采用微服务架构设计，具有高性能、高可用、易扩展的特点。
 
-## 🎯 技术架构
+## <img src="/image/backend/target.svg" alt="技术架构" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">技术架构
 
 ### 核心技术栈
 
@@ -15,7 +15,7 @@
 - **认证**: JWT
 - **容器化**: Docker
 
-## 📋 服务端口配置
+## <img src="/image/backend/clipboard.svg" alt="服务端口配置" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">服务端口配置
 
 | 服务名称 | API端口 | RPC端口 | Admin端口 | 职责 |
 |---------|---------|---------|-----------|------|

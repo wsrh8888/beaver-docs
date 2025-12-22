@@ -1,6 +1,6 @@
 # 开发流程
 
-## 🚀 启动顺序
+## <img src="/image/backend/rocket.svg" alt="启动顺序" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">启动顺序
 
 **重要：** 服务启动必须严格按照以下顺序进行：
 

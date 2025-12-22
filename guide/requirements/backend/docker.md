@@ -1,13 +1,13 @@
 # Docker Desktop 安装教程
 
-## 📥 下载安装
+## <img src="/image/guide/download.svg" alt="下载安装" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">下载安装
 
 1. 访问：https://www.docker.com/products/docker-desktop/
 2. 下载 Docker Desktop for Windows
 3. 双击安装包，选择使用 WSL2
 4. 安装完成后重启电脑
 
-## ✅ 验证安装
+## <img src="/image/guide/check.svg" alt="验证安装" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">验证安装
 
 打开终端，输入：
 ```bash
@@ -21,12 +21,12 @@ docker-compose --version
 ```
 应该显示：`Docker Compose version v2.x.x`
 
-## ⚙️ 配置国内镜像源
+## <img src="/image/guide/settings.svg" alt="配置国内镜像源" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">配置国内镜像源
 
 为了加速Docker镜像下载，建议配置国内镜像源：
 
 1. 打开 Docker Desktop
-2. 点击右上角设置图标（⚙️）
+2. 点击右上角设置图标（<img src="/image/guide/settings.svg" alt="设置" style="width: 16px; height: 16px; display: inline-block;">）
 3. 选择 "Docker Engine"
 4. 在配置文件中添加或修改以下内容：
 

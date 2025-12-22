@@ -10,7 +10,7 @@
 
 我们提供了完整的Apifox项目文件，包含所有接口的测试用例：
 
-**[📥 下载Apifox项目文件](/api/apifox-project.json)**
+**[<img src="/image/backend/download.svg" alt="下载Apifox项目文件" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px; display: inline-block;">下载Apifox项目文件](/api/apifox-project.json)**
 
 ### 导入步骤
 

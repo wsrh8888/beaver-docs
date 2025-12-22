@@ -1,6 +1,6 @@
 # 数据库初始化
 
-## 📋 查看数据库配置
+## <img src="/image/deployment/clipboard.svg" alt="查看数据库配置" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">查看数据库配置
 
 首先在服务器的 `docker-compose.yml` 文件中查看数据库连接配置：
 
@@ -10,7 +10,7 @@
 - MySQL端口
 - 服务器的IP地址
 
-## 🗄️ 创建数据库
+## <img src="/image/deployment/database.svg" alt="创建数据库" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">创建数据库
 
 ### 1. 连接数据库
 
@@ -49,7 +49,7 @@
 
 4. 点击 **确定** 创建数据库
 
-## 📝 修改服务端代码配置
+## <img src="/image/deployment/page.svg" alt="修改服务端代码配置" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">修改服务端代码配置
 
 在服务端代码的 `main.go` 文件中，找到数据库连接配置：
 
@@ -60,7 +60,7 @@
 - 将 `127.0.0.1:3306` 替换为你的服务器IP和docker-compose.yml中的MySQL端口
 - 确保数据库名称设置为 `beaver`
 
-## 🚀 执行初始化
+## <img src="/image/deployment/rocket.svg" alt="执行初始化" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">执行初始化
 
 ```bash
 go run main.go -db

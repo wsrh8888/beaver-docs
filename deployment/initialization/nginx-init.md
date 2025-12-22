@@ -1,6 +1,6 @@
 # Nginx初始化
 
-## 📋 公共配置 (nginx.conf)
+## <img src="/image/deployment/clipboard.svg" alt="公共配置 (nginx.conf)" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">公共配置 (nginx.conf)
 
 在 `/mnt/docker/nginx/conf/` 目录下创建 `nginx.conf` 文件，包含公共配置：
 
@@ -35,11 +35,11 @@ http {
 }
 ```
 
-## ⚠️ 重要提示
+## <img src="/image/deployment/warning.svg" alt="重要提示" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">重要提示
 
 **请根据你的需求选择以下其中一种配置方式，不要同时使用两种配置！**
 
-## 📋 HTTP版本配置
+## <img src="/image/deployment/clipboard.svg" alt="HTTP版本配置" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">HTTP版本配置
 
 在 `/mnt/docker/nginx/conf.d/` 目录下创建 `server.conf` 文件：
 
@@ -78,7 +78,7 @@ server {
 }
 ```
 
-### 🔧 配置后需要修改的内容
+### <img src="/image/deployment/wrench.svg" alt="配置后需要修改的内容" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px; display: inline-block;">配置后需要修改的内容
 
 拿到配置后，请根据你的实际环境修改以下内容：
 
@@ -88,7 +88,7 @@ server {
    - 如果API服务在同一台机器上，可以改为 `127.0.0.1`
    - 如果在其他内网机器上，改为对应的内网IP地址
 
-## 📋 HTTPS版本配置
+## <img src="/image/deployment/clipboard.svg" alt="HTTPS版本配置" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">HTTPS版本配置
 
 在 `/mnt/docker/nginx/conf.d/` 目录下创建 `https.conf` 文件：
 
@@ -136,7 +136,7 @@ server {
 }
 ```
 
-### 🔧 配置后需要修改的内容
+### <img src="/image/deployment/wrench.svg" alt="配置后需要修改的内容" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px; display: inline-block;">配置后需要修改的内容
 
 拿到配置后，请根据你的实际环境修改以下内容：
 
@@ -149,7 +149,7 @@ server {
    - `server.wsrh8888.com.pem` → `你的域名.pem`
    - `server.wsrh8888.com.key` → `你的域名.key`
 
-## 🔐 SSL证书配置
+## <img src="/image/deployment/lock.svg" alt="SSL证书配置" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">SSL证书配置
 
 如果选择HTTPS版本，需要配置SSL证书：
 
@@ -158,7 +158,7 @@ server {
    - `server.wsrh8888.com.pem` (证书文件)
    - `server.wsrh8888.com.key` (私钥文件)
 
-## 🚀 重启Nginx
+## <img src="/image/deployment/rocket.svg" alt="重启Nginx" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">重启Nginx
 
 配置完成后重启Nginx服务：
 

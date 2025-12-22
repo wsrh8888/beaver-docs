@@ -2,7 +2,7 @@
 
 使用Docker Compose部署海狸IM系统的基础服务，包括MySQL、Redis、ETCD和Nginx。
 
-## 🎯 概述
+## <img src="/image/deployment/target.svg" alt="概述" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">概述
 
 基础服务是海狸IM系统的核心依赖，包括：
 - **MySQL**: 主数据库，存储用户数据、聊天记录等
@@ -10,7 +10,7 @@
 - **ETCD**: 配置中心，存储服务配置和发现信息
 - **Nginx**: 反向代理，处理HTTP请求和负载均衡
 
-## 🚀 部署步骤
+## <img src="/image/deployment/rocket.svg" alt="部署步骤" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">部署步骤
 
 ### 1. 创建Docker Compose文件
 
@@ -83,7 +83,7 @@ networks:
         driver: bridge
 ```
 
-### ⚠️ 用户需要修改的配置项
+### <img src="/image/deployment/warning.svg" alt="用户需要修改的配置项" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">用户需要修改的配置项
 
 在部署前，请修改以下配置项：
 
@@ -99,7 +99,7 @@ networks:
 - 修改地址：将 `your_internal_ip` 和 `your_external_ip` 替换为你的内网和外网IP地址
 - 修改端口：不用改
 
-### 🔐 安全建议
+### <img src="/image/deployment/lock.svg" alt="安全建议" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">安全建议
 
 **推荐使用随机密码**：
 - 密码生成工具：https://suijimimashengcheng.bmcx.com/

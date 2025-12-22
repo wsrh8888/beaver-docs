@@ -4,9 +4,9 @@
 
 想要亲身体验海狸IM的功能？我们提供了Android体验包供您下载试用。
 
-> ⚠️ **重要声明**: 本体验包为**演示版本**，仅用于功能展示和技术演示，**不会正式运营**。安装包为uni-app直接打包生成，**未进行签名处理**，仅供学习和体验使用。
+> <img src="/image/mobile/warning.svg" alt="重要声明" style="width: 16px; height: 16px; vertical-align: middle; margin-right: 4px; display: inline-block;">**重要声明**: 本体验包为**演示版本**，仅用于功能展示和技术演示，**不会正式运营**。安装包为uni-app直接打包生成，**未进行签名处理**，仅供学习和体验使用。
 
-## 📱 Android体验包
+## <img src="/image/mobile/mobile.svg" alt="Android体验包" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">Android体验包
 
 ### 下载信息
 

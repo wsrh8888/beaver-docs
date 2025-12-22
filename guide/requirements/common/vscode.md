@@ -1,6 +1,6 @@
 # Visual Studio Code 安装教程
 
-## 📥 下载安装
+## <img src="/image/guide/download.svg" alt="下载安装" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">下载安装
 
 ### 所有系统通用
 1. 访问：https://code.visualstudio.com/
@@ -11,14 +11,14 @@
    - 创建桌面图标
    - 添加右键菜单
 
-## ✅ 验证安装
+## <img src="/image/guide/check.svg" alt="验证安装" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">验证安装
 
 1. 启动 VS Code
 2. 按 `Ctrl+Shift+X` 打开扩展商店
 3. 搜索并安装中文语言包：`Chinese (Simplified)`
 4. 重启 VS Code
 
-## ⚙️ 推荐插件
+## <img src="/image/guide/settings.svg" alt="推荐插件" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">推荐插件
 
 安装开发必需的插件：
 - **Go** - Go语言支持

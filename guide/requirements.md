@@ -2,13 +2,13 @@
 
 搭建海狸IM开发环境需要安装以下软件工具：
 
-## 📋 软件工具清单
+## <img src="/image/guide/clipboard.svg" alt="软件工具清单" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">软件工具清单
 
 海狸IM采用现代化技术栈，需要安装以下开发工具：
 
 <div class="software-category-grid">
   <div class="category-card">
-    <div class="category-icon">🛠️</div>
+    <div class="category-icon"><img src="/image/guide/tools.svg" alt="公共软件" style="width: 24px; height: 24px; display: inline-block;"></div>
     <h3>公共软件</h3>
     <p>跨平台通用开发工具</p>
     <ul class="software-list">
@@ -19,7 +19,7 @@
   </div>
 
   <div class="category-card">
-    <div class="category-icon">🖥️</div>
+    <div class="category-icon"><img src="/image/guide/server.svg" alt="后端软件" style="width: 24px; height: 24px; display: inline-block;"></div>
     <h3>后端软件</h3>
     <p>Go语言开发环境</p>
     <ul class="software-list">
@@ -32,7 +32,7 @@
   </div>
 
   <div class="category-card">
-    <div class="category-icon">📱</div>
+    <div class="category-icon"><img src="/image/guide/mobile.svg" alt="前端软件" style="width: 24px; height: 24px; display: inline-block;"></div>
     <h3>前端软件</h3>
     <p>移动端和桌面端开发</p>
     <ul class="software-list">
@@ -43,7 +43,7 @@
   </div>
 </div>
 
-## 💻 系统要求
+## <img src="/image/guide/computer.svg" alt="系统要求" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">系统要求
 
 ### 最低配置要求
 
@@ -62,7 +62,7 @@
 - **网络**: 宽带连接
 
 <div class="beaver-card">
-  <h4>🚀 推荐安装顺序</h4>
+  <h4><img src="/image/guide/rocket.svg" alt="推荐安装顺序" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px; display: inline-block;">推荐安装顺序</h4>
   <ol class="install-order">
     <li><strong>第一步：</strong>安装公共工具 - VS Code、Apifox</li>
     <li><strong>第二步：</strong>安装后端软件 - Golang、Docker、数据库工具</li>
