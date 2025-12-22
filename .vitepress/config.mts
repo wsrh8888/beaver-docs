@@ -60,6 +60,7 @@ export default defineConfig({
     // 站点验证（需要时添加）
     // ['meta', { name: 'google-site-verification', content: 'your-verification-code' }],
     // ['meta', { name: 'baidu-site-verification', content: 'your-verification-code' }],
+    ['meta', { name: 'baidu_union_verify', content: '48032b45b14359638412d5798e66b3df' }],
     ['meta', { name: 'msvalidate.01', content: 'your-verification-code' }],
     
     // JSON-LD Structured Data for SoftwareApplication
