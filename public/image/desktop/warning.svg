@@ -1,0 +1,5 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="32,8 56,48 8,48" fill="#FAAD14" stroke="#D48806" stroke-width="2"/>
+  <text x="32" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#D48806">!</text>
+  <text x="32" y="56" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">警告</text>
+</svg>

@@ -289,7 +289,7 @@ export default defineConfig({
           items: [
             { text: '项目概述', link: '/desktop/' },
             { text: '环境搭建', link: '/desktop/setup' },
-            { text: '开发指南', link: '/desktop/development' },
+            { text: '体验下载', link: '/desktop/experience' },
             { text: '界面展示', link: '/desktop/screenshots' },
           ]
         }

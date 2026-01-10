@@ -1,99 +1,135 @@
 # 桌面端界面展示
 
-桌面端应用采用了现代化的界面设计，提供了丰富的即时通讯功能和原生桌面体验。
+> 当前仅展示已上传的部分界面截图，更多功能界面将持续补充完善。
 
-## 登录界面
+## <img src="/image/desktop/desktop.svg" alt="应用截图" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">应用截图
 
-用户可以通过账号密码或二维码扫描快速登录应用。
+### 用户认证
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/login.jpg" alt="登录" />
+    <p>登录</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/find-password.jpg" alt="找回密码" />
+    <p>找回密码</p>
+  </div>
+</div>
 
-![登录界面](https://wsrh8888.github.io/beaver-docs/static/desktop/login.jpg)
+### 聊天功能
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/message.png" alt="消息主界面" />
+    <p>消息主界面</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/private-detail.png" alt="私聊聊天内容" />
+    <p>私聊聊天内容</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/group-detail.png" alt="群聊聊天内容" />
+    <p>群聊聊天内容</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/image.png" alt="图片预览" />
+    <p>图片预览</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/video.png" alt="视频预览" />
+    <p>视频预览</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/emoji-store.png" alt="表情商店" />
+    <p>表情商店</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/emoji-favorites.png" alt="表情收藏列表" />
+    <p>表情收藏列表</p>
+  </div>
+</div>
 
-## 主界面
+### 好友管理
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/friend-list.png" alt="好友列表" />
+    <p>好友列表</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/friend-detail.png" alt="好友详情" />
+    <p>好友详情</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/friend-verify.png" alt="好友验证" />
+    <p>好友验证</p>
+  </div>
+</div>
 
-左侧是会话列表，右侧是聊天窗口，支持多标签页同时聊天。
+### 群组功能
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/create-group.png" alt="创建群聊" />
+    <p>创建群聊</p>
+  </div>
+</div>
 
-![主界面](https://wsrh8888.github.io/beaver-docs/static/desktop/message.png)
+### 系统功能
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/profile-edit.jpg" alt="编辑个人资料" />
+    <p>编辑个人资料</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/update.png" alt="应用更新" />
+    <p>应用更新</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/about.png" alt="关于页面" />
+    <p>关于页面</p>
+  </div>
+</div>
 
-## 聊天功能
+<style>
+.screenshots-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
 
-### 私聊界面
+.screenshot-item {
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  background: var(--vp-c-bg);
+}
 
-支持文字、表情、图片、文件等多种消息类型。
+.screenshot-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
 
-![私聊详情](https://wsrh8888.github.io/beaver-docs/static/desktop/private-detail.png)
+.screenshot-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
-### 群聊界面
+.screenshot-item p {
+  margin: 10px 0;
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+  font-weight: 500;
+}
 
-群聊功能支持成员管理、消息提醒设置等。
-
-![群聊详情](https://wsrh8888.github.io/beaver-docs/static/desktop/group-detail.png)
-
-## 多媒体预览
-
-### 图片预览
-
-点击图片消息可以全屏预览，支持缩放、旋转等操作。
-
-![图片预览](https://wsrh8888.github.io/beaver-docs/static/desktop/image.png)
-
-### 视频预览
-
-支持视频文件的预览和播放。
-
-![视频预览](https://wsrh8888.github.io/beaver-docs/static/desktop/video.png)
-
-## 好友管理
-
-### 好友列表
-
-显示所有好友，支持搜索和分组管理。
-
-![好友列表](https://wsrh8888.github.io/beaver-docs/static/desktop/friend-list.png)
-
-### 好友详情
-
-查看好友资料、聊天记录等信息。
-
-![好友详情](https://wsrh8888.github.io/beaver-docs/static/desktop/friend-detail.png)
-
-### 好友验证
-
-处理好友申请和验证消息。
-
-![好友验证](https://wsrh8888.github.io/beaver-docs/static/desktop/friend-verify.png)
-
-## 群组功能
-
-支持创建和管理群聊，设置群公告、成员权限等。
-
-![创建群聊](https://wsrh8888.github.io/beaver-docs/static/desktop/create-group.png)
-
-## 系统功能
-
-### 个人资料编辑
-
-修改头像、昵称、个性签名等个人信息。
-
-![编辑个人资料](https://wsrh8888.github.io/beaver-docs/static/desktop/profile-edit.jpg)
-
-### 应用更新
-
-自动检查和下载应用更新。
-
-![应用更新](https://wsrh8888.github.io/beaver-docs/static/desktop/update.png)
-
-### 关于页面
-
-查看应用版本信息和项目介绍。
-
-![关于页面](https://wsrh8888.github.io/beaver-docs/static/desktop/about.png)
-
-## 密码找回
-
-忘记密码时可以通过邮箱找回。
-
-![找回密码](https://wsrh8888.github.io/beaver-docs/static/desktop/find-password.jpg)
-
----
-
-桌面端应用提供了完整的即时通讯解决方案，界面简洁易用，功能丰富强大。 
+@media (max-width: 768px) {
+  .screenshots-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+  }
+  .screenshot-item p {
+    font-size: 12px;
+  }
+}
+</style> 
