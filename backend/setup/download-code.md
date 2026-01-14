@@ -34,41 +34,62 @@ docker-compose up -d
 
 ## 4. 启动服务
 
-### 启动RPC服务
+### 推荐方式：使用批处理文件启动（Windows）
 
-#### 步骤1：点击运行任务
+**启动顺序：RPC → API → Admin**
+
+#### 步骤1：启动RPC服务
+
+双击运行 `build/start_rpc.bat` 文件：
+
+
+#### 步骤2：启动API服务
+
+双击运行 `build/start_api.bat` 文件：
+
+
+#### 步骤3：启动Admin服务
+
+双击运行 `build/start_admin.bat` 文件：
+
+
+### 备选方式：使用VSCode任务启动
+
+#### 启动RPC服务
+
+##### 步骤1：点击运行任务
 
 在VSCode中点击"运行(R)" → "运行任务..."：
 
 ![点击运行任务](/backend/click-run-task.png)
 
-#### 步骤2：选择要运行的任务
+##### 步骤2：选择要运行的任务
 
 在弹出的任务列表中选择"启动RPC服务"：
 
 ![选择要运行的任务](/backend/select-rpc-task.png)
 
-#### 步骤3：启动成功
+##### 步骤3：启动成功
 
 RPC服务启动成功，终端显示运行状态：
 
 ![启动成功](/backend/rpc-start-success.png)
 
-### 启动API服务
+#### 启动API服务
 
-#### 步骤1：点击运行任务
+##### 步骤1：点击运行任务
 
 在VSCode中点击"运行(R)" → "运行任务..."：
 
 ![点击运行任务](/backend/click-run-task-api.png)
 
-#### 步骤2：选择要运行的任务
+##### 步骤2：选择要运行的任务
 
 在弹出的任务列表中选择"启动Api全部任务"：
 
 ![选择要运行的任务](/backend/select-api-task.png)
 
-#### 步骤3：启动成功
+##### 步骤3：启动成功
 
 API服务启动成功，终端显示运行状态：
 
