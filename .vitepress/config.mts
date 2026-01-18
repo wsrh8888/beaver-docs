@@ -254,7 +254,8 @@ export default defineConfig({
           items: [
             { text: '项目概述', link: '/backend/' },
             { text: 'API接口', link: '/backend/api' },
-            { text: '初始化etcd、redis、mysql', link: '/backend/development' }
+            { text: '初始化etcd、redis、mysql', link: '/backend/development' },
+            { text: '数据库初始化', link: '/deployment/initialization/database-init' }
           ]
         },
         {

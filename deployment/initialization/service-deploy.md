@@ -35,62 +35,49 @@ unzip /tmp/beaver-server.zip -d /mnt/beaver
 
 ### 4. 启动服务
 
-**注意：需要先启动RPC服务，再启动API服务**
+**注意：**
+- 先停止所有服务，再启动服务
+- 服务启动顺序：RPC → API → Admin
 
 ```bash
 # 进入beaver目录
 cd /mnt/beaver
 
-# 启动RPC服务（需要进入每个RPC服务目录）
-cd rpc_services/user_rpc
+# 1. 停止所有服务
+./deploy/stop.sh
+
+# 2. 启动所有服务
+./deploy/start.sh
+```
+
+#### Linux环境使用说明
+
+如果在Linux环境中遇到空格转义问题，可以使用以下命令自动修复脚本：
+
+```bash
+# 自动修复start.sh中的转义问题
+sed -i 's/\\$/$/g' deploy/start.sh
+
+# 自动修复stop.sh中的转义问题
+sed -i 's/\\$/$/g' deploy/stop.sh
+```
+
+
+#### 脚本功能说明
+
+- **stop.sh**: 按 Admin → API → RPC 的顺序停止所有服务，并清理容器和网络
+- **start.sh**: 按 RPC → API → Admin 的顺序启动所有服务，支持自动拉取最新镜像
+
+#### 手动操作（可选）
+
+如果需要手动启动特定服务，可以进入对应目录执行：
+
+```bash
+# 例如启动用户API服务
+cd /mnt/beaver/deploy/user_api
 docker-compose up -d
 
-cd ../group_rpc
-docker-compose up -d
-
-cd ../friend_rpc
-docker-compose up -d
-
-cd ../chat_rpc
-docker-compose up -d
-
-cd ../file_rpc
-docker-compose up -d
-
-cd ../dictionary_rpc
-docker-compose up -d
-
-# 启动API服务（需要进入每个API服务目录）
-cd ../../api_services/auth_api
-docker-compose up -d
-
-cd ../chat_api
-docker-compose up -d
-
-cd ../dictionary_api
-docker-compose up -d
-
-cd ../feedback_api
-docker-compose up -d
-
-cd ../file_api
-docker-compose up -d
-
-cd ../friend_api
-docker-compose up -d
-
-cd ../group_api
-docker-compose up -d
-
-cd ../moment_api
-docker-compose up -d
-
-cd ../user_api
-docker-compose up -d
-
-cd ../ws_api
-docker-compose up -d
-
-cd ../gateway_api
+# 例如启动用户RPC服务
+cd /mnt/beaver/deploy/user_rpc
 docker-compose up -d
 ```
