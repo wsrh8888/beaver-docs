@@ -129,6 +129,7 @@ export default defineConfig({
       { text: '后端', link: '/backend/' },
       { text: '移动端', link: '/mobile/' },
       { text: '桌面端', link: '/desktop/' },
+      { text: '后台管理', link: '/manager/' },
       { text: '更新记录', link: '/changelog/' },
       // { text: '价格', link: '/commercial/' },
       { text: '社区', link: '/community/' }
@@ -263,6 +264,12 @@ export default defineConfig({
           ]
         },
         {
+          text: '源码地址',
+          items: [
+            { text: '服务端源码', link: 'https://github.com/wsrh8888/beaver-server' }
+          ]
+        },
+        {
           text: '打包部署',
           items: [
             { text: 'Docker登录', link: '/backend/deploy/docker-login' },
@@ -280,6 +287,12 @@ export default defineConfig({
             { text: '界面展示', link: '/mobile/screenshots' },
             { text: '体验下载', link: '/mobile/experience' },
           ]
+        },
+        {
+          text: '源码地址',
+          items: [
+            { text: '移动端源码', link: 'https://github.com/wsrh8888/beaver-mobile' }
+          ]
         }
       ],
       
@@ -291,6 +304,41 @@ export default defineConfig({
             { text: '环境搭建', link: '/desktop/setup' },
             { text: '体验下载', link: '/desktop/experience' },
             { text: '界面展示', link: '/desktop/screenshots' },
+          ]
+        },
+        {
+          text: '源码地址',
+          items: [
+            { text: 'PC端源码', link: 'https://github.com/wsrh8888/beaver-desktop.git' }
+          ]
+        }
+      ],
+
+      '/manager/': [
+        {
+          text: '项目介绍',
+          items: [
+            { text: '项目概述', link: '/manager/' },
+          ]
+        },
+        {
+          text: '搭建教程',
+          items: [
+            { text: '环境配置', link: '/manager/config' },
+            { text: '本地开发', link: '/manager/setup' },
+            { text: '打包部署', link: '/manager/deploy' },
+          ]
+        },
+        {
+          text: '源码地址',
+          items: [
+            { text: '后台系统', link: 'https://github.com/wsrh8888/beaver-manager' }
+          ]
+        },
+        {
+          text: '界面展示',
+          items: [
+            { text: '界面展示', link: '/manager/screenshots' },
           ]
         }
       ],
