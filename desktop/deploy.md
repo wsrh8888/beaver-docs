@@ -21,6 +21,39 @@ npm run package-install
 
 此命令会将产物包制作成exe格式的安装程序。
 
+## 接口配置
+
+### 修改服务器地址
+
+在打包前，需要根据实际部署的服务器地址修改接口配置：
+
+**文件位置**: `src/common/config/index.ts`
+
+```typescript
+const config: IConfigs = {
+  dev: {
+    baseUrl: 'http://127.0.0.1:20800',
+    wsUrl: 'http://127.0.0.1:20800/api/ws/ws',
+  },
+  test: {
+    baseUrl: 'https://server-test.wsrh8888.com/beaver',
+    wsUrl: 'https://server-test.wsrh8888.com/beaver/api/ws/ws',
+  },
+  prod: {
+    baseUrl: 'https://server.wsrh8888.com/beaver',
+    wsUrl: 'https://server.wsrh8888.com/beaver/api/ws/ws',
+  },
+}
+```
+
+### 配置说明
+
+- **dev**: 开发环境，使用本地服务器
+- **test**: 测试环境
+- **prod**: 生产环境
+
+修改对应的 `baseUrl` 和 `wsUrl` 为您的实际服务器地址。
+
 ## 构建产物
 
 ### 产物包目录结构
