@@ -308,6 +308,14 @@ export default defineConfig({
           ]
         },
         {
+          text: '搭建教程',
+          items: [
+            { text: '环境配置', link: '/desktop/config' },
+            { text: '本地开发', link: '/desktop/development' },
+            { text: '打包部署', link: '/desktop/deploy' },
+          ]
+        },
+        {
           text: '源码地址',
           items: [
             { text: 'PC端源码', link: 'https://github.com/wsrh8888/beaver-desktop.git' }
