@@ -56,6 +56,39 @@ tools=false
   - `true`: 启用开发者工具
   - `false`: 禁用开发者工具
 
+## 接口配置
+
+### 修改服务器地址
+
+项目需要配置服务器接口地址，请修改以下文件：
+
+**文件位置**: `src/common/config/index.ts`
+
+```typescript
+const config: IConfigs = {
+  dev: {
+    baseUrl: 'http://127.0.0.1:20800',
+    wsUrl: 'http://127.0.0.1:20800/api/ws/ws',
+  },
+  test: {
+    baseUrl: 'https://server-test.wsrh8888.com/beaver',
+    wsUrl: 'https://server-test.wsrh8888.com/beaver/api/ws/ws',
+  },
+  prod: {
+    baseUrl: 'https://server.wsrh8888.com/beaver',
+    wsUrl: 'https://server.wsrh8888.com/beaver/api/ws/ws',
+  },
+}
+```
+
+### 配置说明
+
+- **dev**: 开发环境，使用本地服务器
+- **test**: 测试环境
+- **prod**: 生产环境
+
+请根据您的实际服务器地址修改对应的 `baseUrl` 和 `wsUrl`。
+
 ## 常见问题
 
 ### 依赖安装失败
