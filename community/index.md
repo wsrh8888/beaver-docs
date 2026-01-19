@@ -9,9 +9,16 @@ description: 加入海狸IM社区，与其他开发者交流技术，分享经�
 
 ## <img src="/image/community/chat.svg" alt="QQ交流群" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">QQ交流群
 
-**群号**: 1013328597
+**QQ交流群列表**:
 
-**群链接**: [点击链接加入群聊【海狸IM沟通群】](https://qm.qq.com/q/EgPWoboWH0)
+- **群一**: 1013328597 (已满)  
+  **群链接**: [点击链接加入群聊【海狸IM沟通群】](https://qm.qq.com/q/EgPWoboWH0)
+
+- **群二**: 1044762885  
+  **群链接**: [点击链接加入群聊【海狸IM沟通群】](https://qm.qq.com/q/82rbf7QBzO)
+
+- **群三**: 1003121259  
+  **群链接**: [点击链接加入群聊【海狸IM沟通群】](https://qm.qq.com/q/82rbf7QBzO)
 
 加入QQ群，您可以：
 - 与其他开发者交流技术问题
