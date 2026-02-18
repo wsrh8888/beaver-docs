@@ -33,7 +33,7 @@ services:
       - ./mysql/my.cnf:/etc/mysql/my.cnf
       - ./mysql/log:/var/log/mysql
   etcd:
-    image: bitnami/etcd:3.5.12
+    image: quay.io/coreos/etcd:v3.5.15  # 最新稳定版
     container_name: etcd
     ports:
       - "2379:2379"
