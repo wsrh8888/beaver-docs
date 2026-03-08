@@ -46,6 +46,22 @@
     <img src="/screenshots/desktop/emoji-favorites.png" alt="表情收藏列表" />
     <p>表情收藏列表</p>
   </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/forward.png" alt="消息转发" />
+    <p>消息转发</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/reply.png" alt="消息回复" />
+    <p>消息回复</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/multi-select.png" alt="多选消息" />
+    <p>多选消息</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/call.png" alt="音视频通话" />
+    <p>音视频通话</p>
+  </div>
 </div>
 
 ### 好友管理

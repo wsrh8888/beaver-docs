@@ -17,6 +17,10 @@
 - `group-detail.png` - 群聊详情
 - `emoji-store.png` - 表情商店
 - `emoji-favorites.png` - 表情收藏列表
+- `forward.png` - 消息转发
+- `reply.png` - 消息回复
+- `multi-select.png` - 多选消息
+- `call.png` - 音视频通话
 
 ### 群模块
 - `create-group.png` - 创建群聊
