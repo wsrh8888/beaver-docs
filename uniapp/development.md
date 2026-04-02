@@ -1,4 +1,4 @@
-# <img src="/image/mobile/mobile.svg" alt="海狸IM 移动端开发指南" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">海狸IM 移动端开发指南
+# <img src="/image/mobile/mobile.svg" alt="海狸IM uniapp开发指南" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">海狸IM uniapp开发指南
 
 <div class="hero-banner mobile-hero">
   <div class="hero-content">

@@ -1,4 +1,4 @@
-# 移动端开发概述
+# uniapp 开发概述
 
 海狸IM移动端基于uni-app框架开发，采用Vue 3 + TypeScript技术栈，支持iOS、Android、小程序等多平台一码多端。
 

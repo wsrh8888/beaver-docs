@@ -2,7 +2,7 @@
 
 ## <img src="/image/changelog/clipboard.svg" alt="更新概览" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">更新概览
 
-欢迎查看海狸IM的更新记录！这里记录了服务端、移动端和桌面端的所有重要更新内容。
+欢迎查看海狸IM的更新记录！这里记录了服务端、Flutter端、uniapp端和桌面端的所有重要更新内容。
 
 ## <img src="/image/changelog/search.svg" alt="版本号说明" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">版本号说明
 

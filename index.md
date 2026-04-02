@@ -8,7 +8,7 @@ titleTemplate: 轻量级、高性能、重安全的IM解决方案
 hero:
   name: "海狸IM"
   text: "开源企业级即时通讯系统"
-  tagline: 基于 go-zero + uni-app + Electron 构建的现代化IM解决方案
+  tagline: 基于 go-zero + Flutter + Electron 构建的现代化IM解决方案
   image:
     src: /logo.png
     alt: 海狸IM Logo
@@ -28,7 +28,7 @@ features:
       src: /image/home/rocket.svg
       alt: 现代化技术栈
     title: 现代化技术栈
-    details: 基于 Go-Zero、Uni-App、Electron 等现代化技术构建，确保系统的高性能和可扩展性。
+    details: 基于 Go-Zero、Flutter、Electron 等现代化技术构建，确保系统的高性能和可扩展性。
   - icon:
       src: /image/home/lock.svg
       alt: 私有化部署
@@ -38,7 +38,7 @@ features:
       src: /icons/open-source.svg
       alt: 开源
     title: 完全开源
-    details: Apache-2.0 开源协议，后端、移动端、桌面端全部开源，可自由使用和商业化
+    details: Apache-2.0 开源协议，后端、Flutter、桌面端全部开源，可自由使用和商业化
   - icon:
       src: /icons/cross-platform.svg
       alt: 跨平台
@@ -125,12 +125,12 @@ features:
     </div>
     <div class="arch-card">
       <div class="arch-icon" style="display: flex; justify-content: center; align-items: center;"><img src="/image/home/mobile.svg" alt="移动端" style="width: 32px; height: 32px; display: inline-block;"></div>
-      <h3 style="text-align: center;">移动端</h3>
-      <p style="text-align: center;">基于uni-app开发，支持iOS和Android双平台，一套代码多端运行</p>
+      <h3 style="text-align: center;">移动端 (Flutter)</h3>
+      <p style="text-align: center;">基于 Flutter 开发，高性能原生体验，支持 iOS 和 Android 双平台</p>
       <div class="tech-tags" style="text-align: center;">
-        <span class="tech-tag">uni-app</span>
-        <span class="tech-tag">Vue3</span>
-        <span class="tech-tag">跨平台</span>
+        <span class="tech-tag">Flutter</span>
+        <span class="tech-tag">Dart</span>
+        <span class="tech-tag">BLoC</span>
       </div>
     </div>
     <div class="arch-card">
@@ -163,13 +163,13 @@ features:
   
   <div class="repo-card">
     <div class="repo-header" style="display: flex; align-items: center; gap: 12px; justify-content: center;">
-      <div class="repo-icon"><img src="/image/home/mobile.svg" alt="beaver-mobile" style="width: 24px; height: 24px; display: inline-block;"></div>
-      <h3 style="margin: 0;">beaver-mobile</h3>
+      <div class="repo-icon"><img src="/image/home/mobile.svg" alt="beaver-flutter" style="width: 24px; height: 24px; display: inline-block;"></div>
+      <h3 style="margin: 0;">beaver-flutter</h3>
     </div>
-    <p style="text-align: center;">uni-app 跨平台移动端应用</p>
+    <p style="text-align: center;">Flutter 跨平台移动端应用</p>
     <div class="repo-links">
-      <a href="https://github.com/wsrh8888/beaver-mobile" target="_blank" class="repo-link github">GitHub</a>
-      <a href="https://gitee.com/dawwdadfrf/beaver-mobile" target="_blank" class="repo-link gitee">Gitee</a>
+      <a href="https://github.com/wsrh8888/beaver-flutter" target="_blank" class="repo-link github">GitHub</a>
+      <a href="https://gitee.com/dawwdadfrf/beaver-flutter" target="_blank" class="repo-link gitee">Gitee</a>
     </div>
   </div>
   

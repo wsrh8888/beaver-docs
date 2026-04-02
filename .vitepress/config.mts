@@ -3,23 +3,29 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "海狸IM",
-  description: "基于 go-zero + uni-app + Electron 构建的现代化IM解决方案",
+  description: "基于 go-zero + Flutter + Electron 构建的现代化IM解决方案",
   base: '/beaver-docs/',
   ignoreDeadLinks: true,
-  
+
+  vite: {
+    server: {
+      host: '0.0.0.0'
+    }
+  },
+
   // SEO优化配置
   lang: 'zh-CN',
   lastUpdated: true,
   cleanUrls: true,
-  
+
   // 生成网站地图
   sitemap: {
     hostname: 'https://wsrh8888.github.io/beaver-docs/'
   },
-  
+
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    
+
     // 百度统计
     ['script', {}, `
       var _hmt = _hmt || [];
@@ -30,7 +36,7 @@ export default defineConfig({
         s.parentNode.insertBefore(hm, s);
       })();
     `],
-    
+
     // SEO Meta标签
     ['meta', { name: 'keywords', content: 'IM聊天软件,即时通讯,私有化部署,开源IM,企业聊天,安全聊天软件,自建聊天服务器,go-lang IM,国产开源IM,企业内部沟通,团队协作工具,消息推送,实时通信,go-zero,uni-app,Electron,Vue3,TypeScript,WebSocket,端到端加密,多端同步,海狸IM' }],
     ['meta', { name: 'description', content: '海狸IM - 轻量级、高性能、重安全的开源即时通讯系统。支持私有化部署，基于go-zero微服务架构，提供iOS、Android、Windows、macOS、Linux、Web全平台支持，消息必达，永久存储，端到端加密。' }],
@@ -39,7 +45,7 @@ export default defineConfig({
     ['meta', { name: 'googlebot', content: 'index,follow' }],
     ['meta', { name: 'bingbot', content: 'index,follow' }],
     ['meta', { name: 'baidu-spider', content: 'index,follow' }],
-    
+
     // Open Graph / Facebook
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: '海狸IM - 开源企业级即时通讯系统' }],
@@ -47,22 +53,22 @@ export default defineConfig({
     ['meta', { property: 'og:url', content: 'https://wsrh8888.github.io/beaver-docs/' }],
     ['meta', { property: 'og:site_name', content: '海狸IM官方文档' }],
     ['meta', { property: 'og:locale', content: 'zh_CN' }],
-    
+
     // Twitter Card
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: '海狸IM - 开源企业级即时通讯系统' }],
     ['meta', { name: 'twitter:description', content: '轻量级、高性能、重安全的开源IM系统，支持私有化部署，全平台覆盖' }],
-    
+
     // 移动端优化
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ['meta', { name: 'theme-color', content: '#FF7D45' }],
-    
+
     // 站点验证（需要时添加）
     // ['meta', { name: 'google-site-verification', content: 'your-verification-code' }],
     // ['meta', { name: 'baidu-site-verification', content: 'your-verification-code' }],
     ['meta', { name: 'baidu_union_verify', content: '48032b45b14359638412d5798e66b3df' }],
     ['meta', { name: 'msvalidate.01', content: 'your-verification-code' }],
-    
+
     // JSON-LD Structured Data for SoftwareApplication
     ['script', { type: 'application/ld+json' }, `
       {
@@ -86,7 +92,7 @@ export default defineConfig({
         "license": "https://www.apache.org/licenses/LICENSE-2.0"
       }
     `],
-    
+
     ['style', {}, `
       :root {
         --vp-c-brand-1: #FF7D45;
@@ -116,18 +122,19 @@ export default defineConfig({
       }
     `]
   ],
-  
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.png',
-    
+
     nav: [
       { text: '首页', link: '/' },
       { text: '教程', link: '/tutorials/' },
       { text: '指南', link: '/guide/' },
       { text: '部署', link: '/deployment/' },
       { text: '后端', link: '/backend/' },
-      { text: '移动端', link: '/mobile/' },
+      { text: 'Flutter', link: '/flutter/' },
+      // { text: 'uniapp', link: '/uniapp/' },
       { text: '桌面端', link: '/desktop/' },
       { text: '后台管理', link: '/manager/' },
       { text: '更新记录', link: '/changelog/' },
@@ -159,7 +166,13 @@ export default defineConfig({
           ]
         },
         {
-          text: '移动端更新',
+          text: 'Flutter 更新',
+          items: [
+            { text: 'v1.0.0 - 2026-03-25', link: '/changelog/flutter/v1.0.0' }
+          ]
+        },
+        {
+          text: 'uniapp 更新',
           items: [
             { text: 'v1.2.2 - 2025-08-09', link: '/changelog/mobile/v1.2.2' }
           ]
@@ -176,13 +189,13 @@ export default defineConfig({
           text: '入门指南',
           items: [
             { text: '项目介绍', link: '/guide/' },
-            { 
-              text: '软件要求', 
+            {
+              text: '软件要求',
               link: '/guide/requirements',
               collapsed: false,
               items: [
-                { 
-                  text: '后端开发软件', 
+                {
+                  text: '后端开发软件',
                   link: '/guide/requirements/backend',
                   collapsed: false,
                   items: [
@@ -193,8 +206,8 @@ export default defineConfig({
                     { text: 'Etcd Workbench', link: '/guide/requirements/backend/etcd-workbench' }
                   ]
                 },
-                { 
-                  text: '前端开发软件', 
+                {
+                  text: '前端开发软件',
                   link: '/guide/requirements/frontend',
                   collapsed: false,
                   items: [
@@ -202,8 +215,8 @@ export default defineConfig({
                     { text: 'HBuilder X', link: '/guide/requirements/frontend/hbuilderx' }
                   ]
                 },
-                { 
-                  text: '公共开发工具', 
+                {
+                  text: '公共开发工具',
                   link: '/guide/requirements/common',
                   collapsed: false,
                   items: [
@@ -247,7 +260,7 @@ export default defineConfig({
           ]
         }
       ],
-      
+
       '/backend/': [
         {
           text: '服务端开发',
@@ -279,24 +292,41 @@ export default defineConfig({
           ]
         }
       ],
-      
-      '/mobile/': [
+
+      '/flutter/': [
         {
-          text: '移动端开发',
+          text: 'Flutter 开发',
           items: [
-            { text: '项目概述', link: '/mobile/' },
-            { text: '界面展示', link: '/mobile/screenshots' },
-            { text: '体验下载', link: '/mobile/experience' },
+            { text: '项目概述', link: '/flutter/' },
+            // { text: '环境搭建', link: '/flutter/setup' },
+            // { text: '本地开发', link: '/flutter/development' },
           ]
         },
         {
           text: '源码地址',
           items: [
-            { text: '移动端源码', link: 'https://github.com/wsrh8888/beaver-mobile' }
+            { text: 'Flutter 源码', link: 'https://github.com/wsrh8888/beaver-flutter' }
           ]
         }
       ],
-      
+
+      '/uniapp/': [
+        {
+          text: 'uniapp 开发',
+          items: [
+            { text: '项目概述', link: '/uniapp/' },
+            { text: '界面展示', link: '/uniapp/screenshots' },
+            { text: '体验下载', link: '/uniapp/experience' },
+          ]
+        },
+        {
+          text: '源码地址',
+          items: [
+            { text: 'uniapp 源码', link: 'https://github.com/wsrh8888/beaver-mobile' }
+          ]
+        }
+      ],
+
       '/desktop/': [
         {
           text: '桌面端开发',
@@ -350,7 +380,7 @@ export default defineConfig({
           ]
         }
       ],
-      
+
       '/community/': [
         {
           text: '社区交流',
@@ -376,21 +406,21 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/wsrh8888/beaver-server' }
     ],
-    
+
     footer: {
       message: 'Released under the Apache-2.0 License.',
       copyright: 'Copyright © 2024-present 海狸IM'
     },
-    
+
     search: {
       provider: 'local'
     },
-    
+
     editLink: {
       pattern: 'https://github.com/wsrh8888/beaver-docs/edit/main/:path',
       text: '在 GitHub 上编辑此页面'
     },
-    
+
     lastUpdated: {
       text: '最后更新于',
       formatOptions: {
