@@ -212,7 +212,8 @@ export default defineConfig({
                   collapsed: false,
                   items: [
                     { text: 'Node.js', link: '/guide/requirements/frontend/nodejs' },
-                    { text: 'HBuilder X', link: '/guide/requirements/frontend/hbuilderx' }
+                    { text: 'HBuilder X', link: '/guide/requirements/frontend/hbuilderx' },
+                    { text: 'Android Studio', link: '/guide/requirements/frontend/android-studio' }
                   ]
                 },
                 {
@@ -299,8 +300,13 @@ export default defineConfig({
           items: [
             { text: '项目概述', link: '/flutter/' },
             { text: '界面展示', link: '/flutter/screenshots' },
-            // { text: '环境搭建', link: '/flutter/setup' },
-            // { text: '本地开发', link: '/flutter/development' },
+          ]
+        },
+        {
+          text: '搭建教程',
+          items: [
+            { text: '环境配置', link: '/flutter/setup' },
+            { text: '本地开发', link: '/flutter/development' },
           ]
         },
         {

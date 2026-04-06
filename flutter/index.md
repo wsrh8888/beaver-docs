@@ -22,12 +22,4 @@
 - **功能完备**: 支持私聊、群聊、语音通话、视频通话等核心 IM 功能。
 - **多端一致**: 保证了在不同操作系统上的一致性体验。
 
-## 快速开始
 
-如果您想参与 Flutter 端的开发或在本地运行项目，请参考以下指南：
-
-1. **环境准备**: 安装 Flutter SDK 並配置开发环境。
-2. **克隆代码**: `git clone https://github.com/wsrh8888/beaver-flutter`
-3. **安装依赖**: `flutter pub get`
-4. **代码生成**: `dart run build_runner build` (如果使用了 Drift 或其他需要生成的库)
-5. **运行项目**: `flutter run`
