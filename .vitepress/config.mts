@@ -298,6 +298,7 @@ export default defineConfig({
           text: 'Flutter 开发',
           items: [
             { text: '项目概述', link: '/flutter/' },
+            { text: '界面展示', link: '/flutter/screenshots' },
             // { text: '环境搭建', link: '/flutter/setup' },
             // { text: '本地开发', link: '/flutter/development' },
           ]
