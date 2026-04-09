@@ -1,47 +1,65 @@
 # Android Studio 安装教程
 
-Android Studio 提供了完善的 Android SDK 工具链、模拟器以及 Flutter 开发所需的环境支持。
-
 ## <img src="/image/guide/download.svg" alt="下载安装" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">下载安装
 
-### 获取安装包
+### 1. 从归档页面下载
+访问官方归档页面：https://developer.android.google.cn/studio/archive
 
-1. **推荐（国内访问）**：打开 [获取 Android Studio（中文站）](https://developer.android.google.cn/studio)，下载当前稳定版安装包并运行安装向导。
-2. **需要指定历史版本**：打开 [Android Studio 下载文件归档](https://developer.android.google.cn/studio/archive)，在列表中选择所需版本，下载对应平台的安装包。归档页会说明模拟器等内容请另见「模拟器下载内容归档」等说明。
-3. **国际站**：也可使用 [developer.android.com/studio](https://developer.android.com/studio) 获取最新稳定版。
+> [!TIP]
+> **网页语言说明**：在访问归档页面时，如果看不到历史版本列表，请确保将网页页面右下角或底部的语言切换为 **English**。
 
-### 安装步骤
+![归档页面截图](/image/guide/common/android-studio-archive.png)
 
-1.  启动安装包，按向导完成安装；若需 Android 模拟器，请勾选 **Android Virtual Device**。
-2.  安装完成后，打开 **Settings > Plugins**，搜索并安装 **Flutter** 和 **Dart** 插件。
+### 2. 安装步骤
+1. 下载适合您操作系统（Windows/macOS/Linux）的版本。
+2. 运行安装程序，按照向导完成安装。
+
+![安装过程截图1](/image/guide/common/android-studio-install-1.png)
+![安装过程截图2](/image/guide/common/android-studio-install-2.png)
+
+3. 安装完成后启动 Android Studio。
+
+![安装完成截图](/image/guide/common/android-studio-installed.png)
 
 ## <img src="/image/guide/check.svg" alt="SDK 配置" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">SDK 配置
 
-### 配置 Android SDK
-在 **Settings > Languages & Frameworks > Android SDK**：
-1. 请下载最新的 **Android API**（推荐 API 34+）。
-2. 在 **SDK Tools** 选项卡中，确保勾选并安装了：
-   - **Android SDK Build-Tools**
-   - **Android SDK Command-line Tools (latest)**
-   - **Android Emulator**
+即使您不使用 Android Studio 进行代码开发，仅用于**项目打包**，也需要配置好 SDK 环境：
 
-## <img src="/image/guide/settings.svg" alt="环境变量" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">环境变量
+1. 启动 Android Studio，进入 **Settings > Languages & Frameworks > Android SDK**。
+2. 在 **SDK Platforms** 选项卡中，安装所需的 API 版本（推荐 API 34）。
 
-为了在命令行中使用命令，你需要配置 `ANDROID_HOME` 和 `platform-tools`。
+![SDK Platforms 配置截图](/image/guide/common/android-studio-sdk-platforms.png)
 
-### Windows 设置
-添加以下变量到环境变量：
-- `ANDROID_HOME`: `%USERPROFILE%\AppData\Local\Android\Sdk`
-- Path 中追加: `%ANDROID_HOME%\platform-tools` 和 `%ANDROID_HOME%\cmdline-tools\latest\bin`
+3. 在 **SDK Tools** 选项卡中，确保安装以下关键组件：
+   - Android SDK Build-Tools (打包核心组件)
+   - Android SDK Platform-Tools (用于调试与连接设备)
+   - Android Emulator (用于在电脑上运行模拟器)
 
-## <img src="/image/guide/check.svg" alt="验证环境" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">验证环境
+![SDK Tools 配置截图](/image/guide/common/android-studio-sdk-tools.png) -->
 
-打开终端，输入：
-```bash
-flutter doctor
-```
-若使用 [FVM](/guide/requirements/mobile/flutter) 管理 Flutter，请改为：
+## <img src="/image/guide/check.svg" alt="创建模拟器" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">创建模拟器 (Virtual Device)
+
+配置好 SDK 后，您需要创建一个模拟器来运行项目：
+
+1. 在 Android Studio 主页或设置中找到 **Device Manager** (设备管理器)。
+![设备管理器入口截图](/image/guide/common/android-studio-emu-1.png)
+
+2. 点击 **Create Device** (或 **+** 号) 开始创建。
+![创建设备按钮截图](/image/guide/common/android-studio-emu-2.png)
+
+3. **选择硬件**：推荐选择带 Google Play 图标的设备（如 Pixel 7）。
+![选择硬件截图](/image/guide/common/android-studio-emu-3.png)
+
+4. **选择系统镜像**：选择一个 API 版本（推荐与 SDK Platforms 一致，如 API 34），如果未下载则需先点击下载。
+![选择系统镜像截图](/image/guide/common/android-studio-emu-4.png)
+
+5. **完成创建**：点击 Finish。
+![创建完成后的设备列表截图](/image/guide/common/android-studio-emu-5.png)
+
+## 验证环境
+
+在项目目录下运行：
 ```bash
 fvm flutter doctor
 ```
-确保 **Android toolchain** 显示打钩状态。
+确保 **Android toolchain** 状态正常。如果看到 `Android license status unknown`，请根据提示运行 `fvm flutter doctor --android-licenses` 并一路按 `y` 同意即可。
