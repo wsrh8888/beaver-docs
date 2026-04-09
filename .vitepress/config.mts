@@ -213,7 +213,14 @@ export default defineConfig({
                   items: [
                     { text: 'Node.js', link: '/guide/requirements/frontend/nodejs' },
                     { text: 'HBuilder X', link: '/guide/requirements/frontend/hbuilderx' },
-                    { text: 'Android Studio', link: '/guide/requirements/frontend/android-studio' }
+                  ]
+                },
+                {
+                  text: '移动端开发软件',
+                  link: '/guide/requirements/mobile',
+                  collapsed: false,
+                  items: [
+                    { text: 'Flutter', link: '/guide/requirements/mobile/flutter' },
                   ]
                 },
                 {
@@ -222,6 +229,7 @@ export default defineConfig({
                   collapsed: false,
                   items: [
                     { text: 'Visual Studio Code', link: '/guide/requirements/common/vscode' },
+                    { text: 'Android Studio', link: '/guide/requirements/common/android-studio' },
                     { text: 'Apifox', link: '/guide/requirements/common/apifox' }
                   ]
                 }
