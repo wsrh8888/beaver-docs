@@ -129,7 +129,6 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/' },
-      { text: '教程', link: '/tutorials/' },
       { text: '指南', link: '/guide/' },
       { text: '部署', link: '/deployment/' },
       { text: '后端', link: '/backend/' },
@@ -139,7 +138,7 @@ export default defineConfig({
       { text: '后台管理', link: '/manager/' },
       { text: '更新记录', link: '/changelog/' },
       // { text: '价格', link: '/commercial/' },
-      { text: '社区', link: '/community/' }
+      { text: '关于', link: '/community/' },
     ],
 
     sidebar: {
@@ -400,8 +399,15 @@ export default defineConfig({
         {
           text: '社区交流',
           items: [
-            { text: '社区', link: '/community/' },
+            { text: '社区首页', link: '/community/' },
             { text: '赞助支持', link: '/community/sponsor' }
+          ]
+        },
+        {
+          text: '法律声明',
+          items: [
+            { text: '版权与二开说明', link: '/community/license' },
+            { text: '免责声明', link: '/community/disclaimer' }
           ]
         }
       ],
