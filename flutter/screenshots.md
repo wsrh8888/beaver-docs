@@ -4,87 +4,119 @@
 
 ## <img src="/image/mobile/mobile.svg" alt="应用截图" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">应用截图
 
+### 用户认证
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/flutter/账号-登录.jpg" alt="登录" />
+    <p>登录</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/flutter/账号- 找回密码.jpg" alt="找回密码" />
+    <p>找回密码</p>
+  </div>
+</div>
+
 ### 消息与聊天功能
 <div class="screenshots-grid">
   <div class="screenshot-item">
-    <img src="/screenshots/flutter/messages.jpg" alt="消息主界面" />
+    <img src="/screenshots/flutter/消息.jpg" alt="消息主界面" />
     <p>消息主界面</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/flutter/chat_content.jpg" alt="聊天消息内容" />
-    <p>聊天消息内容</p>
+    <img src="/screenshots/flutter/会话-语言.jpg" alt="语音会话" />
+    <p>语音会话</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/flutter/chat_settings.jpg" alt="聊天设置" />
-    <p>聊天设置</p>
+    <img src="/screenshots/flutter/聊天-markdown.jpg" alt="Markdown 消息" />
+    <p>Markdown 消息</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/flutter/聊天-图片预览.jpg" alt="图片预览" />
+    <p>图片预览</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/flutter/私聊-设置.jpg" alt="私聊设置" />
+    <p>私聊设置</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/flutter/表情-商店.jpg" alt="表情商店" />
+    <p>表情商店</p>
   </div>
 </div>
 
 ### 好友管理
 <div class="screenshots-grid">
   <div class="screenshot-item">
-    <img src="/screenshots/flutter/friend_list.jpg" alt="好友列表" />
+    <img src="/screenshots/flutter/朋友.jpg" alt="好友列表" />
     <p>好友列表</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/flutter/friend_profile.jpg" alt="好友详细资料" />
-    <p>好友详细资料</p>
+    <img src="/screenshots/flutter/好友-详情.jpg" alt="好友详情" />
+    <p>好友详情</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/flutter/new_friend_received.jpg" alt="收到好友申请" />
-    <p>收到好友申请</p>
+    <img src="/screenshots/flutter/好友-新的朋友.jpg" alt="新的朋友" />
+    <p>新的朋友</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/flutter/new_friend_sent.jpg" alt="发出好友申请" />
-    <p>发出好友申请</p>
+    <img src="/screenshots/flutter/添加朋友.jpg" alt="添加朋友" />
+    <p>添加朋友</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/flutter/搜索好友.jpg" alt="搜索好友" />
+    <p>搜索好友</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/flutter/扫码.jpg" alt="扫码" />
+    <p>扫码</p>
   </div>
 </div>
 
 ### 群聊功能
 <div class="screenshots-grid">
   <div class="screenshot-item">
-    <img src="/screenshots/flutter/create_group.jpg" alt="发起群聊" />
+    <img src="/screenshots/flutter/群聊-发起群聊.jpg" alt="发起群聊" />
     <p>发起群聊</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/flutter/my_groups.jpg" alt="我的群聊" />
-    <p>我的群聊</p>
+    <img src="/screenshots/flutter/群聊-列表.jpg" alt="群聊列表" />
+    <p>群聊列表</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/flutter/群聊-群聊设置.jpg" alt="群聊设置" />
+    <p>群聊设置</p>
+  </div>
+</div>
+
+### 朋友圈
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/flutter/朋友圈-详情.jpg" alt="动态详情" />
+    <p>动态详情</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/flutter/朋友圈-回复.jpg" alt="评论回复" />
+    <p>评论回复</p>
   </div>
 </div>
 
 ### 个人中心与设置
 <div class="screenshots-grid">
   <div class="screenshot-item">
-    <img src="/screenshots/flutter/my_profile.jpg" alt="个人中心 (我的)" />
-    <p>个人中心 (我的)</p>
+    <img src="/screenshots/flutter/我的.jpg" alt="个人中心" />
+    <p>个人中心</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/flutter/general_settings.jpg" alt="通用设置" />
+    <img src="/screenshots/flutter/我的-二维码.jpg" alt="我的二维码" />
+    <p>我的二维码</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/flutter/基础-通用设置.jpg" alt="通用设置" />
     <p>通用设置</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/flutter/feedback.jpg" alt="意见反馈" />
-    <p>意见反馈</p>
-  </div>
-</div>
-
-### 特色功能与系统
-<div class="screenshots-grid">
-  <div class="screenshot-item">
-    <img src="/screenshots/flutter/favorite_emojis.jpg" alt="收藏表情" />
-    <p>收藏表情</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="/screenshots/flutter/default_emojis.jpg" alt="系统默认表情" />
-    <p>系统默认表情</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="/screenshots/flutter/camera.jpg" alt="多媒体拍照" />
-    <p>多媒体拍照</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="/screenshots/flutter/database.jpg" alt="数据库同步管理" />
-    <p>数据库同步管理</p>
+    <img src="/screenshots/flutter/升级.jpg" alt="检查更新" />
+    <p>检查更新</p>
   </div>
 </div>
 
