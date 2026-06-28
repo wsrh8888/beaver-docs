@@ -1,53 +1,42 @@
-# 桌面端开发概述
+# 桌面端概述
 
-海狸IM桌面客户端是一款基于Electron + Vue 3开发的跨平台即时通讯应用。
+海狸 IM 桌面客户端基于 **Electron + Vue 3 + TypeScript** 开发，提供与移动端互通的即时通讯能力。
 
-## 核心特性
+当前仓库 **正式打包配置为 Windows（x64）**；Electron 本身具备跨平台能力，macOS / Linux 尚未提供官方安装包。
 
-- **跨平台支持**: Windows、macOS、Linux全平台覆盖
-- **原生体验**: 系统托盘、通知、窗口管理等桌面级功能
-- **本地存储**: SQLite数据库，支持离线使用
-- **实时通信**: WebSocket长连接，保证消息实时性
-- **现代化UI**: Vue 3 + TypeScript构建
+## 核心能力
 
-## 技术架构
-
-<div align="center">
-  <img src="/image/desktop/architecture.svg" alt="架构图" width="400"/>
-</div>
-
-### 三层架构设计
-
-1. **主进程**: 负责窗口管理、数据库操作、系统集成
-2. **渲染进程**: Vue应用界面，处理用户交互
-3. **预加载脚本**: 安全的进程间通信桥梁
+- **账号登录** - 密码登录、扫码登录（对接 OAuth 授权页）
+- **即时通讯** - 私聊/群聊，支持文本、语音、Markdown、图片、视频、表情及转发回复
+- **群组** - 创建群聊、群助手（Webhook 机器人）
+- **好友与朋友圈** - 好友申请与资料管理、朋友圈发布与互动
+- **音视频通话** - 基于 LiveKit 的语音/视频通话
+- **桌面特性** - 系统托盘、快捷键、区域截图、账号与存储设置
+- **本地缓存** - SQLite 持久化会话与消息，WebSocket 与服务端实时同步
 
 ## 技术栈
 
-<div align="center">
-  <img src="/image/desktop/electron.svg" alt="Electron" width="48"/>
-  <img src="/image/desktop/vue.svg" alt="Vue" width="48"/>
-  <img src="/image/desktop/database.svg" alt="SQLite" width="48"/>
-  <img src="/image/desktop/websocket.svg" alt="WebSocket" width="48"/>
-</div>
+| 技术 | 说明 |
+|------|------|
+| **Electron** 31 | 桌面应用壳 |
+| **Vue 3** + **Vite** + **TypeScript** | 渲染层与工程化 |
+| **Pinia** + **Vue Router** | 状态管理与路由 |
+| **SQLite** + **Drizzle ORM** | 本地消息与会话存储 |
+| **WebSocket** | 实时消息推送 |
+| **LiveKit** | 音视频通话 |
 
-- **Electron**: 跨平台桌面应用框架
-- **Vue 3 + TypeScript**: 前端框架和类型安全
-- **SQLite**: 本地数据库存储
-- **WebSocket**: 实时通信协议
+## 文档导航
 
-## 主要功能
+| 文档 | 说明 |
+|------|------|
+| [界面展示](/desktop/screenshots) | 功能截图一览 |
+| [体验下载](/desktop/experience) | Windows 体验包下载与安装 |
+| [本地开发](/desktop/development) | 开发环境启动 |
+| [配置说明](/desktop/config) | 环境与服务配置 |
+| [构建部署](/desktop/deploy) | 打包与发布 |
 
-- 🔐 用户认证 (登录、注册、密码找回)
-- 💬 即时通讯 (私聊、群聊、多种消息类型)
-- 👥 社交功能 (好友管理、群组创建)
-- 📎 多媒体支持 (图片、视频、文件传输)
-- 🔄 数据同步 (与服务端实时同步)
-- 🔔 系统集成 (托盘图标、桌面通知)
+## 相关仓库
 
-## 开发流程
-
-1. **环境搭建** → 配置Node.js和开发工具
-2. **项目运行** → 启动开发服务器
-3. **功能开发** → 基于现有架构开发新功能
-4. **构建打包** → 生成可执行程序分发
+- [beaver-desktop](https://github.com/wsrh8888/beaver-desktop) - 桌面端源码
+- [beaver-oauth](https://github.com/wsrh8888/beaver-oauth) - OAuth 授权登录页（桌面扫码/密码登录依赖）
+- [beaver-server](https://github.com/wsrh8888/beaver-server) - 后端服务
