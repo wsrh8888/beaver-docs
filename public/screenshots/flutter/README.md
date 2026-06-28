@@ -4,28 +4,39 @@
 
 ## 现有截图文件
 
-### 消息与聊天模块
-- `messages.jpg` - 消息主界面
-- `chat_content.jpg` - 聊天消息详情界面
-- `chat_settings.jpg` - 聊天设置与会话管理
+### 用户认证
+- `账号-登录.jpg` - 登录
+- `账号- 找回密码.jpg` - 找回密码
+
+### 聊天模块
+- `消息.jpg` - 消息主界面
+- `会话-语言.jpg` - 语音会话
+- `聊天-markdown.jpg` - Markdown 消息
+- `聊天-图片预览.jpg` - 图片预览
+- `私聊-设置.jpg` - 私聊设置
+- `表情-商店.jpg` - 表情商店
 
 ### 好友模块
-- `friend_list.jpg` - 通讯录好友列表
-- `friend_profile.jpg` - 好友详细资料
-- `new_friend_received.jpg` - 收到好友申请列表
-- `new_friend_sent.jpg` - 发出的好友申请历史
+- `朋友.jpg` - 通讯录好友列表
+- `好友-新的朋友.jpg` - 新的朋友
+- `好友-详情.jpg` - 好友详情
+- `添加朋友.jpg` - 添加朋友
+- `搜索好友.jpg` - 搜索好友
+- `扫码.jpg` - 扫码
 
-### 群组模块
-- `create_group.jpg` - 发起群聊界面
-- `my_groups.jpg` - 我的群聊列表
+### 群模块
+- `群聊-发起群聊.jpg` - 发起群聊
+- `群聊-列表.jpg` - 群聊列表
+- `群聊-群聊设置.jpg` - 群聊设置
 
-### 个人中心与设置
-- `my_profile.jpg` - 个人信息主页 (我的)
-- `general_settings.jpg` - 应用通用设置
-- `feedback.jpg` - 意见与反馈页面
+### 朋友圈
+- `朋友圈-详情.jpg` - 动态详情
+- `朋友圈-回复.jpg` - 评论回复
 
-### 特色与系统功能
-- `favorite_emojis.jpg` - 收藏表情管理
-- `default_emojis.jpg` - 默认系统表情
-- `camera.jpg` - 拍照与多媒体采集
-- `database.jpg` - 数据库状态与同步管理
+### 个人中心
+- `我的.jpg` - 个人中心
+- `我的-二维码.jpg` - 我的二维码
+
+### 系统功能
+- `基础-通用设置.jpg` - 通用设置
+- `升级.jpg` - 检查更新
