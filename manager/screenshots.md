@@ -1,38 +1,77 @@
 # 后台管理系统界面展示
 
-> 当前展示后台管理系统的核心功能界面截图。
-
-## <img src="/image/manager/update.svg" alt="版本管理" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">版本管理
+## 运营工作台
 
 <div class="screenshots-grid">
   <div class="screenshot-item">
-    <img src="/screenshots/manager/version-list.png" alt="版本列表" />
-    <p>版本列表</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="/screenshots/manager/architecture-management.png" alt="架构管理" />
-    <p>架构管理</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="/screenshots/manager/app-management.png" alt="应用管理" />
-    <p>应用管理</p>
+    <img src="/screenshots/manager/工作台.png" alt="运营工作台" />
+    <p>运营工作台</p>
   </div>
 </div>
 
-## <img src="/image/manager/emoji.svg" alt="表情包管理" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">表情包管理
+## 用户管理
 
 <div class="screenshots-grid">
   <div class="screenshot-item">
-    <img src="/screenshots/manager/emoji-collections.png" alt="表情包合集管理" />
-    <p>表情包合集管理</p>
+    <img src="/screenshots/manager/用户管理-用户列表.png" alt="用户列表" />
+    <p>用户列表</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/manager/emoji-management.png" alt="表情包管理" />
-    <p>表情包管理</p>
+    <img src="/screenshots/manager/用户管理-用户360.png" alt="用户360" />
+    <p>用户360</p>
+  </div>
+</div>
+
+## 版本发布
+
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/manager/版本发布-版本管理.png" alt="版本发布" />
+    <p>版本发布</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/manager/emoji-list.png" alt="表情列表" />
-    <p>表情列表</p>
+    <img src="/screenshots/manager/版本管理.png" alt="版本管理" />
+    <p>版本管理</p>
+  </div>
+</div>
+
+## 数据
+
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/manager/日志模块.png" alt="客户端日志" />
+    <p>客户端日志</p>
+  </div>
+</div>
+
+## 资源管理
+
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/manager/文件存储-文件列表.png" alt="文件列表" />
+    <p>文件列表</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/manager/表情包-表情包合理.png" alt="表情包合集" />
+    <p>表情包合集</p>
+  </div>
+</div>
+
+## 产品与开放
+
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/manager/产品与开放- 开发者.png" alt="开发者" />
+    <p>开发者</p>
+  </div>
+</div>
+
+## 系统
+
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/manager/连接监控.png" alt="连接监控" />
+    <p>连接监控</p>
   </div>
 </div>
 

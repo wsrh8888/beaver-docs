@@ -1,18 +1,16 @@
 # 桌面端界面展示
 
-> 当前仅展示已上传的部分界面截图，更多功能界面将持续补充完善。
-
 ## <img src="/image/desktop/desktop.svg" alt="应用截图" style="width: 32px; height: 32px; vertical-align: middle; margin-right: 8px; display: inline-block;">应用截图
 
 ### 用户认证
 <div class="screenshots-grid">
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/login.jpg" alt="登录" />
-    <p>登录</p>
+    <img src="/screenshots/desktop/登录-密码登录.png" alt="密码登录" />
+    <p>密码登录</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/find-password.jpg" alt="找回密码" />
-    <p>找回密码</p>
+    <img src="/screenshots/desktop/登录-扫码登录.png" alt="扫码登录" />
+    <p>扫码登录</p>
   </div>
 </div>
 
@@ -23,12 +21,20 @@
     <p>消息主界面</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/private-detail.png" alt="私聊聊天内容" />
-    <p>私聊聊天内容</p>
+    <img src="/screenshots/desktop/聊天-语音.png" alt="语音消息" />
+    <p>语音消息</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/group-detail.png" alt="群聊聊天内容" />
-    <p>群聊聊天内容</p>
+    <img src="/screenshots/desktop/聊天-markdown.png" alt="Markdown 消息" />
+    <p>Markdown 消息</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/private-detail.png" alt="私聊详情" />
+    <p>私聊详情</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/group-detail.png" alt="群聊详情" />
+    <p>群聊详情</p>
   </div>
   <div class="screenshot-item">
     <img src="/screenshots/desktop/image.png" alt="图片预览" />
@@ -64,6 +70,22 @@
   </div>
 </div>
 
+### 群组功能
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/create-group.png" alt="创建群聊" />
+    <p>创建群聊</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/群助手-列表.png" alt="群助手列表" />
+    <p>群助手列表</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/群助手-添加群助手.png" alt="添加群助手" />
+    <p>添加群助手</p>
+  </div>
+</div>
+
 ### 好友管理
 <div class="screenshots-grid">
   <div class="screenshot-item">
@@ -75,32 +97,60 @@
     <p>好友详情</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/friend-verify.png" alt="好友验证" />
-    <p>好友验证</p>
+    <img src="/screenshots/desktop/friend-verify.png" alt="好友申请" />
+    <p>好友申请</p>
   </div>
 </div>
 
-### 群组功能
+### 朋友圈
 <div class="screenshots-grid">
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/create-group.png" alt="创建群聊" />
-    <p>创建群聊</p>
+    <img src="/screenshots/desktop/朋友圈-主页.png" alt="朋友圈主页" />
+    <p>朋友圈主页</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/朋友圈-发布朋友圈.png" alt="发布朋友圈" />
+    <p>发布朋友圈</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/朋友圈-详情内容.png" alt="动态详情" />
+    <p>动态详情</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/朋友圈-点赞.png" alt="点赞" />
+    <p>点赞</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/朋友圈-评论.png" alt="评论" />
+    <p>评论</p>
+  </div>
+</div>
+
+### 个人中心
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/profile-edit.jpg" alt="编辑个人资料" />
+    <p>编辑个人资料</p>
   </div>
 </div>
 
 ### 系统功能
 <div class="screenshots-grid">
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/profile-edit.jpg" alt="编辑个人资料" />
-    <p>编辑个人资料</p>
-  </div>
-  <div class="screenshot-item">
-    <img src="/screenshots/desktop/update.png" alt="应用更新" />
-    <p>应用更新</p>
-  </div>
-  <div class="screenshot-item">
     <img src="/screenshots/desktop/about.png" alt="关于页面" />
     <p>关于页面</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/设置-检查更新.png" alt="检查更新" />
+    <p>检查更新</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/设置-快捷键.png" alt="快捷键设置" />
+    <p>快捷键设置</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/设置-账号与存储.png" alt="账号与存储" />
+    <p>账号与存储</p>
   </div>
 </div>
 
@@ -148,4 +198,4 @@
     font-size: 12px;
   }
 }
-</style> 
+</style>

@@ -136,7 +136,6 @@ export default defineConfig({
       // { text: 'uniapp', link: '/uniapp/' },
       { text: '桌面端', link: '/desktop/' },
       { text: '后台管理', link: '/manager/' },
-      { text: '更新记录', link: '/changelog/' },
       // { text: '价格', link: '/commercial/' },
       { text: '关于', link: '/community/' },
     ],
@@ -148,38 +147,6 @@ export default defineConfig({
           items: [
             { text: '合集·海狸IM服务器部署教程', link: '/tutorials/server-deployment-collection' },
             { text: '合集·海狸IM本地搭建教程', link: '/tutorials/local-setup-collection' }
-          ]
-        }
-      ],
-      '/changelog/': [
-        {
-          text: '更新记录',
-          items: [
-            { text: '更新概览', link: '/changelog/' }
-          ]
-        },
-        {
-          text: '服务端更新',
-          items: [
-            { text: 'v1.0.0 - 2025-08-09', link: '/changelog/backend/v1.0.0' }
-          ]
-        },
-        {
-          text: 'Flutter 更新',
-          items: [
-            { text: 'v1.0.0 - 2026-03-25', link: '/changelog/flutter/v1.0.0' }
-          ]
-        },
-        {
-          text: 'uniapp 更新',
-          items: [
-            { text: 'v1.2.2 - 2025-08-09', link: '/changelog/mobile/v1.2.2' }
-          ]
-        },
-        {
-          text: '桌面端更新',
-          items: [
-            { text: 'v1.0.0 - 未发布', link: '/changelog/desktop/v1.0.0' }
           ]
         }
       ],
@@ -371,6 +338,7 @@ export default defineConfig({
           text: '项目介绍',
           items: [
             { text: '项目概述', link: '/manager/' },
+            { text: '界面展示', link: '/manager/screenshots' },
           ]
         },
         {
@@ -385,12 +353,6 @@ export default defineConfig({
           text: '源码地址',
           items: [
             { text: '后台系统', link: 'https://github.com/wsrh8888/beaver-manager' }
-          ]
-        },
-        {
-          text: '界面展示',
-          items: [
-            { text: '界面展示', link: '/manager/screenshots' },
           ]
         }
       ],

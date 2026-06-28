@@ -1,26 +1,16 @@
 # 打包部署
 
+后台管理系统是纯前端 SPA，构建产物为静态文件，可部署到 Nginx、OSS 或任意静态托管。
+
 ## 构建命令
 
-### 生产环境构建
-
 ```bash
+# 生产环境构建（加载 .env.prod）
 npm run build_prod
-```
 
-### 测试环境构建
-
-```bash
+# 测试环境构建（加载 .env.test）
 npm run build_test
+
 ```
 
-## 构建产物
-
-构建完成后会在 `dist` 目录生成以下文件：
-
-- `index.html` - 主页面文件
-- `assets/` - 静态资源目录
-  - `css/` - 样式文件
-  - `js/` - JavaScript 文件
-  - `images/` - 图片资源
-- `favicon.ico` - 网站图标
+构建完成后，产物输出到 **`dist/`** 目录。
