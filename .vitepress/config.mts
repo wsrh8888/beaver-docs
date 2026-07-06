@@ -136,6 +136,7 @@ export default defineConfig({
       // { text: 'uniapp', link: '/uniapp/' },
       { text: '桌面端', link: '/desktop/' },
       { text: '后台管理', link: '/manager/' },
+      { text: '开放平台', link: '/open/' },
       // { text: '价格', link: '/commercial/' },
       { text: '关于', link: '/community/' },
     ],
@@ -353,6 +354,54 @@ export default defineConfig({
           text: '源码地址',
           items: [
             { text: '后台系统', link: 'https://github.com/wsrh8888/beaver-manager' }
+          ]
+        }
+      ],
+
+      '/open/': [
+        {
+          text: '开放平台',
+          items: [
+            { text: '项目概述', link: '/open/' },
+            { text: '界面展示', link: '/open/screenshots' },
+          ]
+        },
+        {
+          text: '开发者门户',
+          items: [
+            { text: '环境配置', link: '/open/portal/config' },
+            { text: '本地开发', link: '/open/portal/setup' },
+            { text: '打包部署', link: '/open/portal/deploy' },
+          ]
+        },
+        {
+          text: '开发指南',
+          items: [
+            { text: '接入流程', link: '/open/guide/flow' },
+            { text: '获取 AppID', link: '/open/guide/credential' },
+            { text: '接口约定', link: '/open/guide/convention' },
+          ]
+        },
+        {
+          text: '服务端 API',
+          items: [
+            { text: '身份验证', link: '/open/api/oauth/authorize' },
+            { text: '群机器人', link: '/open/api/bot' },
+            { text: '事件订阅', link: '/open/api/event' },
+          ]
+        },
+        {
+          text: '客户端接入',
+          items: [
+            { text: 'Web 授权页', link: '/open/client/web' },
+            { text: 'Electron', link: '/open/client/electron' },
+            { text: 'JS-SDK', link: '/open/client/js-sdk' },
+          ]
+        },
+        {
+          text: '源码地址',
+          items: [
+            { text: '开放平台源码', link: 'https://github.com/wsrh8888/beaver-open' }
           ]
         }
       ],
