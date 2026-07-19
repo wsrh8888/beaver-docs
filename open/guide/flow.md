@@ -4,7 +4,7 @@
 
 | 场景 | 做什么 | 文档入口 |
 |------|--------|----------|
-| **第三方登录** | 用户用海狸账号登录你的系统 | [身份验证](/open/api/oauth/authorize) + [客户端接入](/open/client/web) |
+| **第三方登录** | 用户用海狸账号登录你的系统 | [身份验证](/open/api/oauth/authorize) |
 | **群通知（Jenkins 等）** | CI 构建结果推到 IM 群 | [群机器人](/open/api/bot) |
 | **部署开放平台** | 私有化部署门户、创建应用 | [开发者门户](/open/portal/config) |
 
@@ -19,13 +19,12 @@
 
 ```
 用户打开你的应用
-    → 跳转授权页 / 嵌入 JS-SDK
-    → 扫码或密码登录，获得 code
+    → 完成授权登录，获得 code
     → 你的服务端用 code 换 accessToken
     → 拉取用户信息，建立登录态
 ```
 
-详见 [身份验证](/open/api/oauth/authorize)、[Web 授权页](/open/client/web)。
+详见 [身份验证](/open/api/oauth/authorize)。
 
 ## 群通知流程（Jenkins）
 

@@ -137,6 +137,7 @@ export default defineConfig({
       { text: '桌面端', link: '/desktop/' },
       { text: '后台管理', link: '/manager/' },
       { text: '开放平台', link: '/open/' },
+      { text: 'SDK', link: '/sdk/' },
       // { text: '价格', link: '/commercial/' },
       { text: '关于', link: '/community/' },
     ],
@@ -391,17 +392,40 @@ export default defineConfig({
           ]
         },
         {
-          text: '客户端接入',
+          text: '源码地址',
           items: [
-            { text: 'Web 授权页', link: '/open/client/web' },
-            { text: 'Electron', link: '/open/client/electron' },
-            { text: 'JS-SDK', link: '/open/client/js-sdk' },
+            { text: '开放平台源码', link: 'https://github.com/wsrh8888/beaver-open' }
+          ]
+        }
+      ],
+
+      '/sdk/': [
+        {
+          text: '登录接入',
+          items: [
+            { text: '概述', link: '/sdk/' },
+          ]
+        },
+        {
+          text: 'Web 授权页',
+          items: [
+            { text: '项目概述', link: '/sdk/oauth/' },
+            { text: '环境配置', link: '/sdk/oauth/config' },
+            { text: '本地开发', link: '/sdk/oauth/setup' },
+            { text: '打包部署', link: '/sdk/oauth/deploy' },
+            { text: '接入说明', link: '/sdk/oauth/integrate' },
+          ]
+        },
+        {
+          text: 'JS-SDK',
+          items: [
+            { text: '使用说明', link: '/sdk/js-sdk' },
           ]
         },
         {
           text: '源码地址',
           items: [
-            { text: '开放平台源码', link: 'https://github.com/wsrh8888/beaver-open' }
+            { text: 'beaver-oauth', link: 'https://github.com/wsrh8888/beaver-oauth' }
           ]
         }
       ],
