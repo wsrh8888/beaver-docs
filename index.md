@@ -57,6 +57,27 @@ features:
     title: 多端同步
     details: 移动端和桌面端数据实时同步，多设备无缝切换使用体验
 ---
+<!--
+  Copyright (c) 2024-2026 Beaver IM Team
+  SPDX-License-Identifier: MIT
+  Project: beaver-docs
+  https://github.com/wsrh8888/beaver-docs
+
+  中文：
+  本文件为海狸 IM（Beaver IM）开源项目源代码。
+  版权所有 © 2024-2026 Beaver IM Team，基于 MIT 协议授权。
+  禁止删除、篡改或替换本文件头部版权与许可声明。
+  使用与商业授权说明：https://wsrh8888.github.io/beaver-docs/community/license.html
+
+  English:
+  This file is part of the Beaver IM open-source project.
+  Copyright (c) 2024-2026 Beaver IM Team. Licensed under the MIT License.
+  Do not remove, alter, or replace this copyright and license header.
+  Usage & commercial licensing: https://wsrh8888.github.io/beaver-docs/community/license.html
+
+  beaver-docs-header-v1
+-->
+
 
 <div style="text-align: center; margin: 3rem 0; font-size: 1.1rem; color: #333;">
   <h2 style="font-weight: 600; margin-bottom: 1rem;">为什么选择海狸IM作为您的开源IM解决方案？</h2>
