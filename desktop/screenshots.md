@@ -84,6 +84,62 @@
     <img src="/screenshots/desktop/群助手-添加群助手.png" alt="添加群助手" />
     <p>添加群助手</p>
   </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/群聊-分享.png" alt="群聊分享" />
+    <p>群聊分享</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/群聊-分享-链接.png" alt="分享链接" />
+    <p>分享链接</p>
+  </div>
+</div>
+
+### 圈子
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/圈子模块.png" alt="圈子模块" />
+    <p>圈子模块</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/创建圈子.png" alt="创建圈子" />
+    <p>创建圈子</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/圈子二维码添加.png" alt="二维码添加圈子" />
+    <p>二维码添加圈子</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/最近会话-圈子详情.png" alt="圈子详情" />
+    <p>圈子详情</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/圈子发布帖子.png" alt="发布帖子" />
+    <p>发布帖子</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/圈子帖子详情.png" alt="帖子详情" />
+    <p>帖子详情</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/圈子-分享.png" alt="圈子分享" />
+    <p>圈子分享</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/圈子分享-名片.png" alt="分享名片" />
+    <p>分享名片</p>
+  </div>
+</div>
+
+### 工作台
+<div class="screenshots-grid">
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/工作台.png" alt="工作台" />
+    <p>工作台</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/工作台-百度.png" alt="工作台应用" />
+    <p>工作台应用</p>
+  </div>
 </div>
 
 ### 好友管理
