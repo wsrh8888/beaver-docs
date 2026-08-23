@@ -1,4 +1,4 @@
-# 🦫 Beaver IM Official Documentation
+﻿# 🦫 Beaver IM Official Documentation
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Go](https://img.shields.io/badge/go-1.21+-blue.svg)](https://golang.org/)
@@ -78,8 +78,18 @@ We welcome community contributions to Beaver IM documentation!
 - 🌍 **Translation Work** - Add multilingual support
 - 🐛 **Bug Fixes** - Fix documentation errors and broken links
 
-## 📄 Open Source License
+## 📄 License & Legal Disclaimer
 
-This project is open sourced under the [MIT](LICENSE) license.
+This project is licensed under the [MIT License](LICENSE) — see [LICENSE](LICENSE).
+
+**Summary:**
+
+- Closed-source self-use and re-open-sourcing derivatives are free if you keep the root `LICENSE` and show About attribution when deployed (Based on Beaver IM + repo link)
+- Closed-source delivery to third parties, removing About, or running a paid IM SaaS requires a commercial license (written contract)
+- **Do not delete or alter `LICENSE`**, whether paid or free
+
+Full disclaimer & attribution: [LEGAL.md](LEGAL.md)  
+Commercial product lines & pricing: [Copyright & Commercial Licensing](https://wsrh8888.github.io/beaver-docs/community/license.html)  
+Contact: [751135385@qq.com](mailto:751135385@qq.com)
 
 ---
