@@ -38,7 +38,7 @@
 ### 聊天功能
 <div class="screenshots-grid">
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/message.png" alt="消息主界面" />
+    <img src="/screenshots/desktop/聊天-消息主界面.png" alt="消息主界面" />
     <p>消息主界面</p>
   </div>
   <div class="screenshot-item">
@@ -46,47 +46,47 @@
     <p>语音消息</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/聊天-markdown.png" alt="Markdown 消息" />
+    <img src="/screenshots/desktop/聊天-Markdown消息.png" alt="Markdown 消息" />
     <p>Markdown 消息</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/private-detail.png" alt="私聊详情" />
+    <img src="/screenshots/desktop/聊天-私聊详情.png" alt="私聊详情" />
     <p>私聊详情</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/group-detail.png" alt="群聊详情" />
+    <img src="/screenshots/desktop/群聊-群聊详情.png" alt="群聊详情" />
     <p>群聊详情</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/image.png" alt="图片预览" />
+    <img src="/screenshots/desktop/聊天-图片预览.png" alt="图片预览" />
     <p>图片预览</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/video.png" alt="视频预览" />
+    <img src="/screenshots/desktop/聊天-视频预览.png" alt="视频预览" />
     <p>视频预览</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/emoji-store.png" alt="表情商店" />
+    <img src="/screenshots/desktop/表情-表情商店.png" alt="表情商店" />
     <p>表情商店</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/emoji-favorites.png" alt="表情收藏列表" />
+    <img src="/screenshots/desktop/表情-表情收藏.png" alt="表情收藏列表" />
     <p>表情收藏列表</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/forward.png" alt="消息转发" />
+    <img src="/screenshots/desktop/聊天-消息转发.png" alt="消息转发" />
     <p>消息转发</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/reply.png" alt="消息回复" />
+    <img src="/screenshots/desktop/聊天-消息回复.png" alt="消息回复" />
     <p>消息回复</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/multi-select.png" alt="多选消息" />
+    <img src="/screenshots/desktop/聊天-多选消息.png" alt="多选消息" />
     <p>多选消息</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/call.png" alt="音视频通话" />
+    <img src="/screenshots/desktop/聊天-音视频通话.png" alt="音视频通话" />
     <p>音视频通话</p>
   </div>
 </div>
@@ -94,7 +94,7 @@
 ### 群组功能
 <div class="screenshots-grid">
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/create-group.png" alt="创建群聊" />
+    <img src="/screenshots/desktop/群聊-创建群聊.png" alt="创建群聊" />
     <p>创建群聊</p>
   </div>
   <div class="screenshot-item">
@@ -166,15 +166,15 @@
 ### 好友管理
 <div class="screenshots-grid">
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/friend-list.png" alt="好友列表" />
+    <img src="/screenshots/desktop/好友-好友列表.png" alt="好友列表" />
     <p>好友列表</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/friend-detail.png" alt="好友详情" />
+    <img src="/screenshots/desktop/好友-好友详情.png" alt="好友详情" />
     <p>好友详情</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/friend-verify.png" alt="好友申请" />
+    <img src="/screenshots/desktop/好友-好友申请.png" alt="好友申请" />
     <p>好友申请</p>
   </div>
 </div>
@@ -206,7 +206,7 @@
 ### 个人中心
 <div class="screenshots-grid">
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/profile-edit.jpg" alt="编辑个人资料" />
+    <img src="/screenshots/desktop/个人中心-编辑个人资料.jpg" alt="编辑个人资料" />
     <p>编辑个人资料</p>
   </div>
 </div>
@@ -214,8 +214,12 @@
 ### 系统功能
 <div class="screenshots-grid">
   <div class="screenshot-item">
-    <img src="/screenshots/desktop/about.png" alt="关于页面" />
+    <img src="/screenshots/desktop/系统-关于页面.png" alt="关于页面" />
     <p>关于页面</p>
+  </div>
+  <div class="screenshot-item">
+    <img src="/screenshots/desktop/系统-开源致谢.png" alt="开源致谢" />
+    <p>开源致谢</p>
   </div>
   <div class="screenshot-item">
     <img src="/screenshots/desktop/设置-检查更新.png" alt="检查更新" />
