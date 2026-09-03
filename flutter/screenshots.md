@@ -44,10 +44,6 @@
     <p>消息主界面</p>
   </div>
   <div class="screenshot-item">
-    <img src="/screenshots/flutter/会话-语言.jpg" alt="语音会话" />
-    <p>语音会话</p>
-  </div>
-  <div class="screenshot-item">
     <img src="/screenshots/flutter/聊天-markdown.jpg" alt="Markdown 消息" />
     <p>Markdown 消息</p>
   </div>

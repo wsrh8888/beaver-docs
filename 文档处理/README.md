@@ -17,6 +17,8 @@
 |------|--------|------|------|------|
 | 01 | [01-海狸IM-2.0-发布与功能总览.md](./01-海狸IM-2.0-发布与功能总览.md) | 🦫 海狸IM 2.1 正式发布：一个全平台开源即时通讯平台（私聊 / 群聊 / 音视频 / 朋友圈 / 好友 / 圈子 / 工作台） | 发布 + 功能总览（基于官方更新公告，仅桌面端截图） | ✅ 已完成 |
 | 02 | [02-深度体验海狸IM-2.0.md](./02-深度体验海狸IM-2.0.md) | 海狸IM 2.1 上手一周：部署、日常使用与真实不足 | 上手体验叙事（部署踩坑 + 日常用法 + 诚实不足；与 01 功能/技术总览错开，不重复功能清单，仅桌面端精选 12 图） | ✅ 已完成 |
+| 03 | [03-海狸IM-2.0-Flutter移动端介绍.md](./03-海狸IM-2.0-Flutter移动端介绍.md) | 海狸IM 2.1 移动端（Flutter）功能介绍：手机上也能聊、发圈、管圈子 | 移动端功能梳理（Flutter / Android+iOS，仅 Flutter 端 23 图；登录/聊天/好友/群/朋友圈/设置；与 01/02 错开） | ✅ 已完成 |
+| 04 | [04-海狸IM-2.0-整体介绍.md](./04-海狸IM-2.0-整体介绍.md) | 海狸IM 2.1 整体介绍：全端覆盖的开源 IM（桌面 / 移动 / 管理后台）与技术栈 | 产品全景 + 能力矩阵 + 技术栈（有哪些端 / 各端能力 / 技术选型；与 01/02/03 错开） | ✅ 已完成 |
 
 ---
 
@@ -65,7 +67,7 @@
 | 聊天-消息主界面.png | https://i-blog.csdnimg.cn/direct/ec0198547eb94c0cb24806a41818ea5f.png |
 | 聊天-语音.png | https://i-blog.csdnimg.cn/direct/5ad664804b9f4160b358f9052006cc97.png |
 | 聊天-Markdown消息.png | https://i-blog.csdnimg.cn/direct/db12a6d34b714ad5af60dde619169369.png |
-| 聊天-图片预览.png | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
+| 聊天-图片预览.jpg | https://i-blog.csdnimg.cn/direct/76a6d09f6c4a465e9bc3732dfce495e8.png |
 | 聊天-视频预览.png | https://i-blog.csdnimg.cn/direct/57a84935a454487b9c4dbce602e9b07c.png |
 | 聊天-私聊详情.png | https://i-blog.csdnimg.cn/direct/2a944fe2788240fabb6ed3f26d36a5b7.png |
 | 表情-表情商店.png | https://i-blog.csdnimg.cn/direct/2bfcd38217cf4a15aeeae2237774ead2.png |
@@ -146,59 +148,58 @@
 
 | 图片 | URL 地址 |
 |------|----------|
-| 账号-登录.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| 账号- 找回密码.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
+| 账号-登录.jpg | https://i-blog.csdnimg.cn/direct/b7a9c252987f4b40b9b2c54187345f1e.jpeg |
+| 账号- 找回密码.jpg | https://i-blog.csdnimg.cn/direct/f669d105454a47669219f07d01c47a7e.jpeg |
 
 **聊天**
 
 | 图片 | URL 地址 |
 |------|----------|
-| 消息.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| 会话-语言.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| 聊天-markdown.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| 聊天-图片预览.jpg | https://i-blog.csdnimg.cn/direct/76a6d09f6c4a465e9bc3732dfce495e8.png |
-| 私聊-设置.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| 表情-商店.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
+| 消息.jpg | https://i-blog.csdnimg.cn/direct/9c420b29a6974d8dbd7565ee695b2765.jpeg |
+| 聊天-markdown.jpg | https://i-blog.csdnimg.cn/direct/5ab0618d154b46bf9f94547486e56c43.jpeg |
+| 聊天-图片预览.jpg | https://i-blog.csdnimg.cn/direct/b136151c55584775ad27da4179f35522.jpeg |
+| 私聊-设置.jpg | https://i-blog.csdnimg.cn/direct/91064da0e1c442b1aaf7c24bafbe974f.jpeg |
+| 表情-商店.jpg | https://i-blog.csdnimg.cn/direct/8c5c0434d8094d748a56cffcbce2f126.jpeg |
 
 **好友**
 
 | 图片 | URL 地址 |
 |------|----------|
-| 朋友.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| 好友-新的朋友.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| 好友-详情.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| 添加朋友.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| 搜索好友.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| 扫码.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
+| 朋友.jpg | https://i-blog.csdnimg.cn/direct/e934a8e76a65480794ad85f8d7e5fc28.jpeg |
+| 好友-新的朋友.jpg | https://i-blog.csdnimg.cn/direct/a0cddc3f9ac6435690061b929c2fcfb6.jpeg |
+| 好友-详情.jpg | https://i-blog.csdnimg.cn/direct/dde1481d4a2c42818e027674387cc490.jpeg |
+| 添加朋友.jpg | https://i-blog.csdnimg.cn/direct/e1278093f9ad41f6a01599793ed216b9.jpeg |
+| 搜索好友.jpg | https://i-blog.csdnimg.cn/direct/9497fa1a57a04f2ba1f68ea7bd6830c6.jpeg |
+| 扫码.jpg | https://i-blog.csdnimg.cn/direct/fbc141bc89dd470592e77314036201a0.jpeg |
 
 **群**
 
 | 图片 | URL 地址 |
 |------|----------|
-| 群聊-发起群聊.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| 群聊-列表.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| 群聊-群聊设置.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
+| 群聊-发起群聊.jpg | https://i-blog.csdnimg.cn/direct/0560e11a182941ce87450ff37e9b584c.jpeg |
+| 群聊-列表.jpg | https://i-blog.csdnimg.cn/direct/fe3cf47ae4144d09afb53bdcc357c87d.jpeg |
+| 群聊-群聊设置.jpg | https://i-blog.csdnimg.cn/direct/daf8aed195354e518772989b2df8fa3a.jpeg |
 
 **朋友圈**
 
 | 图片 | URL 地址 |
 |------|----------|
-| 朋友圈-详情.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| 朋友圈-回复.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
+| 朋友圈-详情.jpg | https://i-blog.csdnimg.cn/direct/5f72c79aea104c81a2c7620d79b8d412.jpeg |
+| 朋友圈-回复.jpg | https://i-blog.csdnimg.cn/direct/e4d3810b08974f8ba468441355a51257.jpeg |
 
 **个人中心**
 
 | 图片 | URL 地址 |
 |------|----------|
-| 我的.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| 我的-二维码.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
+| 我的.jpg | https://i-blog.csdnimg.cn/direct/87bd93d497d248c39ccdffc8e1aa41b3.jpeg |
+| 我的-二维码.jpg | https://i-blog.csdnimg.cn/direct/65b487b7c2d24c22b24201f081ccba31.jpeg |
 
 **系统功能**
 
 | 图片 | URL 地址 |
 |------|----------|
-| 基础-通用设置.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| 升级.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
+| 基础-通用设置.jpg | https://i-blog.csdnimg.cn/direct/c37c15d2aa3c405f88b12e7e1a69fb37.jpeg |
+| 升级.jpg | https://i-blog.csdnimg.cn/direct/844158ae3ebc4671bee3d09271cb4c36.jpeg |
 
 ### 三、管理端（manager）· 共 10 张
 
@@ -246,67 +247,3 @@
 | 图片 | URL 地址 |
 |------|----------|
 | 连接监控.png | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-
-### 四、移动端（mobile，原生）· 共 27 张
-
-**用户认证**
-
-| 图片 | URL 地址 |
-|------|----------|
-| login.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| register.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| find-password.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-
-**聊天功能**
-
-| 图片 | URL 地址 |
-|------|----------|
-| message.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| private-chat.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| group-chat.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| send-text.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| send-emoji.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| chat-details.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-
-**群聊管理**
-
-| 图片 | URL 地址 |
-|------|----------|
-| group-list.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| create-group.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| group-details.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| add-members.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-
-**好友管理**
-
-| 图片 | URL 地址 |
-|------|----------|
-| new-friends.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| friend.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| friend-info.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| edit-remark.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-
-**朋友圈**
-
-| 图片 | URL 地址 |
-|------|----------|
-| moments.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| send-moments.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-
-**个人中心**
-
-| 图片 | URL 地址 |
-|------|----------|
-| profile-edit.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| mine.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-
-**系统功能**
-
-| 图片 | URL 地址 |
-|------|----------|
-| settings.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| qcode.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| update.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| about.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| feedback.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
-| statement.jpg | https://img-blog.csdnimg.cn/把CSDN给的整条链接粘到这里 |
