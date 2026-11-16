@@ -103,7 +103,7 @@ GET /auth/quick_sign?appid={AppID}
 ```vue
 <template>
   <beaver-login
-    :app-id="appId"
+    :app-id="oauthId"
     :api-base="apiBase"
     :oauth-base="oauthBase"
     @login="onLogin"

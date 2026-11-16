@@ -57,7 +57,7 @@
 
 | 参数 | 参数类型 | 必须 | 说明 |
 |------|----------|------|------|
-| appId | String | 是 | 第三方应用 ID |
+| oauthId | String | 是 | 第三方应用 ID |
 
 ##### 返回值
 
@@ -129,7 +129,7 @@
 
 | 参数 | 参数类型 | 必须 | 说明 |
 |------|----------|------|------|
-| appId | String | 是 | 第三方应用 ID |
+| oauthId | String | 是 | 第三方应用 ID |
 | account | String | 是 | 手机号或邮箱 |
 | password | String | 是 | 登录密码 |
 
@@ -165,7 +165,7 @@
 
 | 参数 | 参数类型 | 必须 | 说明 |
 |------|----------|------|------|
-| appId | String | 是 | 应用 ID |
+| oauthId | String | 是 | 应用 ID |
 | appSecret | String | 是 | 应用密钥 |
 | code | String | 是 | 上一步获得的授权码 |
 | redirectUri | String | 否 | 回调地址，需与授权配置一致时使用 |

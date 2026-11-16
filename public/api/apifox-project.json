@@ -7991,9 +7991,9 @@
                         "jsonSchema": {
                           "type": "object",
                           "properties": {
-                            "appId": {
+                            "oauthId": {
                               "description": "应用ID",
-                              "title": "appId",
+                              "title": "oauthId",
                               "type": "string"
                             },
                             "archId": {
@@ -8019,14 +8019,14 @@
                           },
                           "x-apifox-orders": [
                             "type",
-                            "appId",
+                            "oauthId",
                             "platformId",
                             "archId",
                             "version"
                           ],
                           "required": [
                             "type",
-                            "appId",
+                            "oauthId",
                             "platformId",
                             "archId",
                             "version"
@@ -8045,9 +8045,9 @@
                       "jsonSchema": {
                         "type": "object",
                         "properties": {
-                          "appId": {
+                          "oauthId": {
                             "description": "应用ID",
-                            "title": "appId",
+                            "title": "oauthId",
                             "type": "string"
                           },
                           "archId": {
@@ -8067,13 +8067,13 @@
                           }
                         },
                         "x-apifox-orders": [
-                          "appId",
+                          "oauthId",
                           "platformId",
                           "archId",
                           "version"
                         ],
                         "required": [
-                          "appId",
+                          "oauthId",
                           "platformId",
                           "archId",
                           "version"
@@ -8239,9 +8239,9 @@
                       "jsonSchema": {
                         "type": "object",
                         "properties": {
-                          "appId": {
+                          "oauthId": {
                             "description": "应用ID",
-                            "title": "appId",
+                            "title": "oauthId",
                             "type": "string"
                           },
                           "archId": {
@@ -8261,13 +8261,13 @@
                           }
                         },
                         "x-apifox-orders": [
-                          "appId",
+                          "oauthId",
                           "platformId",
                           "archId",
                           "version"
                         ],
                         "required": [
-                          "appId",
+                          "oauthId",
                           "platformId",
                           "archId",
                           "version"
@@ -21959,9 +21959,9 @@
                         "jsonSchema": {
                           "type": "object",
                           "properties": {
-                            "appId": {
+                            "oauthId": {
                               "description": "系统生成的应用唯一标识",
-                              "title": "appId",
+                              "title": "oauthId",
                               "type": "string"
                             },
                             "id": {
@@ -21972,11 +21972,11 @@
                           },
                           "x-apifox-orders": [
                             "id",
-                            "appId"
+                            "oauthId"
                           ],
                           "required": [
                             "id",
-                            "appId"
+                            "oauthId"
                           ]
                         },
                         "description": "",
@@ -22268,9 +22268,9 @@
                       "jsonSchema": {
                         "type": "object",
                         "properties": {
-                          "appId": {
+                          "oauthId": {
                             "description": "应用ID",
-                            "title": "appId",
+                            "title": "oauthId",
                             "type": "string"
                           },
                           "archId": {
@@ -22290,13 +22290,13 @@
                           }
                         },
                         "x-apifox-orders": [
-                          "appId",
+                          "oauthId",
                           "platformId",
                           "archId",
                           "description"
                         ],
                         "required": [
-                          "appId",
+                          "oauthId",
                           "platformId",
                           "archId",
                           "description"
@@ -22550,7 +22550,7 @@
                       "query": [
                         {
                           "description": "应用ID",
-                          "name": "appId",
+                          "name": "oauthId",
                           "required": false,
                           "type": "string"
                         },
@@ -22859,7 +22859,7 @@
                         },
                         {
                           "description": "应用ID",
-                          "name": "appId",
+                          "name": "oauthId",
                           "required": false,
                           "type": "string"
                         },
@@ -23000,7 +23000,7 @@
                       "query": [
                         {
                           "description": "应用ID",
-                          "name": "appId",
+                          "name": "oauthId",
                           "required": true,
                           "type": "string"
                         },
@@ -23206,9 +23206,9 @@
                       "jsonSchema": {
                         "type": "object",
                         "properties": {
-                          "appId": {
+                          "oauthId": {
                             "description": "应用ID",
-                            "title": "appId",
+                            "title": "oauthId",
                             "type": "string"
                           },
                           "cityIds": {
@@ -23234,13 +23234,13 @@
                           }
                         },
                         "x-apifox-orders": [
-                          "appId",
+                          "oauthId",
                           "cityIds",
                           "strategy",
                           "updateType"
                         ],
                         "required": [
-                          "appId",
+                          "oauthId",
                           "cityIds",
                           "strategy",
                           "updateType"
@@ -23324,7 +23324,7 @@
                       "query": [
                         {
                           "description": "应用ID",
-                          "name": "appId",
+                          "name": "oauthId",
                           "required": false,
                           "type": "string"
                         },

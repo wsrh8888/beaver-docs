@@ -26,12 +26,12 @@
 将用户引导到：
 
 ```
-https://你的oauth域名/auth?appId={AppID}&redirectUri={回调地址}
+https://你的oauth域名/auth?oauthId={AppID}&redirectUri={回调地址}
 ```
 
 | 参数 | 说明 |
 |------|------|
-| appId | 开放平台应用 ID |
+| oauthId | 开放平台应用 ID |
 | redirectUri | 登录成功后跳回的第三方地址 |
 
 登录成功回跳：
