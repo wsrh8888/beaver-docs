@@ -19,7 +19,7 @@
   beaver-docs-header-v1
 -->
 
-# 🦫 海狸IM 官方文档
+# 🦫 海狸IM  官方文档
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Go](https://img.shields.io/badge/go-1.21+-blue.svg)](https://golang.org/)
